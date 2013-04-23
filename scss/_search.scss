@@ -1,0 +1,319 @@
+@import "compass/css3";
+@import "base";
+// @include keyframes(rotate){
+//		from {
+//			 @include rotate(0);
+//		}
+//		to {
+//			 @include rotate(360);
+//		}
+// }
+
+.search-results{
+	position: relative;
+}
+.search-loader{
+	position: absolute;
+	top: 60px;
+	left: 50%;
+	margin-left: -266px;
+	z-index: 100;
+	width: 500px;
+	display: none;
+	font-size: 26px;
+	padding: 16px;
+	border-radius: 10px;
+	background: rgba(white,.8);
+	span{
+		color: #da0000;
+	}
+	.search-loader__krutilka{
+		display: inline-block;
+		vertical-align: middle;
+		margin-right: 20px;
+		@include sized-sprite($icons, 'loader');
+		// @include animation(rotate 2s linear infinite);
+	}
+}
+
+
+/*search-filter*/
+.search-filter {
+	margin-top: 20px;
+	padding: 20px;
+	background: rgba(255,255,255,0.6);
+	border-radius:3px;
+	@include box-shadow(rgba(255,255,255,0.8) 0px 1px 1px inset, rgba(0,0,0,0.1) 0 2px 4px);
+	strong,h3 {
+		display: block;
+		margin-bottom: 15px;
+		font-family: 'Conv_HelveticaNeue-CondensedBold', Arial, sans-serif;
+		font-size: 18px;
+		color: #5f5f5f;
+		font-weight: normal;
+	}
+}
+//.filters_wrap.hidden {
+//	display: none;
+//}
+.search-filter__wrap{
+	margin-bottom: 12px;
+	border-bottom: 1px dotted #c2c2c2;
+	padding-bottom: 12px;
+	&:last-child{
+		border: none;
+		padding-bottom: 0;
+		margin-bottom: 0;
+	}
+}
+.search-filter__type {
+	list-style:none;
+	ul{
+		list-style:none
+	}
+	li {
+		position: relative;
+		height: 16px;
+		padding-left: 27px;
+		line-height: 16px;
+		margin-bottom: 7px;
+		&.active{
+			label{
+				background: #fff323;
+				overflow: hidden;
+			}
+		}
+		.search-filter__typeactive label {
+			background: #fff323;
+			overflow: hidden;
+		}
+	}
+	input {
+		position: absolute;
+		top: 2px;
+		left: 0;
+	}
+	label {
+		font-size: 14px;
+		color: #565656;
+		display: block;
+	}
+}
+.search-filter__more{
+	color: #565656;
+	margin-top: 10px;
+	font-size: 14px;
+	a{
+		color: #565656;
+		text-decoration: underline;
+	}
+}
+.search-filter__meta{
+	font-size: 14px;
+	color: #5f5f5f;
+	padding: 3px 0;
+}
+/*check*/
+.check {
+	border-radius:3px;
+	@include box-shadow(0 0 1px 1px #bebebe inset);
+	overflow: hidden;
+	li {
+		float: left;
+		height: 30px;
+		@include background-image(linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0)));
+		line-height: 30px;
+		text-align: center;
+		cursor: pointer;
+	}
+	span {
+		position: relative;
+		color: #525252;
+		font-size: 20px;
+		font-family: 'PT Sans', Arial, sans-serif;
+	}
+	i {
+		position: absolute;
+		top: 16px;
+		left: 0px;
+		width: 8px;
+		height: 1px;
+		background: #525252;
+	}
+	.chech__p {
+		width: 66px;
+	}
+	.chech__pp {
+		width: 58px;
+	}
+	.chech__ppp {
+		width: 66px;
+	}
+	.active {
+		@include box-shadow(0 0 1px 1px #666666 inset);
+		@include background-image(linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.6)));
+		text-shadow: 0 -1px 1px #4e4e4e;
+		span {
+			color: #fff;
+		}
+		i {
+			background: #fff;
+		}
+	}
+}
+.search-input{
+	position: relative;
+	.search-input__key{
+		position: absolute;
+		display: block;
+		@include sized-sprite($icons, search1);
+		top: 11px;
+		left: 7px;
+	}
+	input{
+		font-size: 14px;
+		color: #676767;
+		border: 1px solid #cacaca;
+		width: 187px - 33px;
+		padding: 0px 0 0px 33px;
+		height: 36px;
+		padding-top: 4px;
+		box-shadow:inset 0 2px 2px rgba(black,.1);
+		border-radius:4px;
+		background: rgba(white,.7);
+	}
+	.search-input__autocomplete{
+		z-index: 10;
+		display: none;
+		list-style: none;
+		background: #fff;
+		border: 1px solid #cacaca;
+		border-top: none;
+		border-bottom-left-radius:4px;
+		border-bottom-right-radius:4px;
+		width: 187px;
+		position: absolute;
+		top: 39px;
+		left: 0;
+		a{
+			display: block;
+			color: #000;
+			font-size: 12px;
+			padding: 8px 0 8px 12px;
+			border-top: 1px solid #e5e5e5;
+			text-decoration: none;
+			&:hover{
+				background: #f5f5f5;
+			}
+		}
+	}
+}
+.search-filter__filters{
+	a{
+		border-radius:20px;
+		display: inline-block;
+		margin-right: 6px;
+		height: 22px;
+		line-height: 22px;
+		text-decoration: none;
+		padding: 0 8px;
+		margin-bottom: 8px;
+		font-size: 13px;
+		color: #2d2d2d;
+		text-shadow: 0 1px 1px rgba(white,.8);
+		box-shadow:inset 0 1px 0 #f8f8f8,0 2px 2px rgba(black,.1);
+		@include background-image(linear-gradient(#eaeaea, #c5c5c5));
+		border: 1px solid #a5a5a5;
+		i{
+			@include sized-sprite($icons, delete);
+			opacity: .44;
+			margin-left: 3px;
+			vertical-align: middle;
+			display: inline-block;
+		}
+		&:hover{
+			@include background-image(linear-gradient(rgba(white,.4), #d5d5d5));
+			box-shadow:inset 0 1px 0 #fff,0 2px 2px rgba(black,.1);
+			i{
+				opacity:.77;
+			}
+		}
+	}
+}
+.drop{
+	width: 384px;
+	padding: 20px 20px 5px 20px;
+	position: absolute;
+	z-index: 200;
+	display: none;
+	top: 500px;
+	left: 50%;
+	margin-left: -192px;
+	background: #fff;
+	border-radius:8px;
+	box-shadow:0 0 10px rgba(black,.6);
+	overflow: hidden;//
+	.drop__col{
+		float: left;
+		width: 49%;
+	}
+	h3{
+		font-family: 'Conv_HelveticaNeue-CondensedBold', Arial, sans-serif;
+		font-size: 18px;
+		color: #5f5f5f;
+		margin-bottom: 12px;
+	}
+	.inactive{
+		opacity: .5;
+	}
+	li{
+		margin-right: 10px;
+		margin-bottom: 12px;
+		span{
+			font-weight: bold;
+			position: absolute;
+			right: 0;
+			display: inline-block;
+			padding: 0 3px;
+			border-radius:12px;
+			color: #505050;
+			font-size: 11px;
+			padding: 0 6px;
+			height: 15px;
+			line-height: 15px;
+			background: #eaeaea;
+			box-shadow:inset 0 3px 3px -3px rgba(black,.4);
+		}
+	}
+	//.cuisine li{
+	//	margin-bottom: 27px;
+	//}
+	.drop__more{
+		clear: both;
+		padding-top: 5px;
+		text-align: center;
+		padding-bottom: 10px;
+		a{
+			border-radius:4px;
+			padding: 8px 33px;
+			display: inline-block;
+			font-size: 14px;
+			color: #787878;
+			font-weight: bold;
+			border: 1px solid #c7c7c7;
+			@include background-image(linear-gradient(#f3f3f3, #eaeaea));
+		}
+		&:hover{
+			color: #000;
+		}
+	}
+	/*.drop__close{
+		 position: absolute;
+		 top: -14px;
+		 right: -14px;
+		 cursor: pointer;
+		// @include sized-sprite($icons, closeme);
+		 display: inline-block;
+		 z-index: 2001;
+	}*/
+}

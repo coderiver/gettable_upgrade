@@ -147,7 +147,7 @@ input, textarea, button {
   position: absolute;
   top: 42px;
   left: 22px;
-  background: url('../img/icons-s142ac9a5e0.png') 0 -1466px no-repeat;
+  background: url('../img/icons-sc52b43dd5b.png') 0 -1466px no-repeat;
   width: 148px;
   height: 41px;
 }
@@ -183,12 +183,24 @@ input, textarea, button {
   position: absolute;
   top: 2px;
   right: 0;
-  background: url('../img/icons-s142ac9a5e0.png') 0 -2244px no-repeat;
+  background: url('../img/icons-sc52b43dd5b.png') 0 -2382px no-repeat;
   width: 76px;
   height: 23px;
 }
 
-/* line 147, ../scss/common.scss */
+/* line 146, ../scss/common.scss */
+.logo-desc_alt {
+  height: auto;
+  line-height: 16px;
+  border-left: none;
+}
+/* line 150, ../scss/common.scss */
+.logo-desc_alt div {
+  color: #2e2c2a;
+  font-size: 14px;
+}
+
+/* line 155, ../scss/common.scss */
 .user-prof {
   position: absolute;
   top: 47px;
@@ -196,17 +208,17 @@ input, textarea, button {
   border-left: 1px solid rgba(0, 0, 0, 0.15);
   padding: 0 0 0 14px;
 }
-/* line 153, ../scss/common.scss */
+/* line 161, ../scss/common.scss */
 .user-prof .user-prof__img {
   float: left;
   margin: -1px 8px 0 0;
 }
-/* line 156, ../scss/common.scss */
+/* line 164, ../scss/common.scss */
 .user-prof .user-prof__img img {
   border-radius: 2px;
   vertical-align: middle;
 }
-/* line 161, ../scss/common.scss */
+/* line 169, ../scss/common.scss */
 .user-prof .user-prof__name {
   float: left;
   font-size: 14px;
@@ -217,22 +229,22 @@ input, textarea, button {
   margin-top: 6px;
   font-family: 'Conv_HelveticaNeue-CondensedBold', Arial, sans-serif;
 }
-/* line 171, ../scss/common.scss */
+/* line 179, ../scss/common.scss */
 .user-prof .user-prof__arr {
   float: left;
   margin-top: 11px;
-  background: url('../img/icons-s142ac9a5e0.png') 0 -4295px no-repeat;
+  background: url('../img/icons-sc52b43dd5b.png') 0 -4479px no-repeat;
   width: 9px;
   height: 6px;
 }
-/* line 176, ../scss/common.scss */
+/* line 184, ../scss/common.scss */
 .user-prof .user-prof__btn {
   width: 161px;
   cursor: pointer;
   padding-left: 12px;
 }
 
-/* line 183, ../scss/common.scss */
+/* line 191, ../scss/common.scss */
 .user-prof__drop {
   position: absolute;
   display: none;
@@ -244,7 +256,7 @@ input, textarea, button {
   border-radius: 3px 0 3px 3px;
   box-shadow: 0 10px 18px rgba(0, 0, 0, 0.21);
 }
-/* line 193, ../scss/common.scss */
+/* line 201, ../scss/common.scss */
 .user-prof__drop .user-prof__num {
   font-size: 12px;
   color: #9c9b9a;
@@ -252,7 +264,7 @@ input, textarea, button {
   position: absolute;
   top: -20px;
 }
-/* line 200, ../scss/common.scss */
+/* line 208, ../scss/common.scss */
 .user-prof__drop:before {
   background: #fff;
   content: '';
@@ -263,12 +275,12 @@ input, textarea, button {
   height: 15px;
 }
 
-/* line 210, ../scss/common.scss */
+/* line 218, ../scss/common.scss */
 .prof-nav {
   border-bottom: 1px solid rgba(128, 128, 128, 0.18);
   overflow: hidden;
 }
-/* line 213, ../scss/common.scss */
+/* line 221, ../scss/common.scss */
 .prof-nav a {
   float: left;
   text-align: center;
@@ -276,23 +288,23 @@ input, textarea, button {
   padding: 12px 0 10px;
   position: relative;
 }
-/* line 220, ../scss/common.scss */
+/* line 228, ../scss/common.scss */
 .prof-nav a:hover .ico-profile {
   background-position: 0 -1265px;
 }
-/* line 221, ../scss/common.scss */
+/* line 229, ../scss/common.scss */
 .prof-nav a:hover .ico-search {
   background-position: 0 -1413px;
 }
-/* line 222, ../scss/common.scss */
+/* line 230, ../scss/common.scss */
 .prof-nav a:hover .ico-change-num {
-  background-position: 0 -2377px;
+  background-position: 0 -2561px;
 }
-/* line 223, ../scss/common.scss */
+/* line 231, ../scss/common.scss */
 .prof-nav a:hover span {
   color: #3d3d3d;
 }
-/* line 225, ../scss/common.scss */
+/* line 233, ../scss/common.scss */
 .prof-nav a:after {
   content: '';
   height: 100%;
@@ -308,53 +320,53 @@ input, textarea, button {
   background-image: -o-linear-gradient(rgba(128, 128, 128, 0), rgba(128, 128, 128, 0.18));
   background-image: linear-gradient(rgba(128, 128, 128, 0), rgba(128, 128, 128, 0.18));
 }
-/* line 234, ../scss/common.scss */
+/* line 242, ../scss/common.scss */
 .prof-nav a:first-child:after {
   display: none;
 }
-/* line 236, ../scss/common.scss */
+/* line 244, ../scss/common.scss */
 .prof-nav span {
   display: block;
   font-size: 11px;
   color: #525252;
   line-height: 1.2;
 }
-/* line 242, ../scss/common.scss */
+/* line 250, ../scss/common.scss */
 .prof-nav .ico-profile {
-  background: url('../img/icons-s142ac9a5e0.png') 0 -1212px no-repeat;
+  background: url('../img/icons-sc52b43dd5b.png') 0 -1212px no-repeat;
   width: 41px;
   height: 43px;
   display: inline-block;
   margin-bottom: 9px;
 }
-/* line 247, ../scss/common.scss */
+/* line 255, ../scss/common.scss */
 .prof-nav .ico-search {
-  background: url('../img/icons-s142ac9a5e0.png') 0 -1318px no-repeat;
+  background: url('../img/icons-sc52b43dd5b.png') 0 -1318px no-repeat;
   width: 41px;
   height: 43px;
   display: inline-block;
   margin-bottom: 9px;
 }
-/* line 252, ../scss/common.scss */
+/* line 260, ../scss/common.scss */
 .prof-nav .ico-change-num {
-  background: url('../img/icons-s142ac9a5e0.png') 0 -2123px no-repeat;
+  background: url('../img/icons-sc52b43dd5b.png') 0 -2261px no-repeat;
   width: 29px;
   height: 43px;
   display: inline-block;
   margin-bottom: 9px;
 }
 
-/* line 259, ../scss/common.scss */
+/* line 267, ../scss/common.scss */
 .table-list {
   padding: 9px 0;
   border-bottom: 1px solid rgba(128, 128, 128, 0.18);
 }
-/* line 262, ../scss/common.scss */
+/* line 270, ../scss/common.scss */
 .table-list .table-list__item {
   overflow: hidden;
   padding: 0 13px 0 15px;
 }
-/* line 266, ../scss/common.scss */
+/* line 274, ../scss/common.scss */
 .table-list .table-list__name {
   float: left;
   font-size: 12px;
@@ -363,16 +375,16 @@ input, textarea, button {
   overflow: hidden;
   text-overflow: ellipsis;
 }
-/* line 273, ../scss/common.scss */
+/* line 281, ../scss/common.scss */
 .table-list .table-list__name a {
   color: #383838;
   text-decoration: none;
 }
-/* line 276, ../scss/common.scss */
+/* line 284, ../scss/common.scss */
 .table-list .table-list__name a:hover {
   font-weight: bold;
 }
-/* line 279, ../scss/common.scss */
+/* line 287, ../scss/common.scss */
 .table-list .ico-table {
   float: right;
   width: 38px;
@@ -382,14 +394,14 @@ input, textarea, button {
   line-height: 26px;
   text-align: center;
 }
-/* line 287, ../scss/common.scss */
+/* line 295, ../scss/common.scss */
 .table-list .ico-table i {
   display: inline-block;
-  background: url('../img/icons-s142ac9a5e0.png') 0 -3321px no-repeat;
+  background: url('../img/icons-sc52b43dd5b.png') 0 -3505px no-repeat;
   width: 22px;
   height: 11px;
 }
-/* line 291, ../scss/common.scss */
+/* line 299, ../scss/common.scss */
 .table-list .ico-table:hover {
   box-shadow: 0 1px 0 rgba(255, 255, 255, 0.24) inset, 0 1px 0 rgba(0, 0, 0, 0.1);
   background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzdkYTYyOSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzYzOGQxMCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
@@ -401,41 +413,41 @@ input, textarea, button {
   background-image: linear-gradient(#7da629, #638d10);
   border-color: #4b6a0c;
 }
-/* line 295, ../scss/common.scss */
+/* line 303, ../scss/common.scss */
 .table-list .ico-table:hover i {
-  background-position: 0 -3126px;
+  background-position: 0 -3310px;
 }
 
-/* line 299, ../scss/common.scss */
+/* line 307, ../scss/common.scss */
 .table-list__out {
   padding: 17px;
 }
-/* line 301, ../scss/common.scss */
+/* line 309, ../scss/common.scss */
 .table-list__out a {
   font-size: 14px;
   color: #838383;
 }
-/* line 304, ../scss/common.scss */
+/* line 312, ../scss/common.scss */
 .table-list__out a:hover {
   color: #191919;
 }
-/* line 306, ../scss/common.scss */
+/* line 314, ../scss/common.scss */
 .table-list__out a:hover i {
-  background-position: 0 -3553px;
+  background-position: 0 -3737px;
 }
-/* line 311, ../scss/common.scss */
+/* line 319, ../scss/common.scss */
 .table-list__out i {
   display: inline-block;
   vertical-align: middle;
   position: relative;
   top: -2px;
   margin-right: 9px;
-  background: url('../img/icons-s142ac9a5e0.png') 0 -3526px no-repeat;
+  background: url('../img/icons-sc52b43dd5b.png') 0 -3710px no-repeat;
   width: 15px;
   height: 17px;
 }
 
-/* line 321, ../scss/common.scss */
+/* line 329, ../scss/common.scss */
 .user-prof_right {
   padding: 0;
   border: 0;
@@ -443,36 +455,36 @@ input, textarea, button {
   right: 30px;
 }
 
-/* line 329, ../scss/common.scss */
+/* line 337, ../scss/common.scss */
 .user-prof_open.user-prof_right {
   right: 22px;
 }
-/* line 333, ../scss/common.scss */
+/* line 341, ../scss/common.scss */
 .user-prof_open .user-prof__btn {
   margin: -10px 0 -18px;
   padding: 10px 8px 18px 12px;
 }
-/* line 337, ../scss/common.scss */
+/* line 345, ../scss/common.scss */
 .user-prof_open .user-prof__btn {
   background: #fff;
   height: 31px;
   border-radius: 3px 3px 0 0;
   box-shadow: 0 10px 18px rgba(0, 0, 0, 0.21);
 }
-/* line 343, ../scss/common.scss */
+/* line 351, ../scss/common.scss */
 .user-prof_open .user-prof__drop {
   display: block;
 }
 
 /*push*/
-/* line 347, ../scss/common.scss */
+/* line 355, ../scss/common.scss */
 .push {
   height: 76px;
   clear: both;
 }
 
 /*footer*/
-/* line 352, ../scss/common.scss */
+/* line 360, ../scss/common.scss */
 .footer {
   position: relative;
   width: 920px;
@@ -483,62 +495,62 @@ input, textarea, button {
   overflow: hidden;
   color: #ada198;
 }
-/* line 361, ../scss/common.scss */
+/* line 369, ../scss/common.scss */
 .footer .facebook {
   float: left;
   color: transparent;
   font: 0/0 a;
   margin: -5px 0 0 10px;
-  background: url('../img/icons-s142ac9a5e0.png') 0 -869px no-repeat;
+  background: url('../img/icons-sc52b43dd5b.png') 0 -869px no-repeat;
   width: 95px;
   height: 19px;
 }
-/* line 367, ../scss/common.scss */
+/* line 375, ../scss/common.scss */
 .footer .facebook:hover {
-  background: url('../img/icons-s142ac9a5e0.png') 0 -1183px no-repeat;
+  background: url('../img/icons-sc52b43dd5b.png') 0 -1183px no-repeat;
   width: 95px;
   height: 19px;
 }
 
-/* line 370, ../scss/common.scss */
+/* line 378, ../scss/common.scss */
 .footer__nav {
   float: right;
 }
-/* line 372, ../scss/common.scss */
+/* line 380, ../scss/common.scss */
 .footer__nav li {
   float: left;
   padding: 0 10px;
   border-left: 1px solid #d9d6d4;
 }
-/* line 376, ../scss/common.scss */
+/* line 384, ../scss/common.scss */
 .footer__nav li:first-child {
   border: none;
 }
-/* line 380, ../scss/common.scss */
+/* line 388, ../scss/common.scss */
 .footer__nav a {
   color: #ada198;
 }
 
-/* line 384, ../scss/common.scss */
+/* line 392, ../scss/common.scss */
 .copyright {
   float: left;
 }
 
 /*scroll*/
-/* line 389, ../scss/common.scss */
+/* line 397, ../scss/common.scss */
 .jspContainer {
   overflow: hidden;
   position: relative;
   width: 615px !important;
 }
 
-/* line 395, ../scss/common.scss */
+/* line 403, ../scss/common.scss */
 .jspPane {
   position: absolute;
   width: 580px !important;
 }
 
-/* line 401, ../scss/common.scss */
+/* line 409, ../scss/common.scss */
 .jspVerticalBar {
   position: absolute;
   top: 0;
@@ -547,7 +559,7 @@ input, textarea, button {
   height: 100%;
 }
 
-/* line 409, ../scss/common.scss */
+/* line 417, ../scss/common.scss */
 .jspHorizontalBar {
   /*position: absolute;
   bottom: 0;
@@ -562,24 +574,24 @@ input, textarea, button {
   height: 100%;
 }
 
-/* line 424, ../scss/common.scss */
+/* line 432, ../scss/common.scss */
 .jspVerticalBar *,
 .jspHorizontalBar * {
   margin: 0;
   padding: 0;
 }
 
-/* line 429, ../scss/common.scss */
+/* line 437, ../scss/common.scss */
 .jspCap {
   display: none;
 }
 
-/* line 433, ../scss/common.scss */
+/* line 441, ../scss/common.scss */
 .jspHorizontalBar .jspCap {
   float: left;
 }
 
-/* line 437, ../scss/common.scss */
+/* line 445, ../scss/common.scss */
 .jspTrack {
   width: 4px;
   background: #efefef;
@@ -591,7 +603,7 @@ input, textarea, button {
   position: relative;
 }
 
-/* line 444, ../scss/common.scss */
+/* line 452, ../scss/common.scss */
 .jspDrag {
   background: #d3d3d3;
   position: relative;
@@ -606,14 +618,14 @@ input, textarea, button {
   cursor: pointer;
 }
 
-/* line 455, ../scss/common.scss */
+/* line 463, ../scss/common.scss */
 .jspHorizontalBar .jspTrack,
 .jspHorizontalBar .jspDrag {
   float: left;
   height: 100%;
 }
 
-/* line 460, ../scss/common.scss */
+/* line 468, ../scss/common.scss */
 .jspArrow {
   background: #50506d;
   text-indent: -20000px;
@@ -621,37 +633,37 @@ input, textarea, button {
   cursor: pointer;
 }
 
-/* line 467, ../scss/common.scss */
+/* line 475, ../scss/common.scss */
 .jspArrow.jspDisabled {
   cursor: default;
   background: #80808d;
 }
 
-/* line 472, ../scss/common.scss */
+/* line 480, ../scss/common.scss */
 .jspVerticalBar .jspArrow {
   height: 16px;
 }
 
-/* line 476, ../scss/common.scss */
+/* line 484, ../scss/common.scss */
 .jspHorizontalBar .jspArrow {
   width: 16px;
   float: left;
   height: 100%;
 }
 
-/* line 482, ../scss/common.scss */
+/* line 490, ../scss/common.scss */
 .jspVerticalBar .jspArrow:focus {
   outline: none;
 }
 
-/* line 486, ../scss/common.scss */
+/* line 494, ../scss/common.scss */
 .jspCorner {
   background: #eeeef4;
   float: left;
   height: 100%;
 }
 
-/* line 492, ../scss/common.scss */
+/* line 500, ../scss/common.scss */
 * html .jspCorner {
   margin: 0 -3px 0 0;
 }
@@ -666,7 +678,7 @@ input, textarea, button {
 	width: 100%;
 	height: 100%;
 }*/
-/* line 505, ../scss/common.scss */
+/* line 513, ../scss/common.scss */
 .popup {
   display: none;
   position: fixed;
@@ -683,12 +695,12 @@ input, textarea, button {
   box-shadow: rgba(0, 0, 0, 0.3) 9px 5px 50px 10px;
 }
 
-/* line 519, ../scss/common.scss */
+/* line 527, ../scss/common.scss */
 .popup__close {
   position: absolute;
   top: -10px;
   right: -10px;
-  background: url('../img/icons-s142ac9a5e0.png') 0 -2559px no-repeat;
+  background: url('../img/icons-sc52b43dd5b.png') 0 -2743px no-repeat;
   width: 25px;
   height: 25px;
   -webkit-border-radius: 13px;
@@ -701,9 +713,9 @@ input, textarea, button {
   box-shadow: rgba(0, 0, 0, 0.3) 0 3px 5px;
   cursor: pointer;
 }
-/* line 527, ../scss/common.scss */
+/* line 535, ../scss/common.scss */
 .popup__close:hover {
-  background-position: 0 -2462px;
+  background-position: 0 -2646px;
 }
 
 /*.popup-map {
@@ -716,7 +728,7 @@ input, textarea, button {
 	}
 }*/
 /*select*/
-/* line 542, ../scss/common.scss */
+/* line 550, ../scss/common.scss */
 .select {
   position: relative;
   float: left;
@@ -743,7 +755,7 @@ input, textarea, button {
   color: #444;
   cursor: pointer;
 }
-/* line 555, ../scss/common.scss */
+/* line 563, ../scss/common.scss */
 .select i {
   position: absolute;
   top: 0;
@@ -763,16 +775,16 @@ input, textarea, button {
   box-shadow: white 0px 1px 1px inset;
   border-left: 1px solid #c0c0c0;
 }
-/* line 566, ../scss/common.scss */
+/* line 574, ../scss/common.scss */
 .select em {
   position: absolute;
   top: 14px;
   left: 6px;
-  background: url('../img/icons-s142ac9a5e0.png') 0 -4280px no-repeat;
+  background: url('../img/icons-sc52b43dd5b.png') 0 -4464px no-repeat;
   width: 7px;
   height: 5px;
 }
-/* line 572, ../scss/common.scss */
+/* line 580, ../scss/common.scss */
 .select select {
   position: absolute;
   top: 0;
@@ -785,7 +797,21 @@ input, textarea, button {
   zoom: 1;
   -webkit-appearance: menulist-button;
 }
-/* line 584, ../scss/common.scss */
+/* line 592, ../scss/common.scss */
 .select b {
   font-weight: normal;
 }
+
+/* ------------------------------------- Independent blocks -------------------------------------- */
+/* line 595, ../scss/common.scss */
+.link_red {
+  font-size: 14px;
+  text-decoration: underline;
+  color: #c62101;
+}
+/* line 599, ../scss/common.scss */
+.link_red:hover {
+  text-decoration: none;
+}
+
+/* ---------------------------------- //END Independent blocks ----------------------------------- */
