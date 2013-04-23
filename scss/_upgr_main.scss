@@ -49,44 +49,63 @@
 			padding-top: 9px;
 		}
 	}
-	.cab__cnt{
-		@extend %clr;
-		padding-left: 30px;
-		.cab__img{
-			width: 66px;
-			height: 64px;
-			line-height: 64px;
-			margin-bottom: 30px;
-			@include border-radius(3px);
-			@include background-clip(padding-box);
-			background-color: #d0d0d0;
-			@include box-shadow(0 2px 0 rgba(255,255,255,.65), inset 0 3px 3px rgba(0,0,0,.14));
-			@include background-image(linear-gradient(bottom, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 61.13%, rgba(255,255,255,.32) 100%));
-			img{
-				max-width: 44px;
-				height: 48px;
-				vertical-align: middle;
-				padding: 10px 11px 6px;
-			}
+}
+.cab__cnt{
+	@extend %clr;
+	padding-left: 30px;
+	.cab__img{
+		width: 66px;
+		height: 64px;
+		line-height: 64px;
+		margin-bottom: 30px;
+		@include border-radius(3px);
+		@include background-clip(padding-box);
+		background-color: #d0d0d0;
+		@include box-shadow(0 2px 0 rgba(255,255,255,.65), inset 0 3px 3px rgba(0,0,0,.14));
+		@include background-image(linear-gradient(bottom, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 61.13%, rgba(255,255,255,.32) 100%));
+		img{
+			max-width: 44px;
+			height: 48px;
+			vertical-align: middle;
+			padding: 10px 11px 6px;
 		}
-		.cab__user{
-			margin-bottom: 30px;
-			font: 20px 'Conv_HelveticaNeue-CondensedBold', Arial, sans-serif;
-			font-weight: bold;
-			span{
-				font-family: 'Conv_HelveticaNeue', Arial, sans-serif;
-				font-weight: normal;
-			}
+	}
+	.cab__user{
+		margin-bottom: 30px;
+		font: 20px 'Conv_HelveticaNeue-CondensedBold', Arial, sans-serif;
+		font-weight: bold;
+		span{
+			font-family: 'Conv_HelveticaNeue', Arial, sans-serif;
+			font-weight: normal;
 		}
-		.cab__edit{
-			margin-top: 40px;
-			font: 14px 'Conv_HelveticaNeue', Arial, sans-serif;
-			color: #636363;
-			text-decoration: underline;
-			&:hover{
-				text-decoration: none;
-			}
+		label{
+			min-width: 60px;
+			display: inline-block;
 		}
+		input{
+			min-width: 105px;
+			height: 17px;
+			padding: 10px 15px;
+			background: transparent;
+			border-radius: 3px;
+			border: 1px solid #cacaca;
+			font: 20px 'Conv_HelveticaNeue', Arial, sans-serif;
+		}
+	}
+	.cab__edit{
+		margin-top: 40px;
+		font: 14px 'Conv_HelveticaNeue', Arial, sans-serif;
+		color: #636363;
+		text-decoration: underline;
+		&:hover{
+			text-decoration: none;
+		}
+	}
+	.cab__edit_changing{
+		margin-left: 20px;
+	}
+	.cab__save{
+		
 	}
 }
 
