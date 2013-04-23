@@ -27,7 +27,16 @@ html {
 	font-weight: normal;
 	font-style: normal;
 }
-
+@font-face {
+	font-family: 'HelveticaNeueMed';
+	src: url('../fonts/18926_HelveticaNeueMed.eot');
+	src:
+		url('../fonts/18926_HelveticaNeueMed.woff') format('woff'),
+		url('../fonts/18926_HelveticaNeueMed.ttf') format('truetype'),
+		url('../fonts/18926_HelveticaNeueMed.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
 @font-face {
 	font-family: 'helveticaneuecyrbold';
 	src: url("../fonts/helveticaneuecyr-bold-webfont.eot");
