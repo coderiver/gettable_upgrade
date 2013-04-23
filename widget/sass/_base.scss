@@ -1,0 +1,8 @@
+@import "lib/base";
+@import "lib/animations";
+@import "lib/keyframes";
+
+// global sprites
+$icons: sprite-map("icons/*.png", $spacing: 10px);
+
+//animations example

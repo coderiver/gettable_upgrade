@@ -1,0 +1,34 @@
+/*main*/
+/* line 6, ../scss/layouts.scss */
+.col-1 {
+  float: left;
+  width: 670px;
+}
+
+/* line 10, ../scss/layouts.scss */
+.col-2 {
+  float: right;
+  width: 230px;
+}
+
+/* line 14, ../scss/layouts.scss */
+.col-3 {
+  float: left;
+  width: 325px;
+}
+
+/* line 18, ../scss/layouts.scss */
+.col-4 {
+  float: right;
+  width: 565px;
+}
+
+/* line 23, ../scss/layouts.scss */
+.cols_alt .col-1 {
+  float: right;
+}
+/* line 26, ../scss/layouts.scss */
+.cols_alt .col-2 {
+  float: left;
+  position: relative;
+}

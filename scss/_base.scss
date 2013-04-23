@@ -1,0 +1,8 @@
+@import "lib/base";
+@import "lib/animations";
+@import "lib/keyframes";
+
+$experimental-support-for-svg: true;
+$icons-btn-repeat: repeat-x !default;
+$icons: sprite-map("icons/*.png", $spacing: 10px,$btn-repeat: repeat-x);
+//$icons: sprite-map("gettable/icons/*.png", $spacing: 10px,$btn-repeat: repeat-x);

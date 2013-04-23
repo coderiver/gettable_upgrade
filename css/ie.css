@@ -1,0 +1,13 @@
+/* line 3, ../scss/ie.scss */
+.ltie8 .select select {
+  margin-top: 5px;
+}
+
+/* line 10, ../scss/ie.scss */
+.ie8 .search__btn i {
+  top: -1px;
+}
+/* line 15, ../scss/ie.scss */
+.ie8 .search__btn_big i {
+  top: 15px;
+}

@@ -1,0 +1,57 @@
+@import "compass/css3";
+
+
+// ROTATE
+@mixin rotate($deg: 0, $m11: 0, $m12: 0, $m21: 0, $m22: 0) {
+     -moz-transform: rotate($deg + deg);
+       -o-transform: rotate($deg + deg);
+  -webkit-transform: rotate($deg + deg);
+      -ms-transform: rotate($deg + deg);
+          transform: rotate($deg + deg);
+             filter: progid:DXImageTransform.Microsoft.Matrix(
+                     M11=$m11, M12=$m12,M21=$m21, M22=$m22, sizingMethod='auto expand');
+               zoom: 1;
+}
+
+
+// image replacement
+@mixin hide-text{
+    font: 0/0 a;
+    text-shadow: none;
+    color: transparent;
+}
+%hide-text{
+    font: 0/0 a;
+    text-shadow: none;
+    color: transparent;
+}
+@mixin clr{
+  &:after{
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+    }
+}
+// placeholder color
+@mixin input-placeholder($color) {
+  &.placeholder {
+    color: $color;
+  }
+  &:-moz-placeholder {
+    color: $color;
+  }
+  &::-webkit-input-placeholder {
+    color: $color;
+  }
+}
+// sized sprites
+@mixin image-size($path){
+  width: image-width($path);
+  height: image-height($path);
+}
+@mixin sized-sprite($map, $sprite){
+  background: sprite($map, $sprite) no-repeat;
+  @include image-size(sprite-file($map, $sprite));
+}

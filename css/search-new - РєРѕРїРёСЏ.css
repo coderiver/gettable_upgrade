@@ -1,0 +1,627 @@
+@charset "IBM866";
+/* line 22, ../scss/lib/_base.scss */
+.soc-entry .soc-entry__list a, .search__tabs .s-tabs i {
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent;
+}
+
+/* line 4, ../scss/search-new - копия.scss */
+.search_mod2 {
+  margin-top: 0;
+}
+/* line 6, ../scss/search-new - копия.scss */
+.search_mod2 .search__item {
+  padding: 11px 0;
+}
+/* line 8, ../scss/search-new - копия.scss */
+.search_mod2 .search__item strong {
+  padding: 0 27px;
+}
+/* line 12, ../scss/search-new - копия.scss */
+.search_mod2 .search__date {
+  width: 314px;
+}
+/* line 15, ../scss/search-new - копия.scss */
+.search_mod2 .search__time {
+  width: 229px;
+}
+/* line 18, ../scss/search-new - копия.scss */
+.search_mod2 .search__people {
+  width: 230px;
+}
+/* line 21, ../scss/search-new - копия.scss */
+.search_mod2 .search__tabs {
+  padding: 11px 22px;
+}
+
+/* line 25, ../scss/search-new - копия.scss */
+.soc-entry {
+  position: absolute;
+  top: 37px;
+  right: 1px;
+}
+/* line 29, ../scss/search-new - копия.scss */
+.soc-entry .soc-entry__text {
+  color: #2e2c2a;
+  font-size: 12px;
+  opacity: 0.4;
+  float: left;
+  line-height: 50px;
+  margin-right: 17px;
+}
+/* line 37, ../scss/search-new - копия.scss */
+.soc-entry .soc-entry__list {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0icmdiYSgyNTUsIDI1NSwgMjU1LCAwLjUpIi8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSJyZ2JhKDI1NSwgMjU1LCAyNTUsIDAuNCkiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(255, 255, 255, 0.5)), color-stop(100%, rgba(255, 255, 255, 0.4)));
+  background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.4));
+  background-image: -moz-linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.4));
+  background-image: -o-linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.4));
+  background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.4));
+  -webkit-box-shadow: rgba(255, 255, 255, 0.8) 0px 1px 1px inset, rgba(0, 0, 0, 0.1) 0 2px 5px;
+  -moz-box-shadow: rgba(255, 255, 255, 0.8) 0px 1px 1px inset, rgba(0, 0, 0, 0.1) 0 2px 5px;
+  box-shadow: rgba(255, 255, 255, 0.8) 0px 1px 1px inset, rgba(0, 0, 0, 0.1) 0 2px 5px;
+  padding: 9px 9px 7px;
+  float: left;
+}
+/* line 43, ../scss/search-new - копия.scss */
+.soc-entry .soc-entry__list li {
+  list-style: none;
+  float: left;
+  margin: 0 3px;
+}
+/* line 48, ../scss/search-new - копия.scss */
+.soc-entry .soc-entry__list a {
+  display: block;
+}
+/* line 52, ../scss/search-new - копия.scss */
+.soc-entry .soc-entry__list .fb {
+  background: url('../img/icons-s7d265b6458.png') 0 -1743px no-repeat;
+  width: 32px;
+  height: 32px;
+}
+/* line 53, ../scss/search-new - копия.scss */
+.soc-entry .soc-entry__list .fs {
+  background: url('../img/icons-s7d265b6458.png') 0 -1398px no-repeat;
+  width: 32px;
+  height: 32px;
+}
+/* line 54, ../scss/search-new - копия.scss */
+.soc-entry .soc-entry__list .vk {
+  background: url('../img/icons-s7d265b6458.png') 0 -1440px no-repeat;
+  width: 32px;
+  height: 32px;
+}
+/* line 55, ../scss/search-new - копия.scss */
+.soc-entry .soc-entry__list .od {
+  background: url('../img/icons-s7d265b6458.png') 0 -1356px no-repeat;
+  width: 32px;
+  height: 32px;
+}
+
+/* line 61, ../scss/search-new - копия.scss */
+.search__tabs .s-tabs li {
+  list-style: none;
+  float: left;
+  background: #ededed;
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzlkOWQ5ZCIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzViNWI1YiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #9d9d9d), color-stop(100%, #5b5b5b));
+  background-image: -webkit-linear-gradient(#9d9d9d, #5b5b5b);
+  background-image: -moz-linear-gradient(#9d9d9d, #5b5b5b);
+  background-image: -o-linear-gradient(#9d9d9d, #5b5b5b);
+  background-image: linear-gradient(#9d9d9d, #5b5b5b);
+  border: 1px solid transparent;
+  border-width: 1px 1px 1px 0;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.75);
+  overflow: hidden;
+}
+/* line 70, ../scss/search-new - копия.scss */
+.search__tabs .s-tabs li:first-child {
+  -webkit-border-radius: 3px 0 0 3px;
+  -moz-border-radius: 3px 0 0 3px;
+  -ms-border-radius: 3px 0 0 3px;
+  -o-border-radius: 3px 0 0 3px;
+  border-radius: 3px 0 0 3px;
+  border: 1px solid transparent;
+  border-width: 1px 0 1px 1px;
+}
+/* line 75, ../scss/search-new - копия.scss */
+.search__tabs .s-tabs li:last-child {
+  -webkit-border-radius: 0 3px 3px 0;
+  -moz-border-radius: 0 3px 3px 0;
+  -ms-border-radius: 0 3px 3px 0;
+  -o-border-radius: 0 3px 3px 0;
+  border-radius: 0 3px 3px 0;
+}
+/* line 79, ../scss/search-new - копия.scss */
+.search__tabs .s-tabs a {
+  display: block;
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2VkZWRlZCIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzlmOWY5ZiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ededed), color-stop(100%, #9f9f9f));
+  background-image: -webkit-linear-gradient(#ededed, #9f9f9f);
+  background-image: -moz-linear-gradient(#ededed, #9f9f9f);
+  background-image: -o-linear-gradient(#ededed, #9f9f9f);
+  background-image: linear-gradient(#ededed, #9f9f9f);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.17) inset, -1px 1px 0 rgba(255, 255, 255, 0.4) inset;
+}
+/* line 84, ../scss/search-new - копия.scss */
+.search__tabs .s-tabs i {
+  display: block;
+}
+/* line 88, ../scss/search-new - копия.scss */
+.search__tabs .s-tabs .s-tabs__list i {
+  background: url('../img/icons-s7d265b6458.png') 0 -3766px no-repeat;
+  width: 46px;
+  height: 30px;
+}
+/* line 89, ../scss/search-new - копия.scss */
+.search__tabs .s-tabs .s-tabs__map i {
+  background: url('../img/icons-s7d265b6458.png') 0 -2632px no-repeat;
+  width: 46px;
+  height: 30px;
+}
+/* line 90, ../scss/search-new - копия.scss */
+.search__tabs .s-tabs .is-active {
+  padding: 0;
+  border-color: #242424;
+}
+/* line 93, ../scss/search-new - копия.scss */
+.search__tabs .s-tabs .is-active a {
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0icmdiYSgzNywgMzcsIDM3LCAwLjgpIi8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSJyZ2JhKDU4LCA1OCwgNDgsIDAuNjUpIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIgLz48L3N2Zz4g');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(37, 37, 37, 0.8)), color-stop(100%, rgba(58, 58, 48, 0.65)));
+  background-image: -webkit-linear-gradient(rgba(37, 37, 37, 0.8), rgba(58, 58, 48, 0.65));
+  background-image: -moz-linear-gradient(rgba(37, 37, 37, 0.8), rgba(58, 58, 48, 0.65));
+  background-image: -o-linear-gradient(rgba(37, 37, 37, 0.8), rgba(58, 58, 48, 0.65));
+  background-image: linear-gradient(rgba(37, 37, 37, 0.8), rgba(58, 58, 48, 0.65));
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6) inset;
+}
+/* line 97, ../scss/search-new - копия.scss */
+.search__tabs .s-tabs .is-active.s-tabs__list i {
+  background: url('../img/icons-s7d265b6458.png') 0 -3726px no-repeat;
+  width: 46px;
+  height: 30px;
+}
+/* line 98, ../scss/search-new - копия.scss */
+.search__tabs .s-tabs .is-active.s-tabs__map i {
+  background: url('../img/icons-s7d265b6458.png') 0 -3686px no-repeat;
+  width: 46px;
+  height: 30px;
+}
+
+/* line 103, ../scss/search-new - копия.scss */
+.bar__pic {
+  position: relative;
+}
+/* line 105, ../scss/search-new - копия.scss */
+.bar__pic .bar__users {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  height: 45px;
+  background: rgba(0, 0, 0, 0.8);
+}
+/* line 113, ../scss/search-new - копия.scss */
+.bar__pic .bar__users-list {
+  padding: 9px;
+  height: 27px;
+  float: left;
+  width: 232px;
+  overflow: hidden;
+}
+/* line 119, ../scss/search-new - копия.scss */
+.bar__pic .bar__users-list a {
+  float: left;
+  margin: 0 3px;
+}
+/* line 123, ../scss/search-new - копия.scss */
+.bar__pic .bar__users-list img {
+  opacity: 0.8;
+  max-width: 27px;
+  min-height: 27px;
+}
+/* line 129, ../scss/search-new - копия.scss */
+.bar__pic .bar__users-num {
+  float: right;
+  width: 54px;
+  border-left: 1px solid #3c3c3c;
+  line-height: 45px;
+  color: #727272;
+  font-size: 16px;
+  text-align: center;
+  font-family: 'Conv_HelveticaNeue-CondensedBold', 'Arial narrow', sans-serif;
+}
+/* line 138, ../scss/search-new - копия.scss */
+.bar__pic .bar__users-num i {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 3px;
+}
+/* line 143, ../scss/search-new - копия.scss */
+.bar__pic .bar__users-num .user1 {
+  background: url('../img/icons-s7d265b6458.png') 0 -2466px no-repeat;
+  width: 23px;
+  height: 18px;
+}
+/* line 144, ../scss/search-new - копия.scss */
+.bar__pic .bar__users-num .user10 {
+  background: url('../img/icons-s7d265b6458.png') 0 -3215px no-repeat;
+  width: 15px;
+  height: 16px;
+}
+
+/* line 147, ../scss/search-new - копия.scss */
+.mark-favorite, .mark-similar {
+  position: absolute;
+  top: -3px;
+  display: none;
+}
+/* line 151, ../scss/search-new - копия.scss */
+.mark-favorite:hover, .mark-similar:hover {
+  top: -5px;
+}
+/* line 153, ../scss/search-new - копия.scss */
+.mark-favorite:hover .fav-hint, .mark-similar:hover .fav-hint {
+  display: block;
+}
+/* line 155, ../scss/search-new - копия.scss */
+.mark-favorite .fav-hint, .mark-similar .fav-hint {
+  position: absolute;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  background: #fff;
+  bottom: -41px;
+  font-size: 12px;
+  color: #000;
+  padding: 7px 4px;
+  white-space: nowrap;
+  left: 50%;
+  display: none;
+  margin-left: -37px;
+  width: 64px;
+  z-index: 5;
+  text-align: center;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.4);
+  font-weight: bold;
+  line-height: 1;
+}
+/* line 173, ../scss/search-new - копия.scss */
+.mark-favorite .fav-hint:before, .mark-similar .fav-hint:before {
+  background: url('../img/icons-s7d265b6458.png') 0 -3639px no-repeat;
+  width: 21px;
+  height: 6px;
+  content: '';
+  position: absolute;
+  top: -6px;
+  left: 50%;
+  margin-left: -10px;
+}
+
+/* line 183, ../scss/search-new - копия.scss */
+.mark-similar {
+  background: url('../img/icons-s7d265b6458.png') 0 -741px no-repeat;
+  width: 49px;
+  height: 59px;
+  right: 59px;
+}
+/* line 186, ../scss/search-new - копия.scss */
+.mark-similar.is-active {
+  display: block;
+}
+/* line 188, ../scss/search-new - копия.scss */
+.mark-similar.is-active:hover {
+  top: -3px;
+}
+
+/* line 191, ../scss/search-new - копия.scss */
+.mark-favorite {
+  background: url('../img/icons-s7d265b6458.png') 0 -672px no-repeat;
+  width: 49px;
+  height: 59px;
+  right: 6px;
+}
+/* line 194, ../scss/search-new - копия.scss */
+.mark-favorite.is-active {
+  display: block;
+}
+/* line 196, ../scss/search-new - копия.scss */
+.mark-favorite.is-active:hover {
+  top: -3px;
+}
+
+/* line 201, ../scss/search-new - копия.scss */
+.bar li:hover .mark-similar, .bar li:hover .mark-favorite, .bar .bar__item:hover .mark-similar, .bar .map-popup:hover .mark-similar, .bar .bar__item:hover .mark-favorite, .bar .map-popup:hover .mark-favorite {
+  display: block;
+}
+
+/* line 204, ../scss/search-new - копия.scss */
+.search-filter__type .search-filter__typeactive label {
+  background: #faef99;
+}
+
+/* line 205, ../scss/search-new - копия.scss */
+.sf__add-new {
+  color: #565656;
+  font-size: 14px;
+}
+/* line 208, ../scss/search-new - копия.scss */
+.sf__add-new:hover {
+  text-decoration: underline;
+}
+
+/* line 210, ../scss/search-new - копия.scss */
+.search-map {
+  position: relative;
+  display: none;
+}
+
+/* line 214, ../scss/search-new - копия.scss */
+.search-map__in {
+  left: -25%;
+  padding: 11px 0 0;
+  position: absolute;
+}
+
+/* line 219, ../scss/search-new - копия.scss */
+.search-filter__map {
+  background: rgba(255, 255, 255, 0.8);
+}
+
+/* line 222, ../scss/search-new - копия.scss */
+.map-popup {
+  position: absolute;
+  top: 200px;
+  left: 500px;
+  width: 305px;
+  min-height: 206px;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 3px;
+  -webkit-box-shadow: rgba(255, 255, 255, 0.8) 0px 1px 1px inset, rgba(0, 0, 0, 0.1) 0 2px 4px;
+  -moz-box-shadow: rgba(255, 255, 255, 0.8) 0px 1px 1px inset, rgba(0, 0, 0, 0.1) 0 2px 4px;
+  box-shadow: rgba(255, 255, 255, 0.8) 0px 1px 1px inset, rgba(0, 0, 0, 0.1) 0 2px 4px;
+}
+/* line 233, ../scss/search-new - копия.scss */
+.map-popup:hover {
+  background: #fff;
+  -webkit-box-shadow: rgba(255, 255, 255, 0.8) 0px 1px 1px inset, #a1a1a1 0px 0px 1px 1px, rgba(0, 0, 0, 0.1) 0 2px 4px;
+  -moz-box-shadow: rgba(255, 255, 255, 0.8) 0px 1px 1px inset, #a1a1a1 0px 0px 1px 1px, rgba(0, 0, 0, 0.1) 0 2px 4px;
+  box-shadow: rgba(255, 255, 255, 0.8) 0px 1px 1px inset, #a1a1a1 0px 0px 1px 1px, rgba(0, 0, 0, 0.1) 0 2px 4px;
+}
+/* line 236, ../scss/search-new - копия.scss */
+.map-popup:hover .mark-favorite, .map-popup:hover .mark-similar {
+  display: block;
+}
+/* line 238, ../scss/search-new - копия.scss */
+.map-popup .h2 {
+  margin: 6px 0;
+  position: relative;
+}
+/* line 241, ../scss/search-new - копия.scss */
+.map-popup .h2 a {
+  color: #000;
+}
+/* line 243, ../scss/search-new - копия.scss */
+.map-popup .h2 a:hover {
+  color: #b90000;
+  text-decoration: underline;
+}
+/* line 249, ../scss/search-new - копия.scss */
+.map-popup:after {
+  position: absolute;
+  content: "";
+  background: url('../img/icons-s7d265b6458.png') 0 -2212px no-repeat;
+  width: 54px;
+  height: 20px;
+  bottom: -20px;
+  left: 50%;
+  margin-left: -27px;
+}
+
+/* line 260, ../scss/search-new - копия.scss */
+.popup .popup__devider, .popup_add-fav .popup__devider, .popup_forsquare .popup__devider, .popup_social .popup__devider {
+  border-bottom: 1px dotted #ccc;
+  margin: 23px 0;
+}
+
+/* line 266, ../scss/search-new - копия.scss */
+.popup-wrap {
+  background: url("../img/icons/bg.png");
+  opacity: 0.5;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+
+/* line 276, ../scss/search-new - копия.scss */
+.popup_add-fav {
+  height: 111px;
+  width: 423px;
+  margin: -56px 0 0 -212px;
+  text-align: center;
+  line-height: 111px;
+  border-radius: 3px;
+  color: #353535;
+}
+
+/* line 287, ../scss/search-new - копия.scss */
+.popup_forsquare {
+  height: 177px;
+  width: 335px;
+  margin: -134px 0 0 -208px;
+  padding: 42px 40px 32px 44px;
+  border-radius: 3px;
+}
+/* line 294, ../scss/search-new - копия.scss */
+.popup_forsquare .h2 {
+  margin-bottom: 19px;
+}
+/* line 297, ../scss/search-new - копия.scss */
+.popup_forsquare p {
+  font-size: 14px;
+  color: #353535;
+  line-height: 1.4;
+  margin: 15px 0;
+}
+
+/* line 304, ../scss/search-new - копия.scss */
+.btn-foursquare {
+  font-family: 'Conv_HelveticaNeue-CondensedBold',Arial,sans-serif;
+  font-size: 18px;
+  text-align: center;
+  background: url('../img/icons-s7d265b6458.png') 0 -619px no-repeat;
+  width: 400px;
+  height: 43px;
+  width: 100%;
+  text-shadow: 0 -2px 0 rgba(0, 0, 0, 0.27);
+  position: relative;
+  cursor: pointer;
+  border-radius: 3px;
+  line-height: 43px;
+  color: #fff;
+  display: block;
+}
+/* line 317, ../scss/search-new - копия.scss */
+.btn-foursquare:hover {
+  background-position: 0 -566px;
+}
+/* line 320, ../scss/search-new - копия.scss */
+.btn-foursquare:active {
+  background-position: 0 -195px;
+}
+/* line 323, ../scss/search-new - копия.scss */
+.btn-foursquare i {
+  position: absolute;
+  top: 0;
+  left: 12px;
+  background: url('../img/icons-s7d265b6458.png') 0 -1637px no-repeat;
+  width: 58px;
+  height: 35px;
+}
+
+/* line 331, ../scss/search-new - копия.scss */
+.map-loader {
+  position: absolute;
+  top: 21px;
+  left: 246px;
+  z-index: 100;
+  width: 640px;
+  color: #5f5f5f;
+  display: none;
+  font-size: 18px;
+  padding: 11px 16px;
+  border-radius: 3px;
+  background: rgba(255, 255, 255, 0.85);
+  text-align: center;
+}
+/* line 344, ../scss/search-new - копия.scss */
+.map-loader .map-loader__krutilka {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 0 20px 0 -40px;
+  background: url('../img/icons-s7d265b6458.png') 0 -1516px no-repeat;
+  width: 36px;
+  height: 36px;
+}
+
+/* line 351, ../scss/search-new - копия.scss */
+.popup_social {
+  padding: 47px 34px 34px;
+  width: 351px;
+  height: 160px;
+  margin: -124px 0 0 -203px;
+}
+/* line 357, ../scss/search-new - копия.scss */
+.popup_social .popup_social-in {
+  border: 1px solid #e3e3e3;
+  border-radius: 3px;
+  height: 100%;
+}
+/* line 362, ../scss/search-new - копия.scss */
+.popup_social .h2 {
+  text-align: center;
+  margin: -16px 0 10px;
+}
+/* line 365, ../scss/search-new - копия.scss */
+.popup_social .h2 span {
+  background: #fff;
+  padding: 0 10px;
+}
+/* line 369, ../scss/search-new - копия.scss */
+.popup_social .h2 em {
+  font-style: normal;
+  display: block;
+  color: #353535;
+  opacity: 0.4;
+  margin-top: 3px;
+  font-size: 13px;
+  font-family: 'helveticaneuecyrroman',Arial,sans-serif;
+}
+
+/* line 381, ../scss/search-new - копия.scss */
+.social-login {
+  text-align: center;
+}
+/* line 383, ../scss/search-new - копия.scss */
+.social-login li {
+  list-style: none;
+  display: inline-block;
+  position: relative;
+  padding: 0 8px;
+}
+/* line 388, ../scss/search-new - копия.scss */
+.social-login li .social-login__divider {
+  background: url('../img/icons-s7d265b6458.png') 0 -3582px no-repeat;
+  width: 1px;
+  height: 47px;
+  position: absolute;
+  left: -2px;
+  top: 0;
+}
+/* line 394, ../scss/search-new - копия.scss */
+.social-login li:first-child .social-login__divider {
+  display: none;
+}
+/* line 396, ../scss/search-new - копия.scss */
+.social-login a {
+  display: block;
+}
+/* line 399, ../scss/search-new - копия.scss */
+.social-login .fb_big {
+  background: url('../img/icons-s7d265b6458.png') 0 -1070px no-repeat;
+  width: 49px;
+  height: 49px;
+}
+/* line 402, ../scss/search-new - копия.scss */
+.social-login .fs_big {
+  background: url('../img/icons-s7d265b6458.png') 0 -898px no-repeat;
+  width: 49px;
+  height: 49px;
+}
+/* line 405, ../scss/search-new - копия.scss */
+.social-login .vk_big {
+  background: url('../img/icons-s7d265b6458.png') 0 -1011px no-repeat;
+  width: 49px;
+  height: 49px;
+}
+/* line 408, ../scss/search-new - копия.scss */
+.social-login .od_big {
+  background: url('../img/icons-s7d265b6458.png') 0 -810px no-repeat;
+  width: 49px;
+  height: 49px;
+}

@@ -1,0 +1,109 @@
+@charset "IBM866";
+/*fonts*/
+@font-face {
+  font-family: 'helveticaneuecyrroman';
+  src: url("../fonts/helveticaneuecyr-roman-webfont.eot");
+  src: url("../fonts/helveticaneuecyr-roman-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/helveticaneuecyr-roman-webfont.woff") format("woff"), url("../fonts/helveticaneuecyr-roman-webfont.ttf") format("truetype"), url("../fonts/helveticaneuecyr-roman-webfont.svg#helveticaneuecyrroman") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'helveticaneuecyrbold';
+  src: url("../fonts/helveticaneuecyr-bold-webfont.eot");
+  src: url("../fonts/helveticaneuecyr-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/helveticaneuecyr-bold-webfont.woff") format("woff"), url("../fonts/helveticaneuecyr-bold-webfont.ttf") format("truetype"), url("../fonts/helveticaneuecyr-bold-webfont.svg#helveticaneuecyrbold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Conv_HelveticaNeue-CondensedBold';
+  src: url("../fonts/HelveticaNeue-CondensedBold.eot");
+  src: local("☺"), url("../fonts/HelveticaNeue-CondensedBold.woff") format("woff"), url("../fonts/HelveticaNeue-CondensedBold.ttf") format("truetype"), url("../fonts/HelveticaNeue-CondensedBold.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'flexyregular';
+  src: url("../fonts/flexy31-1-webfont.eot");
+  src: url("../fonts/flexy31-1-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/flexy31-1-webfont.woff") format("woff"), url("../fonts/flexy31-1-webfont.ttf") format("truetype"), url("../fonts/flexy31-1-webfont.svg#flexyregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*oferta*/
+/* line 4, ../scss/oferta.scss */
+.oferta {
+  padding: 35px 50px 65px 50px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0icmdiYSgyNTUsIDI1NSwgMjU1LCAwLjUpIi8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSJyZ2JhKDI1NSwgMjU1LCAyNTUsIDAuMykiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(255, 255, 255, 0.5)), color-stop(100%, rgba(255, 255, 255, 0.3)));
+  background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.3));
+  background-image: -moz-linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.3));
+  background-image: -o-linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.3));
+  background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.3));
+  -webkit-box-shadow: rgba(255, 255, 255, 0.8) 0px 1px 1px inset, rgba(0, 0, 0, 0.1) 0 2px 4px;
+  -moz-box-shadow: rgba(255, 255, 255, 0.8) 0px 1px 1px inset, rgba(0, 0, 0, 0.1) 0 2px 4px;
+  box-shadow: rgba(255, 255, 255, 0.8) 0px 1px 1px inset, rgba(0, 0, 0, 0.1) 0 2px 4px;
+  color: #353535;
+}
+/* line 10, ../scss/oferta.scss */
+.oferta .h1 {
+  margin-bottom: 20px;
+  font-size: 36px;
+  color: #1c1c1c;
+}
+/* line 15, ../scss/oferta.scss */
+.oferta .h2 {
+  margin-bottom: 20px;
+}
+/* line 18, ../scss/oferta.scss */
+.oferta p, .oferta li {
+  margin-bottom: 20px;
+  line-height: 1.5;
+  font-size: 14px;
+}
+/* line 23, ../scss/oferta.scss */
+.oferta ol {
+  padding-left: 40px;
+}
+
+/* line 27, ../scss/oferta.scss */
+.oferta__terms {
+  margin: 50px 0 60px 0;
+}
+
+/* line 30, ../scss/oferta.scss */
+.oferta__rules {
+  padding: 50px 0;
+  background: url(../img/shadow.png) no-repeat 50% 0;
+}
+/* line 34, ../scss/oferta.scss */
+.oferta__rules .h2 span {
+  float: left;
+  width: 40px;
+}
+/* line 40, ../scss/oferta.scss */
+.oferta__rules ul li {
+  margin-bottom: 0px;
+}
+
+/* line 45, ../scss/oferta.scss */
+.oferta__contacts {
+  padding: 50px 0 0 40px;
+  background: url(../img/shadow.png) no-repeat 50% 0;
+}
+/* line 48, ../scss/oferta.scss */
+.oferta__contacts li {
+  margin-bottom: 0px;
+}
+/* line 51, ../scss/oferta.scss */
+.oferta__contacts .h2 {
+  margin: 20px 0 10px 0;
+}

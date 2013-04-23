@@ -1,0 +1,53 @@
+/* line 3, ../scss/menu.scss */
+.popup-menu {
+  color: #424242;
+  background: url(../img/noise-bg.png) 0 0 repeat;
+}
+
+/* line 7, ../scss/menu.scss */
+.menu {
+  padding: 23px 103px 15px 71px;
+  height: 500px;
+  border: 1px solid #e2e2e2;
+}
+
+/* line 13, ../scss/menu.scss */
+.menu__title {
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 18px;
+}
+
+/* line 18, ../scss/menu.scss */
+.menu__list {
+  margin-top: 25px;
+  color: #424242;
+}
+/* line 21, ../scss/menu.scss */
+.menu__list li {
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+/* line 26, ../scss/menu.scss */
+.menu__prod {
+  float: left;
+  width: 353px;
+}
+/* line 29, ../scss/menu.scss */
+.menu__prod strong {
+  display: block;
+  padding-bottom: 2px;
+  font-size: 18px;
+}
+/* line 34, ../scss/menu.scss */
+.menu__prod p {
+  line-height: 18px;
+}
+
+/* line 38, ../scss/menu.scss */
+.menu__price {
+  float: right;
+  font-weight: bold;
+  font-size: 18px;
+}
