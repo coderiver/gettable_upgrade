@@ -32,7 +32,7 @@
 // cab
 .cab{
 	margin-left: -50px;
-	.cab__header{
+	header{
 		width: 880px;
 		padding-left: 40px;
 		padding-bottom: 15px;
@@ -105,7 +105,18 @@
 		margin-left: 20px;
 	}
 	.cab__save{
-		
+		height: 22px;
+		line-height: 38px;
+		padding: 8px 25px;
+		@include background-image(linear-gradient(#bf594d 0%, #ad463b 50%, #973025 100%));
+		@include box-shadow(rgba(0,0,0,0.15) 0px 1px 1px );
+		border-radius: 5px;
+		display: inline-block;
+		font: 18px 'Conv_HelveticaNeue-CondensedBold';
+		color: #FFF;
+		text-shadow:0 -2px 0 rgba(0,0,0,0.27);
+		&:hover{
+			@include background-image(linear-gradient(#973025 0%, #ad463b 50%, #bf594d 100%));		}
 	}
 }
 

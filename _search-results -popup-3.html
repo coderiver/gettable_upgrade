@@ -1,0 +1,467 @@
+<!DOCTYPE HTML>
+<!--[if lt IE 8]><html lang="ru-RU" class="ltie8"><![endif]-->
+<!--[if IE 8]><html lang="ru-RU" class="ie8"><![endif]-->
+<!--[if gt IE 8]><!--><html lang="ru-RU"> <!--<![endif]-->
+<head>
+	<title>gettable</title>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+	<link rel="stylesheet" type="text/css" href="css/screen.css" />
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+	<script src="js/jquery.mousewheel.js"></script>
+	<script src="js/jquery.jscrollpane.js"></script>
+	<script src="js/common.js"></script>
+</head>
+<body>
+
+<div class="drop">
+	<!-- BEGIN  drop__col-->
+	<div class="drop__col">
+		<h3>Для ресторанов:</h3>
+		<ul class="search-filter__type">
+			<li><input id="sf112" type="checkbox"><label for="sf112">Работает до утра <span>12</span> </label></li>
+			<li><input id="sf212" type="checkbox"><label for="sf212">Красивый вид</label></li>
+			<li><input id="sf312" type="checkbox"><label for="sf312">В центре</label></li>
+		</ul>
+	</div>
+	<!-- END drop__col-->
+
+	<!-- BEGIN  drop__col-->
+	<div class="drop__col">
+		<h3>Для ресторанов:</h3>
+		<ul class="search-filter__type">
+			<li><input id="sf112" type="checkbox"><label for="sf112">Работает до утра</label></li>
+			<li class="inactive"><input id="sf212" type="checkbox"><label for="sf212">Красивый вид</label></li>
+			<li><input id="sf312" type="checkbox"><label for="sf312">В центре</label></li>
+		</ul>
+	</div>
+	<!-- END drop__col-->
+	<div class="drop__more"><a href="#">Продолжить</a></div>
+</div>
+<!-- BEGIN .container -->
+<div class="container">
+	<!-- BEGIN .header -->
+	<div class="header">
+		<div class="logo">
+			<a href="#">gettable</a>
+		</div>
+		<div class="logo-desc">
+			<span>Официальный партнер<i></i></span>
+		</div>
+		<div class="soc-entry">
+			<span class="soc-entry__text">Войти через:</span>
+			<ul class="soc-entry__list">
+				<li><a href="#" class="fb">facebook</a></li>
+				<li><a href="#" class="fs">forsquare</a></li>
+				<li><a href="#" class="vk">vkontakte</a></li>
+				<li><a href="#" class="od">odnoklassniki</a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- END .header -->
+	<!-- BEGIN  cols-->
+	<div class="cols">
+		<div class="search search_mod2">
+			<div class="search__detail">
+				<div class="search__item search__date">
+					<strong>Когда идем?</strong>
+					<div class="select">
+						<select>
+							<option value="21 Декабря 2012">21 Декабря 2012</option>
+							<option value="22 Декабря 2012">22 Декабря 2012</option>
+							<option value="23 Декабря 2012">23 Декабря 2012</option>
+							<option value="24 Декабря 2012">24 Декабря 2012</option>
+							<option value="25 Декабря 2012">25 Декабря 2012</option>
+							<option value="26 Декабря 2012">26 Декабря 2012</option>
+						</select>
+						<b>23 Декабря 2012</b>
+						<i><em></em></i>
+					</div>
+					<i class="divider"></i>
+				</div>
+				<div class="search__item search__time">
+					<strong>Во сколько?</strong>
+					<div class="select">
+						<select>
+							<option value="18:00">18:00</option>
+							<option value="19:00">19:00</option>
+							<option value="20:00">20:00</option>
+							<option value="21:00">21:00</option>
+							<option value="22:00">22:00</option>
+							<option value="23:00">23:00</option>
+						</select>
+						<b>23:00</b>
+						<i><em></em></i>
+					</div>
+					<i class="divider"></i>
+				</div>
+				<div class="search__item search__people">
+					<strong>Кол-во человек</strong>
+					<div class="select">
+						<select>
+							<option value="10">10</option>
+							<option value="11">11</option>
+							<option value="12">12</option>
+							<option value="13">13</option>
+							<option value="14">14</option>
+							<option value="15">15</option>
+						</select>
+						<b>10</b>
+						<i><em></em></i>
+					</div>
+					<i class="divider"></i>
+				</div>
+				<div class="search__item search__tabs">
+					<ul class="s-tabs">
+						<li class="s-tabs__list is-active"><a href="#"><i>список</i></a></li>
+						<li class="s-tabs__map"><a href="#" ><i>карта</i></a></li>
+					</ul>
+				</div>
+				<div class="clr"></div>
+			</div>
+		</div>
+	</div>
+	<!-- END cols-->
+
+	<!-- BEGIN search-map-->
+	<div class="search-map">
+		<div class="search-map__in">
+			<img src="img/map2.jpg" alt="">
+			<div class="map-popup">
+				<div class="popup__close"></div>
+				<div class="bar__pic">
+					<a href="#"><img src="img/rec1.jpg" alt=""></a>
+					<a href="#" class="mark-similar">
+						<span class="fav-hint">показать<br>похожие</span>
+					</a>
+					<a href="#" class="mark-favorite">
+						<span class="fav-hint">добавить в<br>любимые</span>
+					</a>
+				</div>
+				<div class="h2">
+					<a href="#">Brix Bar</a>
+					<div class="rate">
+						<img src="img/icons/star-red.png" alt="">
+						<img src="img/icons/star-red.png" alt="">
+						<img src="img/icons/star-red.png" alt="">
+						<img src="img/icons/star-red.png" alt="">
+						<img src="img/icons/star-gray.png" alt="">
+						<span>4.2</span>
+					</div>
+				</div>
+				<p>Винный бар с крайне затейливыми закусками</p>
+			</div>
+		</div>
+		<div class="map-loader">
+			<span class="map-loader__krutilka"></span>Подождите, идет обновление карты
+		</div>
+	</div>
+	<!-- END search-map-->
+
+	<!-- BEGIN .search-results -->
+	<form action="" class="cols cols_alt">
+		<div class="col-1">
+			<div class="search-results">
+				<div class="search-loader">
+					<span class="search-loader__krutilka"></span><span>Get</span>table ищет подходящие места
+				</div>
+				<ul class="bar">
+					<li>
+						<div class="bar__pic">
+							<a href="#"><img src="img/rec1.jpg" alt=""></a>
+							<a href="#" class="mark-similar">
+								<span class="fav-hint">показать<br>похожие</span>
+							</a>
+							<a href="#" class="mark-favorite">
+								<span class="fav-hint">добавить в<br>любимые</span>
+							</a>
+							<div class="bar__users">
+								<div class="bar__users-list">
+									<a href="#"><img src="img/user2.jpg"></a>
+									<a href="#"><img src="img/user2.jpg"></a>
+									<a href="#"><img src="img/user2.jpg"></a>
+									<a href="#"><img src="img/user2.jpg"></a>
+									<a href="#"><img src="img/user2.jpg"></a>
+									<a href="#"><img src="img/user2.jpg"></a>
+									<a href="#"><img src="img/user2.jpg"></a>
+								</div>
+								<div class="bar__users-num"><i class="user1"></i>2</div>
+							</div>
+						</div>
+						<div class="h2">
+							<a href="#">Brix Bar</a>
+							<div class="rate">
+								<img src="img/icons/star-red.png" alt="">
+								<img src="img/icons/star-red.png" alt="">
+								<img src="img/icons/star-red.png" alt="">
+								<img src="img/icons/star-red.png" alt="">
+								<img src="img/icons/star-gray.png" alt="">
+								<span>4.2</span>
+							</div>
+						</div>
+						<p>Винный бар с крайне затейливыми закусками</p>
+					</li>
+					<li>
+						<div class="bar__pic">
+							<a href="#"><img src="img/rec1.jpg" alt=""></a>
+							<a href="#" class="mark-similar">
+								<span class="fav-hint">показать<br>похожие</span>
+							</a>
+							<a href="#" class="mark-favorite">
+								<span class="fav-hint">добавить в<br>любимые</span>
+							</a>
+							<div class="bar__users">
+								<div class="bar__users-list">
+									<a href="#"><img src="img/user2.jpg"></a>
+									<a href="#"><img src="img/user2.jpg"></a>
+									<a href="#"><img src="img/user2.jpg"></a>
+									<a href="#"><img src="img/user2.jpg"></a>
+									<a href="#"><img src="img/user2.jpg"></a>
+									<a href="#"><img src="img/user2.jpg"></a>
+									<a href="#"><img src="img/user2.jpg"></a>
+								</div>
+								<div class="bar__users-num"><i class="user10"></i>16</div>
+							</div>
+						</div>
+						<div class="h2">
+							<a href="#">Brix Bar</a>
+							<div class="rate">
+								<img src="img/icons/star-red.png" alt="">
+								<img src="img/icons/star-red.png" alt="">
+								<img src="img/icons/star-red.png" alt="">
+								<img src="img/icons/star-red.png" alt="">
+								<img src="img/icons/star-gray.png" alt="">
+								<span>4.2</span>
+							</div>
+						</div>
+						<p>Винный бар с крайне затейливыми закусками</p>
+					</li>
+					<li>
+						<div class="bar__pic">
+							<a href="#"><img src="img/rec1.jpg" alt=""></a>
+							<a href="#" class="mark-similar">
+								<span class="fav-hint">показать<br>похожие</span>
+							</a>
+							<a href="#" class="mark-favorite">
+								<span class="fav-hint">добавить в<br>любимые</span>
+							</a>
+							<div class="bar__users">
+								<div class="bar__users-list">
+									<a href="#"><img src="img/user2.jpg"></a>
+									<a href="#"><img src="img/user2.jpg"></a>
+									<a href="#"><img src="img/user2.jpg"></a>
+									<a href="#"><img src="img/user2.jpg"></a>
+									<a href="#"><img src="img/user2.jpg"></a>
+									<a href="#"><img src="img/user2.jpg"></a>
+									<a href="#"><img src="img/user2.jpg"></a>
+								</div>
+								<div class="bar__users-num"><i class="user10"></i>16</div>
+							</div>
+						</div>
+						<div class="h2">
+							<a href="#">Brix Bar</a>
+							<div class="rate">
+								<img src="img/icons/star-red.png" alt="">
+								<img src="img/icons/star-red.png" alt="">
+								<img src="img/icons/star-red.png" alt="">
+								<img src="img/icons/star-red.png" alt="">
+								<img src="img/icons/star-gray.png" alt="">
+								<span>4.2</span>
+							</div>
+						</div>
+						<p>Винный бар с крайне затейливыми закусками</p>
+					</li>
+					<li>
+						<div class="bar__pic">
+							<a href="#"><img src="img/rec1.jpg" alt=""></a>
+						</div>
+						<div class="h2">
+							<a href="#">Brix Bar</a>
+							<div class="rate">
+								<img src="img/icons/star-red.png" alt="">
+								<img src="img/icons/star-red.png" alt="">
+								<img src="img/icons/star-red.png" alt="">
+								<img src="img/icons/star-red.png" alt="">
+								<img src="img/icons/star-gray.png" alt="">
+								<span>4.2</span>
+							</div>
+						</div>
+						<p>Винный бар с крайне затейливыми закусками</p>
+					</li>
+					<li>
+						<div class="bar__pic">
+							<a href="#"><img src="img/rec1.jpg" alt=""></a>
+						</div>
+						<div class="h2">
+							<a href="#">Brix Bar</a>
+							<div class="rate">
+								<img src="img/icons/star-red.png" alt="">
+								<img src="img/icons/star-red.png" alt="">
+								<img src="img/icons/star-red.png" alt="">
+								<img src="img/icons/star-red.png" alt="">
+								<img src="img/icons/star-gray.png" alt="">
+								<span>4.2</span>
+							</div>
+						</div>
+						<p>Винный бар с крайне затейливыми закусками</p>
+					</li>
+					<li>
+						<div class="bar__pic">
+							<a href="#"><img src="img/rec1.jpg" alt=""></a>
+						</div>
+						<div class="h2">
+							<a href="#">Brix Bar</a>
+							<div class="rate">
+								<img src="img/icons/star-red.png" alt="">
+								<img src="img/icons/star-red.png" alt="">
+								<img src="img/icons/star-red.png" alt="">
+								<img src="img/icons/star-red.png" alt="">
+								<img src="img/icons/star-gray.png" alt="">
+								<span>4.2</span>
+							</div>
+						</div>
+						<p>Винный бар с крайне затейливыми закусками</p>
+					</li>
+				</ul>
+				<button class="more"><span>Показать еще<i></i></span></button>
+			</div>
+		</div>
+		<div class="col-2">
+				
+			<div class="search-filter">
+				<div class="search-filter__wrap">
+					<div class="search-input">
+						<label for="#" class="search-input__key"></label>
+						<input type="text" name="key"  placeholder="Поиск по названиям" id="key">
+						<ul class="search-input__autocomplete">
+							<li><a href="#">asd</a></li>
+							<li><a href="#">asd</a></li>
+							<li><a href="#">asd</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="search-filter__wrap">
+					<p class="search-filter__meta">24 сентбяря, 23:00, 10 чел. </p>
+				</div>
+				<div class="search-filter__wrap">
+					<h3>Вы выбрали:</h3>
+					<p class="search-filter__filters"><a href="#">Wi-Fi<i></i></a><a href="#">пу<i></i></a><a href="#">Wi<i></i></a><a href="#">кальян<i></i></a></p>
+				</div>
+				<div class="search-filter__wrap">
+					<h3>Средний чек:</h3>
+					<ul class="search-filter__type">
+						<li class="search-filter__typeactive"><input id="sf11" type="checkbox"><label for="sf11">Р (до 1500 руб.)</label></li>
+						<li><input id="sf21" type="checkbox"><label for="sf21">РР (1500 - 3000 руб.), </label></li>
+						<li><input id="sf31" type="checkbox"><label for="sf31">РРРР (свыше 3000 руб.)</label></li>
+					</ul>
+				</div>
+				<div class="search-filter__wrap">
+					<a href="#" class="sf__add-new">Добавить кухню</a>
+				</div>
+				<div class="search-filter__wrap">
+					<h3>Особенности:</h3>
+					<ul class="search-filter__type">
+						<li><input id="sf112" type="checkbox"><label for="sf112">Работает до утра</label></li>
+						<li><input id="sf212" type="checkbox"><label for="sf212">Красивый вид</label></li>
+						<li><input id="sf312" type="checkbox"><label for="sf312">В центре</label></li>
+					</ul>
+					<p class="search-filter__more"><a href="#">Еще</a></p>
+				</div>
+				<div class="search-filter__wrap">
+					<h3>Куда ходят мои друзья:</h3>
+					<ul class="search-filter__type">
+						<li><input id="sf113" type="checkbox"><label for="sf113">Найти друзей</label></li>
+					</ul>
+				</div>
+
+			</div>
+		</div>
+		<div class="clr"></div>
+	</form>
+	<!-- END .search -->
+	<!-- BEGIN .recommed -->
+	
+	<!-- END .recommed -->
+	<!-- BEGIN .push -->
+	<div class="push"></div>
+	<!-- END .push -->
+</div>
+<!-- END .container -->
+<!-- BEGIN .footer -->
+<div class="footer">
+	<span class="copyright">© 2012 Gettable</span>
+	<ul class="footer__nav">
+		<li><a href="#">О проекте</a></li>
+		<li><a href="#">Оферта</a></li>
+		<li><a href="#">Пользовательское соглашение</a></li>
+		<li><a href="#">Вакансии</a></li>
+		<li><a href="#">Контактная информация</a></li>
+	</ul> 
+</div>
+<!-- END .footer -->
+<div class="popup-wrap" style="display:block;"></div>
+<!-- BEGIN .popup -->
+<div class="popup">
+	<button class="popup__close"></button>
+	<img src="img/map1.jpg" alt="">
+</div>
+<!-- END .popup -->
+
+<!-- BEGIN  popup_add-fav-->
+<div class="popup_add-fav">
+	<h2 class="h2">Заведение добавлено в любимые</h2>
+</div>
+<!-- END popup_add-fav-->
+
+<!-- BEGIN  popup_forsquare-->
+<div class="popup_forsquare">
+	<button class="popup__close"></button>
+	<h2 class="h2">Куда ходят мои друзья?</h2>
+	<p>Чтобы посмотреть какие места любят ваши<br>
+		друзья, необходимо войти через FrouSquare</p>
+	<div class="popup__devider"></div>
+	<button class="btn-foursquare">Войти через FourSquare</button>
+</div>
+<!-- END popup_forsquare-->
+
+<!-- BEGIN  popup_forsquare-->
+<div class="popup_forsquare"  style="display:block;">
+	<button class="popup__close"></button>
+	<h2 class="h2">Как это выглядит.</h2>
+	<p>Чтобы посмотреть какие места любят ваши<br>
+		друзья, необходимо войти через FrouSquare</p>
+	<div class="popup__devider"></div>
+	<button class="btn-foursquare"><i></i>Войти через FourSquare</button>
+</div>
+<!-- END popup_forsquare-->
+
+<!-- BEGIN  popup_social-->
+<div class="popup_social">
+	<button class="popup__close"></button>
+	<div class="popup_social-in">
+		<h2 class="h2"><span>Авторизируйтесь <em>через социальные сети</em></span></h2>
+		<ul class="social-login">
+			<li>
+				<a href="#" class="fb_big"></a>
+				<div class="social-login__divider"></div>
+			</li>
+			<li>
+				<a href="#" class="fs_big"></a>
+				<div class="social-login__divider"></div>
+			</li>
+			<li>
+				<a href="#" class="vk_big"></a>
+				<div class="social-login__divider"></div>
+			</li>
+			<li>
+				<a href="#" class="od_big"></a>
+				<div class="social-login__divider"></div>
+			</li>
+		</ul>
+	</div>
+</div>
+<!-- END popup_forsquare-->
+
+</body>
+</html>

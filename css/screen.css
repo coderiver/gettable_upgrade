@@ -7,16 +7,16 @@
 }
 
 /* line 36, ../scss/lib/_base.scss */
-.cab .cab__header, .cab__cnt {
+.cab header, .cab__cnt {
   *zoom: 1;
 }
 /* line 38, ../scss/lib/_base.scss */
-.cab .cab__header:before, .cab__cnt:before, .cab .cab__header:after, .cab__cnt:after {
+.cab header:before, .cab__cnt:before, .cab header:after, .cab__cnt:after {
   content: " ";
   display: table;
 }
 /* line 42, ../scss/lib/_base.scss */
-.cab .cab__header:after, .cab__cnt:after {
+.cab header:after, .cab__cnt:after {
   clear: both;
 }
 
@@ -832,16 +832,16 @@ input, textarea, button {
 }
 
 /* line 36, ../scss/lib/_base.scss */
-.cab .cab__header, .cab__cnt {
+.cab header, .cab__cnt {
   *zoom: 1;
 }
 /* line 38, ../scss/lib/_base.scss */
-.cab .cab__header:before, .cab__cnt:before, .cab .cab__header:after, .cab__cnt:after {
+.cab header:before, .cab__cnt:before, .cab header:after, .cab__cnt:after {
   content: " ";
   display: table;
 }
 /* line 42, ../scss/lib/_base.scss */
-.cab .cab__header:after, .cab__cnt:after {
+.cab header:after, .cab__cnt:after {
   clear: both;
 }
 
@@ -888,16 +888,16 @@ input, textarea, button {
 }
 
 /* line 36, ../scss/lib/_base.scss */
-.cab .cab__header, .cab__cnt {
+.cab header, .cab__cnt {
   *zoom: 1;
 }
 /* line 38, ../scss/lib/_base.scss */
-.cab .cab__header:before, .cab__cnt:before, .cab .cab__header:after, .cab__cnt:after {
+.cab header:before, .cab__cnt:before, .cab header:after, .cab__cnt:after {
   content: " ";
   display: table;
 }
 /* line 42, ../scss/lib/_base.scss */
-.cab .cab__header:after, .cab__cnt:after {
+.cab header:after, .cab__cnt:after {
   clear: both;
 }
 
@@ -1825,16 +1825,16 @@ input, textarea, button {
 }
 
 /* line 36, ../scss/lib/_base.scss */
-.cab .cab__header, .cab__cnt {
+.cab header, .cab__cnt {
   *zoom: 1;
 }
 /* line 38, ../scss/lib/_base.scss */
-.cab .cab__header:before, .cab__cnt:before, .cab .cab__header:after, .cab__cnt:after {
+.cab header:before, .cab__cnt:before, .cab header:after, .cab__cnt:after {
   content: " ";
   display: table;
 }
 /* line 42, ../scss/lib/_base.scss */
-.cab .cab__header:after, .cab__cnt:after {
+.cab header:after, .cab__cnt:after {
   clear: both;
 }
 
@@ -2311,16 +2311,16 @@ input, textarea, button {
 }
 
 /* line 36, ../scss/lib/_base.scss */
-.cab .cab__header, .cab__cnt {
+.cab header, .cab__cnt {
   *zoom: 1;
 }
 /* line 38, ../scss/lib/_base.scss */
-.cab .cab__header:before, .cab__cnt:before, .cab .cab__header:after, .cab__cnt:after {
+.cab header:before, .cab__cnt:before, .cab header:after, .cab__cnt:after {
   content: " ";
   display: table;
 }
 /* line 42, ../scss/lib/_base.scss */
-.cab .cab__header:after, .cab__cnt:after {
+.cab header:after, .cab__cnt:after {
   clear: both;
 }
 
@@ -2741,16 +2741,16 @@ input, textarea, button {
 }
 
 /* line 36, ../scss/lib/_base.scss */
-.cab .cab__header, .cab__cnt {
+.cab header, .cab__cnt {
   *zoom: 1;
 }
 /* line 38, ../scss/lib/_base.scss */
-.cab .cab__header:before, .cab__cnt:before, .cab .cab__header:after, .cab__cnt:after {
+.cab header:before, .cab__cnt:before, .cab header:after, .cab__cnt:after {
   content: " ";
   display: table;
 }
 /* line 42, ../scss/lib/_base.scss */
-.cab .cab__header:after, .cab__cnt:after {
+.cab header:after, .cab__cnt:after {
   clear: both;
 }
 
@@ -2838,16 +2838,16 @@ input, textarea, button {
 }
 
 /* line 36, ../scss/lib/_base.scss */
-.cab .cab__header, .cab__cnt {
+.cab header, .cab__cnt {
   *zoom: 1;
 }
 /* line 38, ../scss/lib/_base.scss */
-.cab .cab__header:before, .cab__cnt:before, .cab .cab__header:after, .cab__cnt:after {
+.cab header:before, .cab__cnt:before, .cab header:after, .cab__cnt:after {
   content: " ";
   display: table;
 }
 /* line 42, ../scss/lib/_base.scss */
-.cab .cab__header:after, .cab__cnt:after {
+.cab header:after, .cab__cnt:after {
   clear: both;
 }
 
@@ -2962,16 +2962,16 @@ input, textarea, button {
 }
 
 /* line 36, ../scss/lib/_base.scss */
-.cab .cab__header, .cab__cnt {
+.cab header, .cab__cnt {
   *zoom: 1;
 }
 /* line 38, ../scss/lib/_base.scss */
-.cab .cab__header:before, .cab__cnt:before, .cab .cab__header:after, .cab__cnt:after {
+.cab header:before, .cab__cnt:before, .cab header:after, .cab__cnt:after {
   content: " ";
   display: table;
 }
 /* line 42, ../scss/lib/_base.scss */
-.cab .cab__header:after, .cab__cnt:after {
+.cab header:after, .cab__cnt:after {
   clear: both;
 }
 
@@ -3037,16 +3037,16 @@ input, textarea, button {
 }
 
 /* line 36, ../scss/lib/_base.scss */
-.cab .cab__header, .cab__cnt {
+.cab header, .cab__cnt {
   *zoom: 1;
 }
 /* line 38, ../scss/lib/_base.scss */
-.cab .cab__header:before, .cab__cnt:before, .cab .cab__header:after, .cab__cnt:after {
+.cab header:before, .cab__cnt:before, .cab header:after, .cab__cnt:after {
   content: " ";
   display: table;
 }
 /* line 42, ../scss/lib/_base.scss */
-.cab .cab__header:after, .cab__cnt:after {
+.cab header:after, .cab__cnt:after {
   clear: both;
 }
 
@@ -3813,16 +3813,16 @@ input, textarea, button {
 }
 
 /* line 36, ../scss/lib/_base.scss */
-.cab .cab__header, .cab__cnt {
+.cab header, .cab__cnt {
   *zoom: 1;
 }
 /* line 38, ../scss/lib/_base.scss */
-.cab .cab__header:before, .cab__cnt:before, .cab .cab__header:after, .cab__cnt:after {
+.cab header:before, .cab__cnt:before, .cab header:after, .cab__cnt:after {
   content: " ";
   display: table;
 }
 /* line 42, ../scss/lib/_base.scss */
-.cab .cab__header:after, .cab__cnt:after {
+.cab header:after, .cab__cnt:after {
   clear: both;
 }
 
@@ -4616,7 +4616,7 @@ input, textarea, button {
   margin-left: -50px;
 }
 /* line 35, ../scss/_upgr_main.scss */
-.cab .cab__header {
+.cab header {
   width: 880px;
   padding-left: 40px;
   padding-bottom: 15px;
@@ -4624,7 +4624,7 @@ input, textarea, button {
   border-bottom: 1px dotted #636363;
 }
 /* line 42, ../scss/_upgr_main.scss */
-.cab .cab__header i {
+.cab header i {
   margin-right: 20px;
   float: left;
   background: url('../img/icons-s5d9c90f229.png') 0 -3189px no-repeat;
@@ -4632,7 +4632,7 @@ input, textarea, button {
   height: 43px;
 }
 /* line 47, ../scss/_upgr_main.scss */
-.cab .cab__header h1 {
+.cab header h1 {
   font-family: 'Conv_HelveticaNeue-CondensedBold', Arial, sans-serif;
   padding-top: 9px;
 }
@@ -4714,6 +4714,37 @@ input, textarea, button {
 /* line 104, ../scss/_upgr_main.scss */
 .cab__cnt .cab__edit_changing {
   margin-left: 20px;
+}
+/* line 107, ../scss/_upgr_main.scss */
+.cab__cnt .cab__save {
+  height: 22px;
+  line-height: 38px;
+  padding: 8px 25px;
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2JmNTk0ZCIvPjxzdG9wIG9mZnNldD0iNTAlIiBzdG9wLWNvbG9yPSIjYWQ0NjNiIi8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjOTczMDI1Ii8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIgLz48L3N2Zz4g');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #bf594d), color-stop(50%, #ad463b), color-stop(100%, #973025));
+  background-image: -webkit-linear-gradient(#bf594d 0%, #ad463b 50%, #973025 100%);
+  background-image: -moz-linear-gradient(#bf594d 0%, #ad463b 50%, #973025 100%);
+  background-image: -o-linear-gradient(#bf594d 0%, #ad463b 50%, #973025 100%);
+  background-image: linear-gradient(#bf594d 0%, #ad463b 50%, #973025 100%);
+  -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 1px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 1px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 1px;
+  border-radius: 5px;
+  display: inline-block;
+  font: 18px 'Conv_HelveticaNeue-CondensedBold';
+  color: #FFF;
+  text-shadow: 0 -2px 0 rgba(0, 0, 0, 0.27);
+}
+/* line 118, ../scss/_upgr_main.scss */
+.cab__cnt .cab__save:hover {
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzk3MzAyNSIvPjxzdG9wIG9mZnNldD0iNTAlIiBzdG9wLWNvbG9yPSIjYWQ0NjNiIi8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjYmY1OTRkIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIgLz48L3N2Zz4g');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #973025), color-stop(50%, #ad463b), color-stop(100%, #bf594d));
+  background-image: -webkit-linear-gradient(#973025 0%, #ad463b 50%, #bf594d 100%);
+  background-image: -moz-linear-gradient(#973025 0%, #ad463b 50%, #bf594d 100%);
+  background-image: -o-linear-gradient(#973025 0%, #ad463b 50%, #bf594d 100%);
+  background-image: linear-gradient(#973025 0%, #ad463b 50%, #bf594d 100%);
 }
 
 /* ------------------------------------ //END Main styles --------------------------------------- */
