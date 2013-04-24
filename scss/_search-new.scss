@@ -6,11 +6,18 @@
 	.search__item {
 		padding: 11px 0;
 		strong {
-				padding: 0 27px;
+			padding: 0 27px;
+			span{
+				font-family: 'HelveticaNeueMed';
+				font-weight: normal;
+			}
 		}
 	}
 	.search__date {
 		width: 314px;
+	}
+	.search__note{
+		width: 525px;
 	}
 	.search__time {
 		width: 229px;
@@ -95,6 +102,22 @@
 			 }
 			&.s-tabs__list i{@include sized-sprite($icons, 'tabs_list');}
 			&.s-tabs__map i{@include sized-sprite($icons, 'tabs_map');}
+		}
+	}
+	.s-tabs_mod{
+		a{
+			padding: 0 22px;
+			height: 30px;
+			line-height: 30px;
+			display: block;
+			font-family: 'HelveticaNeueMed';
+			font-weight: bold;
+			color: #2b2b2b;
+		}
+		.is-active{
+			a{
+				color: #e6e6e6;
+			}
 		}
 	}
 }

@@ -29,6 +29,9 @@
 		text-shadow:0 1px 0 #fff;
 	}
 }
+.select_cabinet-enter{
+	padding: 4px 25px;
+}
 // cab
 .cab{
 	margin-left: -50px;
@@ -90,6 +93,9 @@
 			border-radius: 3px;
 			border: 1px solid #cacaca;
 			font: 20px 'Conv_HelveticaNeue', Arial, sans-serif;
+			&:focus{
+				outline: 1px solid #666;
+			}
 		}
 	}
 	.cab__edit{
