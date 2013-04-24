@@ -4886,4 +4886,18 @@ input, textarea, button {
   margin-top: -172px;
 }
 
+/* line 144, ../scss/_upgr_main.scss */
+.popup_review-went3 {
+  width: 380px;
+  height: 295px;
+  margin-top: -172px;
+}
+
+/* line 149, ../scss/_upgr_main.scss */
+.popup__note {
+  margin: 25px 0 18px;
+  font: 14px 'helveticaneuecyrroman';
+  color: #adadad;
+}
+
 /* ------------------------------------ //END Main styles --------------------------------------- */
