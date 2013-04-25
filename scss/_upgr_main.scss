@@ -60,6 +60,7 @@
 		width: 66px;
 		height: 64px;
 		line-height: 64px;
+		float: left;
 		margin-bottom: 30px;
 		@include border-radius(3px);
 		@include background-clip(padding-box);
@@ -109,6 +110,11 @@
 	}
 	.cab__edit_changing{
 		margin-left: 20px;
+	}
+	.cab__edit_changing-img{
+		margin-left: 20px;
+		margin-top: 25px;
+		display: inline-block;
 	}
 	.cab__save{
 		height: 22px;

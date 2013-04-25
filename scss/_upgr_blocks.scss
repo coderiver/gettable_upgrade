@@ -1,4 +1,9 @@
 /* ------------------------------------- Independent blocks -------------------------------------- */
+// classes
+.clr{
+	clear: both;
+}
+// link
 .link_red{
 	font-family: 'HelveticaNeueMed', Arial, sans-serif;
 	font-size: 14px;
@@ -8,6 +13,7 @@
 		text-decoration: none;
 	}
 }
+// tags
 .tags{
 	background: #e7e6e6;
 	border: none;
@@ -38,6 +44,7 @@
 		}
 	}
 }
+//popup__input
 .popup__input{
 	height: 22px;
 	padding: 5px ;
@@ -53,5 +60,16 @@ input.popup__input{
 	&:focus{
 		outline: 1px solid #666;
 	}
+}
+//popup_review
+.popup_review{
+	@extend .popup;
+	width: 380px;
+	height: auto;
+	margin: -56px 0 0 -212px;
+	text-align: left;
+	border-radius: 3px;
+	color: #353535;
+	line-height: 1.2;
 }
 /* ---------------------------------- //END Independent blocks ----------------------------------- */

@@ -4675,19 +4675,24 @@ input, textarea, button {
 }
 
 /* ------------------------------------- Independent blocks -------------------------------------- */
-/* line 2, ../scss/_upgr_blocks.scss */
+/* line 3, ../scss/_upgr_blocks.scss */
+.clr {
+  clear: both;
+}
+
+/* line 7, ../scss/_upgr_blocks.scss */
 .link_red {
   font-family: 'HelveticaNeueMed', Arial, sans-serif;
   font-size: 14px;
   text-decoration: underline;
   color: #c62101;
 }
-/* line 7, ../scss/_upgr_blocks.scss */
+/* line 12, ../scss/_upgr_blocks.scss */
 .link_red:hover {
   text-decoration: none;
 }
 
-/* line 11, ../scss/_upgr_blocks.scss */
+/* line 17, ../scss/_upgr_blocks.scss */
 .tags {
   background: #e7e6e6;
   border: none;
@@ -4704,7 +4709,7 @@ input, textarea, button {
   font-size: 13px;
   text-shadow: 0 1px 1px rgba(255, 255, 255, 0.8);
 }
-/* line 26, ../scss/_upgr_blocks.scss */
+/* line 32, ../scss/_upgr_blocks.scss */
 .tags i {
   background: url('../img/icons-s5d9c90f229.png') 0 -3510px no-repeat;
   width: 13px;
@@ -4714,7 +4719,7 @@ input, textarea, button {
   vertical-align: middle;
   display: inline-block;
 }
-/* line 33, ../scss/_upgr_blocks.scss */
+/* line 39, ../scss/_upgr_blocks.scss */
 .tags:hover {
   background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0icmdiYSgyNTUsIDI1NSwgMjU1LCAwLjQpIi8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjZDVkNWQ1Ii8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIgLz48L3N2Zz4g');
   background-size: 100%;
@@ -4725,12 +4730,12 @@ input, textarea, button {
   background-image: linear-gradient(rgba(255, 255, 255, 0.4), #d5d5d5);
   box-shadow: inset 0 1px 0 white, 0 2px 2px rgba(0, 0, 0, 0.1);
 }
-/* line 36, ../scss/_upgr_blocks.scss */
+/* line 42, ../scss/_upgr_blocks.scss */
 .tags:hover i {
   opacity: .77;
 }
 
-/* line 41, ../scss/_upgr_blocks.scss */
+/* line 48, ../scss/_upgr_blocks.scss */
 .popup__input {
   height: 22px;
   padding: 5px;
@@ -4738,18 +4743,29 @@ input, textarea, button {
   border-radius: 3px;
   margin-bottom: 18px;
 }
-/* line 47, ../scss/_upgr_blocks.scss */
+/* line 54, ../scss/_upgr_blocks.scss */
 .popup__input:hover {
   cursor: text;
 }
 
-/* line 51, ../scss/_upgr_blocks.scss */
+/* line 58, ../scss/_upgr_blocks.scss */
 input.popup__input {
   width: 368px;
 }
-/* line 53, ../scss/_upgr_blocks.scss */
+/* line 60, ../scss/_upgr_blocks.scss */
 input.popup__input:focus {
   outline: 1px solid #666;
+}
+
+/* line 65, ../scss/_upgr_blocks.scss */
+.popup_review {
+  width: 380px;
+  height: auto;
+  margin: -56px 0 0 -212px;
+  text-align: left;
+  border-radius: 3px;
+  color: #353535;
+  line-height: 1.2;
 }
 
 /* ---------------------------------- //END Independent blocks ----------------------------------- */
@@ -4827,6 +4843,7 @@ input.popup__input:focus {
   width: 66px;
   height: 64px;
   line-height: 64px;
+  float: left;
   margin-bottom: 30px;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -4848,30 +4865,30 @@ input.popup__input:focus {
   background-image: -o-linear-gradient(bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 61.13%, rgba(255, 255, 255, 0.32) 100%);
   background-image: linear-gradient(bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 61.13%, rgba(255, 255, 255, 0.32) 100%);
 }
-/* line 69, ../scss/_upgr_main.scss */
+/* line 70, ../scss/_upgr_main.scss */
 .cab__cnt .cab__img img {
   max-width: 44px;
   height: 48px;
   vertical-align: middle;
   padding: 10px 11px 6px;
 }
-/* line 76, ../scss/_upgr_main.scss */
+/* line 77, ../scss/_upgr_main.scss */
 .cab__cnt .cab__user {
   margin-bottom: 30px;
   font: 20px 'Conv_HelveticaNeue-CondensedBold', Arial, sans-serif;
   font-weight: bold;
 }
-/* line 80, ../scss/_upgr_main.scss */
+/* line 81, ../scss/_upgr_main.scss */
 .cab__cnt .cab__user span {
   font-family: 'Conv_HelveticaNeue', Arial, sans-serif;
   font-weight: normal;
 }
-/* line 84, ../scss/_upgr_main.scss */
+/* line 85, ../scss/_upgr_main.scss */
 .cab__cnt .cab__user label {
   min-width: 60px;
   display: inline-block;
 }
-/* line 88, ../scss/_upgr_main.scss */
+/* line 89, ../scss/_upgr_main.scss */
 .cab__cnt .cab__user input {
   min-width: 105px;
   height: 17px;
@@ -4881,26 +4898,32 @@ input.popup__input:focus {
   border: 1px solid #cacaca;
   font: 20px 'Conv_HelveticaNeue', Arial, sans-serif;
 }
-/* line 96, ../scss/_upgr_main.scss */
+/* line 97, ../scss/_upgr_main.scss */
 .cab__cnt .cab__user input:focus {
   outline: 1px solid #666;
 }
-/* line 101, ../scss/_upgr_main.scss */
+/* line 102, ../scss/_upgr_main.scss */
 .cab__cnt .cab__edit {
   margin-top: 40px;
   font: 14px 'Conv_HelveticaNeue', Arial, sans-serif;
   color: #636363;
   text-decoration: underline;
 }
-/* line 106, ../scss/_upgr_main.scss */
+/* line 107, ../scss/_upgr_main.scss */
 .cab__cnt .cab__edit:hover {
   text-decoration: none;
 }
-/* line 110, ../scss/_upgr_main.scss */
+/* line 111, ../scss/_upgr_main.scss */
 .cab__cnt .cab__edit_changing {
   margin-left: 20px;
 }
-/* line 113, ../scss/_upgr_main.scss */
+/* line 114, ../scss/_upgr_main.scss */
+.cab__cnt .cab__edit_changing-img {
+  margin-left: 20px;
+  margin-top: 25px;
+  display: inline-block;
+}
+/* line 119, ../scss/_upgr_main.scss */
 .cab__cnt .cab__save {
   height: 22px;
   line-height: 38px;
@@ -4921,7 +4944,7 @@ input.popup__input:focus {
   color: #FFF;
   text-shadow: 0 -2px 0 rgba(0, 0, 0, 0.27);
 }
-/* line 124, ../scss/_upgr_main.scss */
+/* line 130, ../scss/_upgr_main.scss */
 .cab__cnt .cab__save:hover {
   background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzk3MzAyNSIvPjxzdG9wIG9mZnNldD0iNTAlIiBzdG9wLWNvbG9yPSIjYWQ0NjNiIi8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjYmY1OTRkIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIgLz48L3N2Zz4g');
   background-size: 100%;
@@ -4933,32 +4956,32 @@ input.popup__input:focus {
 }
 
 /* ----------------------------------------- PAGE cabinet--------------------------------------- */
-/* line 131, ../scss/_upgr_main.scss */
+/* line 137, ../scss/_upgr_main.scss */
 .check2 {
   margin: 25px 0 30px;
   display: block;
   font-family: 'HelveticaNeueMed', Arial, sans-serif;
 }
-/* line 135, ../scss/_upgr_main.scss */
+/* line 141, ../scss/_upgr_main.scss */
 .check2 input {
   vertical-align: bottom;
   margin-right: 10px;
 }
 
-/* line 140, ../scss/_upgr_main.scss */
+/* line 146, ../scss/_upgr_main.scss */
 .popup_review-went2 {
   height: 295px;
   margin-top: -172px;
 }
 
-/* line 144, ../scss/_upgr_main.scss */
+/* line 150, ../scss/_upgr_main.scss */
 .popup_review-went3 {
   width: 380px;
   height: 370px;
   margin-top: -172px;
 }
 
-/* line 149, ../scss/_upgr_main.scss */
+/* line 155, ../scss/_upgr_main.scss */
 .popup__note {
   margin: 25px 0 18px;
   font: 14px 'helveticaneuecyrroman';
