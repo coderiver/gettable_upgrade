@@ -4687,6 +4687,62 @@ input, textarea, button {
   text-decoration: none;
 }
 
+/* line 11, ../scss/_upgr_blocks.scss */
+.tags {
+  background: #e7e6e6;
+  border: none;
+  border-radius: 2px;
+  color: #000;
+  box-shadow: none;
+  display: inline-block;
+  margin-right: 6px;
+  height: 22px;
+  line-height: 22px;
+  text-decoration: none;
+  padding: 0 8px;
+  margin-bottom: 8px;
+  font-size: 13px;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.8);
+}
+/* line 26, ../scss/_upgr_blocks.scss */
+.tags i {
+  background: url('../img/icons-s5d9c90f229.png') 0 -3510px no-repeat;
+  width: 13px;
+  height: 15px;
+  opacity: .44;
+  margin-left: 3px;
+  vertical-align: middle;
+  display: inline-block;
+}
+/* line 33, ../scss/_upgr_blocks.scss */
+.tags:hover {
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0icmdiYSgyNTUsIDI1NSwgMjU1LCAwLjQpIi8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjZDVkNWQ1Ii8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIgLz48L3N2Zz4g');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(255, 255, 255, 0.4)), color-stop(100%, #d5d5d5));
+  background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0.4), #d5d5d5);
+  background-image: -moz-linear-gradient(rgba(255, 255, 255, 0.4), #d5d5d5);
+  background-image: -o-linear-gradient(rgba(255, 255, 255, 0.4), #d5d5d5);
+  background-image: linear-gradient(rgba(255, 255, 255, 0.4), #d5d5d5);
+  box-shadow: inset 0 1px 0 white, 0 2px 2px rgba(0, 0, 0, 0.1);
+}
+/* line 36, ../scss/_upgr_blocks.scss */
+.tags:hover i {
+  opacity: .77;
+}
+
+/* line 41, ../scss/_upgr_blocks.scss */
+.popup__input {
+  height: 22px;
+  padding: 5px;
+  border: 1px solid #cacaca;
+  border-radius: 3px;
+  margin-bottom: 18px;
+}
+/* line 47, ../scss/_upgr_blocks.scss */
+.popup__input:hover {
+  cursor: text;
+}
+
 /* ---------------------------------- //END Independent blocks ----------------------------------- */
 /* ----------------------------------------- Main styles --------------------------------------- */
 /* ----------------------------------------- PAGE cabinet--------------------------------------- */
@@ -4889,7 +4945,7 @@ input, textarea, button {
 /* line 144, ../scss/_upgr_main.scss */
 .popup_review-went3 {
   width: 380px;
-  height: 295px;
+  height: 370px;
   margin-top: -172px;
 }
 
