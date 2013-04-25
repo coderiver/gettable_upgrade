@@ -33,7 +33,7 @@
 	padding: 4px 25px;
 }
 // cab
-.cab{
+.cab, .fav{
 	margin-left: -50px;
 	header{
 		width: 880px;
@@ -48,8 +48,7 @@
 			@include sized-sprite($icons, 'cab_header');
 		}
 		h1{
-			font-family: 'Conv_HelveticaNeue-CondensedBold', Arial, sans-serif;
-			padding-top: 9px;
+			font: 30px 'Conv_HelveticaNeue-CondensedBold', Arial, sans-serif;
 		}
 	}
 }
@@ -165,7 +164,34 @@
 /* ----------------------------------------- PAGE favorite--------------------------------------- */
 // fav
 .fav{
-	
+	width: 920px;
+	header{
+		i{
+			@include sized-sprite($icons, 'star');
+		}
+	}
+}
+.fav-places_mod{
+	width: 885px;
+	border-top: none;
+	padding: 0 0 0 40px;
+	ul.bar{
+		width: 875px;
+		padding: 5px;
+		li{
+			margin: 0 41px 15px 0;
+		}
+	}
+	.h2{
+		margin-bottom: 0;
+		line-height: 1.2;
+	}
+	.reserve-table{
+		text-decoration: underline;
+		&:hover{
+			text-decoration: none;
+		}
+	}
 }
 
 
