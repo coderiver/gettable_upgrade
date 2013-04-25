@@ -61,6 +61,19 @@ input.popup__input{
 		outline: 1px solid #666;
 	}
 }
+//popup__textarea
+.popup__textarea{
+	width: 358px;
+	max-width: 358px;
+	min-height: 75px;
+	padding: 10px;
+	border: 1px solid #cacaca;
+	border-radius: 3px;
+	margin-bottom: 18px;
+	&:focus{
+		outline: 1px solid #666;
+	}
+}
 //popup_review
 .popup_review{
 	@extend .popup;

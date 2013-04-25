@@ -4758,6 +4758,21 @@ input.popup__input:focus {
 }
 
 /* line 65, ../scss/_upgr_blocks.scss */
+.popup__textarea {
+  width: 358px;
+  max-width: 358px;
+  min-height: 75px;
+  padding: 10px;
+  border: 1px solid #cacaca;
+  border-radius: 3px;
+  margin-bottom: 18px;
+}
+/* line 73, ../scss/_upgr_blocks.scss */
+.popup__textarea:focus {
+  outline: 1px solid #666;
+}
+
+/* line 78, ../scss/_upgr_blocks.scss */
 .popup_review {
   width: 380px;
   height: auto;
@@ -4982,6 +4997,13 @@ input.popup__input:focus {
 }
 
 /* line 155, ../scss/_upgr_main.scss */
+.popup_review-went4 {
+  width: 380px;
+  height: auto;
+  margin-top: -172px;
+}
+
+/* line 160, ../scss/_upgr_main.scss */
 .popup__note {
   margin: 25px 0 18px;
   font: 14px 'helveticaneuecyrroman';
