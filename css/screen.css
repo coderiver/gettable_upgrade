@@ -1,4 +1,4 @@
-@charset "IBM866";
+@charset "Windows-1251";
 /* line 22, ../scss/lib/_base.scss */
 .logo a, .soc-entry .soc-entry__list a, .search__tabs .s-tabs i {
   font: 0/0 a;
@@ -73,7 +73,7 @@ html {
 @font-face {
   font-family: 'Conv_HelveticaNeue-CondensedBold';
   src: url("../fonts/HelveticaNeue-CondensedBold.eot");
-  src: local("☺"), url("../fonts/HelveticaNeue-CondensedBold.woff") format("woff"), url("../fonts/HelveticaNeue-CondensedBold.ttf") format("truetype"), url("../fonts/HelveticaNeue-CondensedBold.svg") format("svg");
+  src: local("тШ║"), url("../fonts/HelveticaNeue-CondensedBold.woff") format("woff"), url("../fonts/HelveticaNeue-CondensedBold.ttf") format("truetype"), url("../fonts/HelveticaNeue-CondensedBold.svg") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -4741,6 +4741,15 @@ input, textarea, button {
 /* line 47, ../scss/_upgr_blocks.scss */
 .popup__input:hover {
   cursor: text;
+}
+
+/* line 51, ../scss/_upgr_blocks.scss */
+input.popup__input {
+  width: 368px;
+}
+/* line 53, ../scss/_upgr_blocks.scss */
+input.popup__input:focus {
+  outline: 1px solid #666;
 }
 
 /* ---------------------------------- //END Independent blocks ----------------------------------- */

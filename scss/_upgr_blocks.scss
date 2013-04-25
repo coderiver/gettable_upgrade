@@ -48,4 +48,10 @@
 		cursor: text;
 	}
 }
+input.popup__input{
+	width: 368px;
+	&:focus{
+		outline: 1px solid #666;
+	}
+}
 /* ---------------------------------- //END Independent blocks ----------------------------------- */
