@@ -34,12 +34,12 @@
 }
 // cab
 .cab, .fav{
-	margin-left: -50px;
 	header{
 		width: 880px;
 		padding-left: 40px;
 		padding-bottom: 15px;
 		margin-bottom: 30px;
+		margin-left: -30px;
 		border-bottom: 1px dotted #636363;
 		@extend %clr;
 		i{
@@ -52,9 +52,9 @@
 		}
 	}
 }
+
 .cab__cnt{
 	@extend %clr;
-	padding-left: 30px;
 	.cab__img{
 		width: 66px;
 		height: 64px;
@@ -164,22 +164,42 @@
 /* ----------------------------------------- PAGE favorite--------------------------------------- */
 // fav
 .fav{
-	width: 920px;
 	header{
 		i{
 			@include sized-sprite($icons, 'star');
 		}
 	}
+	.fav__cont{
+		@extend %clr;
+		i{
+			@include sized-sprite($icons, 'favorite');
+			float: left;
+			margin-bottom: 50px;
+			margin-right: 25px;
+		}
+		p{
+			margin-bottom: 30px;
+			font-size: 18px;
+			line-height: 1.2;
+		}
+	}
+	.fav__search{
+		font-size: 18px;
+		color: #000;
+		text-decoration: underline;
+		&:hover{
+			text-decoration: none;
+		}
+	}
 }
 .fav-places_mod{
-	width: 885px;
+	padding: 0 10px;
 	border-top: none;
-	padding: 0 0 0 40px;
 	ul.bar{
-		width: 875px;
+		width: 870px;
 		padding: 5px;
 		li{
-			margin: 0 41px 15px 0;
+			margin: 0 40px 15px 0;
 		}
 	}
 	.h2{
@@ -193,6 +213,7 @@
 		}
 	}
 }
+
 
 
 
