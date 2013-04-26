@@ -127,7 +127,7 @@
 		@include box-shadow(rgba(0,0,0,0.15) 0px 1px 1px );
 		border-radius: 5px;
 		display: inline-block;
-		font: 18px 'Conv_HelveticaNeue-CondensedBold';
+		font: 18px 'Conv_HelveticaNeue-CondensedBold', Arial, sans-serif;
 		color: #FFF;
 		text-shadow:0 -2px 0 rgba(0,0,0,0.27);
 		&:hover{
@@ -155,7 +155,7 @@
 	height: auto;
 	margin-top: -172px;
 	.h2_med{
-		font-family: 'helveticaneuecyrroman';
+		font-family: 'helveticaneuecyrroman', Arial, sans-serif;
 		margin-bottom: 20px;
 	}
 	.btn{
@@ -164,7 +164,7 @@
 }
 .popup__note{
 	margin: 25px 0 18px;
-	font:14px  'helveticaneuecyrroman';
+	font:14px  'helveticaneuecyrroman', Arial, sans-serif;
 	color: #adadad;
 }
 /* ----------------------------------------- PAGE favorite--------------------------------------- */
@@ -219,20 +219,7 @@
 		}
 	}
 }
-.popup_review-went4{
-	.rate_mod{
-		line-height: 20px;
-		margin-bottom: 20px;
-		overflow: hidden;
-		span{
-			margin-right: 10px;
-			font-family: 'HelveticaNeue';
-		}
-	}
-}
-.popup_review-went4_mod{
-	margin-top: -250px;
-}
+
 
 
 

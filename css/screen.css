@@ -4687,35 +4687,45 @@ input, textarea, button {
 }
 
 /* line 6, ../scss/_upgr_blocks.scss */
+.fl {
+  float: left;
+}
+
+/* line 9, ../scss/_upgr_blocks.scss */
+.fr {
+  float: right;
+}
+
+/* line 12, ../scss/_upgr_blocks.scss */
 .owners_mod {
   padding: 35px 30px 65px;
 }
 
-/* line 10, ../scss/_upgr_blocks.scss */
+/* line 16, ../scss/_upgr_blocks.scss */
 .link_red {
   font-family: 'HelveticaNeueMed', Arial, sans-serif;
   font-size: 14px;
   text-decoration: underline;
   color: #c62101;
 }
-/* line 15, ../scss/_upgr_blocks.scss */
+/* line 21, ../scss/_upgr_blocks.scss */
 .link_red:hover {
   text-decoration: none;
 }
 
-/* line 19, ../scss/_upgr_blocks.scss */
+/* line 25, ../scss/_upgr_blocks.scss */
 .link_blue {
   font-family: 'HelveticaNeueMed', Arial, sans-serif;
   font-size: 14px;
   color: #2f6d91;
   text-decoration: none;
 }
-/* line 24, ../scss/_upgr_blocks.scss */
+/* line 30, ../scss/_upgr_blocks.scss */
 .link_blue:hover {
   text-decoration: underline;
 }
 
-/* line 29, ../scss/_upgr_blocks.scss */
+/* line 35, ../scss/_upgr_blocks.scss */
 .tags {
   background: #e7e6e6;
   border: none;
@@ -4732,7 +4742,7 @@ input, textarea, button {
   font-size: 13px;
   text-shadow: 0 1px 1px rgba(255, 255, 255, 0.8);
 }
-/* line 44, ../scss/_upgr_blocks.scss */
+/* line 50, ../scss/_upgr_blocks.scss */
 .tags i {
   background: url('../img/icons-sa2dc2ff3e7.png') 0 -3472px no-repeat;
   width: 13px;
@@ -4742,7 +4752,7 @@ input, textarea, button {
   vertical-align: middle;
   display: inline-block;
 }
-/* line 51, ../scss/_upgr_blocks.scss */
+/* line 57, ../scss/_upgr_blocks.scss */
 .tags:hover {
   background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0icmdiYSgyNTUsIDI1NSwgMjU1LCAwLjQpIi8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjZDVkNWQ1Ii8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIgLz48L3N2Zz4g');
   background-size: 100%;
@@ -4753,12 +4763,12 @@ input, textarea, button {
   background-image: linear-gradient(rgba(255, 255, 255, 0.4), #d5d5d5);
   box-shadow: inset 0 1px 0 white, 0 2px 2px rgba(0, 0, 0, 0.1);
 }
-/* line 54, ../scss/_upgr_blocks.scss */
+/* line 60, ../scss/_upgr_blocks.scss */
 .tags:hover i {
   opacity: .77;
 }
 
-/* line 60, ../scss/_upgr_blocks.scss */
+/* line 66, ../scss/_upgr_blocks.scss */
 .popup__input {
   height: 22px;
   padding: 5px;
@@ -4766,21 +4776,21 @@ input, textarea, button {
   border-radius: 3px;
   margin-bottom: 18px;
 }
-/* line 66, ../scss/_upgr_blocks.scss */
+/* line 72, ../scss/_upgr_blocks.scss */
 .popup__input:hover {
   cursor: text;
 }
 
-/* line 70, ../scss/_upgr_blocks.scss */
+/* line 76, ../scss/_upgr_blocks.scss */
 input.popup__input {
   width: 368px;
 }
-/* line 72, ../scss/_upgr_blocks.scss */
+/* line 78, ../scss/_upgr_blocks.scss */
 input.popup__input:focus {
   outline: 1px solid #666;
 }
 
-/* line 77, ../scss/_upgr_blocks.scss */
+/* line 83, ../scss/_upgr_blocks.scss */
 .popup__textarea {
   width: 358px;
   max-width: 358px;
@@ -4790,12 +4800,12 @@ input.popup__input:focus {
   border-radius: 3px;
   margin-bottom: 18px;
 }
-/* line 85, ../scss/_upgr_blocks.scss */
+/* line 91, ../scss/_upgr_blocks.scss */
 .popup__textarea:focus {
   outline: 1px solid #666;
 }
 
-/* line 90, ../scss/_upgr_blocks.scss */
+/* line 96, ../scss/_upgr_blocks.scss */
 .popup_review {
   width: 380px;
   height: auto;
@@ -4806,7 +4816,7 @@ input.popup__input:focus {
   line-height: 1.2;
 }
 
-/* line 101, ../scss/_upgr_blocks.scss */
+/* line 107, ../scss/_upgr_blocks.scss */
 .btn {
   height: 30px;
   padding: 6px 15px;
@@ -4822,10 +4832,10 @@ input.popup__input:focus {
   -moz-box-shadow: 1px 0 1px rgba(0, 0, 0, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.26);
   box-shadow: 1px 0 1px rgba(0, 0, 0, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.26);
   color: #FFF;
-  font: 18px 'Conv_HelveticaNeue-CondensedBold';
+  font: 18px 'Conv_HelveticaNeue-CondensedBold', Arial, sans-serif;
   text-shadow: 0 -2px 0 rgba(0, 0, 0, 0.27);
 }
-/* line 112, ../scss/_upgr_blocks.scss */
+/* line 118, ../scss/_upgr_blocks.scss */
 .btn:hover {
   background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjEwMCUiIHgyPSI1MCUiIHkyPSIwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0icmdiYSgyNTUsIDI1NSwgMjU1LCAwLjE2KSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0icmdiYSgwLCAwLCAwLCAwLjE2KSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
   background-size: 100%;
@@ -4835,13 +4845,13 @@ input.popup__input:focus {
   background-image: -o-linear-gradient(bottom, rgba(255, 255, 255, 0.16) 0%, rgba(0, 0, 0, 0.16) 100%);
   background-image: linear-gradient(bottom, rgba(255, 255, 255, 0.16) 0%, rgba(0, 0, 0, 0.16) 100%);
 }
-/* line 115, ../scss/_upgr_blocks.scss */
+/* line 121, ../scss/_upgr_blocks.scss */
 .btn i {
   position: relative;
   display: inline-block;
   margin-right: 14px;
 }
-/* line 119, ../scss/_upgr_blocks.scss */
+/* line 125, ../scss/_upgr_blocks.scss */
 .btn i:after {
   content: "";
   display: block;
@@ -4849,17 +4859,17 @@ input.popup__input:focus {
   top: 0;
   right: -14px;
 }
-/* line 127, ../scss/_upgr_blocks.scss */
+/* line 133, ../scss/_upgr_blocks.scss */
 .btn span {
   vertical-align: top;
   line-height: 30px;
 }
-/* line 131, ../scss/_upgr_blocks.scss */
+/* line 137, ../scss/_upgr_blocks.scss */
 .btn i + span {
   padding-left: 15px;
 }
 
-/* line 136, ../scss/_upgr_blocks.scss */
+/* line 142, ../scss/_upgr_blocks.scss */
 .btn-danger {
   background-color: #30a318;
   background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjEwMCUiIHgyPSI1MCUiIHkyPSIwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0icmdiYSgwLCAwLCAwLCAwLjE2KSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0icmdiYSgyNTUsIDI1NSwgMjU1LCAwLjE2KSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
@@ -4870,20 +4880,20 @@ input.popup__input:focus {
   background-image: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.16) 0%, rgba(255, 255, 255, 0.16) 100%);
   background-image: linear-gradient(bottom, rgba(0, 0, 0, 0.16) 0%, rgba(255, 255, 255, 0.16) 100%);
 }
-/* line 139, ../scss/_upgr_blocks.scss */
+/* line 145, ../scss/_upgr_blocks.scss */
 .btn-danger i {
   background: url('../img/icons-sa2dc2ff3e7.png') 0 -4659px no-repeat;
   width: 19px;
   height: 25px;
 }
-/* line 141, ../scss/_upgr_blocks.scss */
+/* line 147, ../scss/_upgr_blocks.scss */
 .btn-danger i:after {
   background: url('../img/icons-sa2dc2ff3e7.png') 0 -4838px no-repeat;
   width: 3px;
   height: 39px;
 }
 
-/* line 148, ../scss/_upgr_blocks.scss */
+/* line 154, ../scss/_upgr_blocks.scss */
 .btn-success {
   background-color: #e92500;
   background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjEwMCUiIHgyPSI1MCUiIHkyPSIwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0icmdiYSgwLCAwLCAwLCAwLjE2KSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0icmdiYSgyNTUsIDI1NSwgMjU1LCAwLjE2KSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
@@ -4894,21 +4904,21 @@ input.popup__input:focus {
   background-image: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.16) 0%, rgba(255, 255, 255, 0.16) 100%);
   background-image: linear-gradient(bottom, rgba(0, 0, 0, 0.16) 0%, rgba(255, 255, 255, 0.16) 100%);
 }
-/* line 151, ../scss/_upgr_blocks.scss */
+/* line 157, ../scss/_upgr_blocks.scss */
 .btn-success i {
   margin-top: 3px;
   background: url('../img/icons-sa2dc2ff3e7.png') 0 -4694px no-repeat;
   width: 19px;
   height: 25px;
 }
-/* line 154, ../scss/_upgr_blocks.scss */
+/* line 160, ../scss/_upgr_blocks.scss */
 .btn-success i:after {
   background: url('../img/icons-sa2dc2ff3e7.png') 0 -4838px no-repeat;
   width: 3px;
   height: 39px;
 }
 
-/* line 161, ../scss/_upgr_blocks.scss */
+/* line 167, ../scss/_upgr_blocks.scss */
 .btn-inverse {
   background-color: #434546;
   background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjEwMCUiIHgyPSI1MCUiIHkyPSIwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0icmdiYSgwLCAwLCAwLCAwLjE2KSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0icmdiYSgyNTUsIDI1NSwgMjU1LCAwLjE2KSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
@@ -4919,50 +4929,50 @@ input.popup__input:focus {
   background-image: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.16) 0%, rgba(255, 255, 255, 0.16) 100%);
   background-image: linear-gradient(bottom, rgba(0, 0, 0, 0.16) 0%, rgba(255, 255, 255, 0.16) 100%);
 }
-/* line 164, ../scss/_upgr_blocks.scss */
+/* line 170, ../scss/_upgr_blocks.scss */
 .btn-inverse i {
   margin-top: 3px;
   background: url('../img/icons-sa2dc2ff3e7.png') 0 -4729px no-repeat;
   width: 17px;
   height: 19px;
 }
-/* line 167, ../scss/_upgr_blocks.scss */
+/* line 173, ../scss/_upgr_blocks.scss */
 .btn-inverse i:after {
   background: url('../img/icons-sa2dc2ff3e7.png') 0 -4838px no-repeat;
   width: 3px;
   height: 39px;
 }
 
-/* line 174, ../scss/_upgr_blocks.scss */
+/* line 180, ../scss/_upgr_blocks.scss */
 .check2 {
   margin: 25px 0 30px;
   display: block;
   font-family: 'HelveticaNeueMed', Arial, sans-serif;
 }
-/* line 178, ../scss/_upgr_blocks.scss */
+/* line 184, ../scss/_upgr_blocks.scss */
 .check2 input {
   vertical-align: bottom;
   margin-right: 10px;
 }
 
-/* line 184, ../scss/_upgr_blocks.scss */
+/* line 190, ../scss/_upgr_blocks.scss */
 .wrap-check3 {
   margin-top: 30px;
   margin-right: -35px;
 }
-/* line 187, ../scss/_upgr_blocks.scss */
+/* line 193, ../scss/_upgr_blocks.scss */
 .wrap-check3 .check3 {
   margin: 0px 35px 15px 0;
   display: inline-block;
   font-family: 'HelveticaNeueMed', Arial, sans-serif;
 }
-/* line 191, ../scss/_upgr_blocks.scss */
+/* line 197, ../scss/_upgr_blocks.scss */
 .wrap-check3 .check3 input {
   vertical-align: bottom;
   margin-right: 10px;
 }
 
-/* line 198, ../scss/_upgr_blocks.scss */
+/* line 204, ../scss/_upgr_blocks.scss */
 .btn-send {
   display: block;
   height: 43px;
@@ -4986,29 +4996,29 @@ input.popup__input:focus {
   width: 100%;
   background-repeat: repeat-x;
 }
-/* line 212, ../scss/_upgr_blocks.scss */
+/* line 218, ../scss/_upgr_blocks.scss */
 .btn-send:hover {
   display: block;
   background-position: 0 -354px;
   background-repeat: repeat-x;
 }
 
-/* line 219, ../scss/_upgr_blocks.scss */
+/* line 225, ../scss/_upgr_blocks.scss */
 .rate_mod {
   position: static;
 }
-/* line 221, ../scss/_upgr_blocks.scss */
+/* line 227, ../scss/_upgr_blocks.scss */
 .rate_mod span {
   color: #000;
 }
 
-/* line 226, ../scss/_upgr_blocks.scss */
+/* line 232, ../scss/_upgr_blocks.scss */
 .loader_mod {
   text-align: center;
   margin-top: 105px;
   font: 16px 'HelveticaNeue', Arial, sans-serif;
 }
-/* line 230, ../scss/_upgr_blocks.scss */
+/* line 236, ../scss/_upgr_blocks.scss */
 .loader_mod .loader_mod__krutilka {
   display: inline-block;
   vertical-align: middle;
@@ -5021,6 +5031,50 @@ input.popup__input:focus {
   -ms-animation: rotate 6s linear infinite;
   -o-animation: rotate 6s linear infinite;
   animation: rotate 6s linear infinite;
+}
+
+/* line 246, ../scss/_upgr_blocks.scss */
+.popup_review-went4 .rate_mod {
+  line-height: 20px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+/* line 250, ../scss/_upgr_blocks.scss */
+.popup_review-went4 .rate_mod span {
+  margin-right: 10px;
+  font-family: 'HelveticaNeue', Arial, sans-serif;
+}
+
+/* line 256, ../scss/_upgr_blocks.scss */
+.popup_review-went4_mod {
+  margin-top: -250px;
+}
+
+/* line 260, ../scss/_upgr_blocks.scss */
+.confirm-phone_mod {
+  width: 380px;
+  height: 160px;
+  padding: 0 50px;
+}
+/* line 264, ../scss/_upgr_blocks.scss */
+.confirm-phone_mod .icon-ok {
+  margin-right: 10px;
+}
+/* line 268, ../scss/_upgr_blocks.scss */
+.confirm-phone_mod .confirm-phone__secretmessage .confirm-phone__text {
+  margin: 40px 0;
+  font: 18px 'HelveticaNeue',Arial, sans-serif;
+  color: #000;
+}
+/* line 273, ../scss/_upgr_blocks.scss */
+.confirm-phone_mod .confirm-phone__secretmessage a {
+  font: 18px 'HelveticaNeue',Arial, sans-serif;
+  color: #000;
+  text-decoration: underline;
+}
+/* line 277, ../scss/_upgr_blocks.scss */
+.confirm-phone_mod .confirm-phone__secretmessage a:hover {
+  text-decoration: none;
 }
 
 /* ---------------------------------- //END Independent blocks ----------------------------------- */
@@ -5192,7 +5246,7 @@ input.popup__input:focus {
   box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 1px;
   border-radius: 5px;
   display: inline-block;
-  font: 18px 'Conv_HelveticaNeue-CondensedBold';
+  font: 18px 'Conv_HelveticaNeue-CondensedBold', Arial, sans-serif;
   color: #FFF;
   text-shadow: 0 -2px 0 rgba(0, 0, 0, 0.27);
 }
@@ -5236,7 +5290,7 @@ input.popup__input:focus {
 }
 /* line 157, ../scss/_upgr_main.scss */
 .popup_review-went5 .h2_med {
-  font-family: 'helveticaneuecyrroman';
+  font-family: 'helveticaneuecyrroman', Arial, sans-serif;
   margin-bottom: 20px;
 }
 /* line 161, ../scss/_upgr_main.scss */
@@ -5247,7 +5301,7 @@ input.popup__input:focus {
 /* line 165, ../scss/_upgr_main.scss */
 .popup__note {
   margin: 25px 0 18px;
-  font: 14px 'helveticaneuecyrroman';
+  font: 14px 'helveticaneuecyrroman', Arial, sans-serif;
   color: #adadad;
 }
 
@@ -5310,23 +5364,6 @@ input.popup__input:focus {
 /* line 217, ../scss/_upgr_main.scss */
 .fav-places_mod .reserve-table:hover {
   text-decoration: none;
-}
-
-/* line 223, ../scss/_upgr_main.scss */
-.popup_review-went4 .rate_mod {
-  line-height: 20px;
-  margin-bottom: 20px;
-  overflow: hidden;
-}
-/* line 227, ../scss/_upgr_main.scss */
-.popup_review-went4 .rate_mod span {
-  margin-right: 10px;
-  font-family: 'HelveticaNeue';
-}
-
-/* line 233, ../scss/_upgr_main.scss */
-.popup_review-went4_mod {
-  margin-top: -250px;
 }
 
 /* ------------------------------------ //END Main styles --------------------------------------- */

@@ -3,6 +3,12 @@
 .clr{
 	clear: both;
 }
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
 .owners_mod{
 	padding: 35px 30px 65px;
 }
@@ -107,7 +113,7 @@ input.popup__input{
 	@include border-radius(4px);
 	@include box-shadow(1px 0 1px rgba(0,0,0,.3), inset 0 1px 0 rgba(255,255,255,.26));
 	color: #FFF;
-	font: 18px  'Conv_HelveticaNeue-CondensedBold';
+	font: 18px  'Conv_HelveticaNeue-CondensedBold', Arial, sans-serif;
 	text-shadow: 0 -2px 0 rgba(0,0,0, 0.27);
 	&:hover{
 		@include background-image(linear-gradient(bottom, rgba(255,255,255,.16) 0%, rgba(0,0,0,.16) 100%));
@@ -235,5 +241,43 @@ input.popup__input{
 		@include animation(rotate 6s linear infinite);
 	}
 }
-
+// upd popup_review-went4
+.popup_review-went4{
+	.rate_mod{
+		line-height: 20px;
+		margin-bottom: 20px;
+		overflow: hidden;
+		span{
+			margin-right: 10px;
+			font-family: 'HelveticaNeue', Arial, sans-serif;
+		}
+	}
+}
+.popup_review-went4_mod{
+	margin-top: -250px;
+}
+// upd confirm-phone_mod
+.confirm-phone_mod{
+	width: 380px;
+	height: 160px;
+	padding: 0 50px;
+	.icon-ok{
+		margin-right: 10px;
+	}
+	.confirm-phone__secretmessage{
+		.confirm-phone__text{
+			margin: 40px 0;
+			font: 18px 'HelveticaNeue',Arial, sans-serif;
+			color: #000;
+		}
+		a{
+			font: 18px  'HelveticaNeue',Arial, sans-serif;
+			color: #000;
+			text-decoration: underline;
+			&:hover{
+				text-decoration: none;
+			}
+		}
+	}
+}
 /* ---------------------------------- //END Independent blocks ----------------------------------- */
