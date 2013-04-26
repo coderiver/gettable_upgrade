@@ -4933,6 +4933,66 @@ input.popup__input:focus {
   height: 39px;
 }
 
+/* line 174, ../scss/_upgr_blocks.scss */
+.check2 {
+  margin: 25px 0 30px;
+  display: block;
+  font-family: 'HelveticaNeueMed', Arial, sans-serif;
+}
+/* line 178, ../scss/_upgr_blocks.scss */
+.check2 input {
+  vertical-align: bottom;
+  margin-right: 10px;
+}
+
+/* line 184, ../scss/_upgr_blocks.scss */
+.wrap-check3 {
+  margin-top: 30px;
+  margin-right: -35px;
+}
+/* line 187, ../scss/_upgr_blocks.scss */
+.wrap-check3 .check3 {
+  margin: 0px 35px 15px 0;
+  display: inline-block;
+  font-family: 'HelveticaNeueMed', Arial, sans-serif;
+}
+/* line 191, ../scss/_upgr_blocks.scss */
+.wrap-check3 .check3 input {
+  vertical-align: bottom;
+  margin-right: 10px;
+}
+
+/* line 198, ../scss/_upgr_blocks.scss */
+.btn-send {
+  display: block;
+  height: 43px;
+  line-height: 43px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.15) 1px 1px 2px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.15) 1px 1px 2px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1px 1px 2px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  background: url('../img/icons-sa2dc2ff3e7.png') 0 -407px no-repeat;
+  width: 388px;
+  height: 43px;
+  text-align: center;
+  text-shadow: rgba(0, 0, 0, 0.3) 0 -2px 1px;
+  font-size: 18px;
+  font-family: 'Conv_HelveticaNeue-CondensedBold', Arial, sans-serif;
+  color: #fff;
+  width: 100%;
+  background-repeat: repeat-x;
+}
+/* line 212, ../scss/_upgr_blocks.scss */
+.btn-send:hover {
+  display: block;
+  background-position: 0 -354px;
+  background-repeat: repeat-x;
+}
+
 /* ---------------------------------- //END Independent blocks ----------------------------------- */
 /* ----------------------------------------- Main styles --------------------------------------- */
 /* ----------------------------------------- PAGE cabinet--------------------------------------- */
@@ -5118,55 +5178,43 @@ input.popup__input:focus {
 }
 
 /* ----------------------------------------- PAGE cabinet--------------------------------------- */
-/* line 140, ../scss/_upgr_main.scss */
-.check2 {
-  margin: 25px 0 30px;
-  display: block;
-  font-family: 'HelveticaNeueMed', Arial, sans-serif;
-}
-/* line 144, ../scss/_upgr_main.scss */
-.check2 input {
-  vertical-align: bottom;
-  margin-right: 10px;
-}
-
-/* line 149, ../scss/_upgr_main.scss */
+/* line 139, ../scss/_upgr_main.scss */
 .popup_review-went2 {
   height: 295px;
   margin-top: -172px;
 }
 
-/* line 153, ../scss/_upgr_main.scss */
+/* line 143, ../scss/_upgr_main.scss */
 .popup_review-went3 {
   width: 380px;
   height: 370px;
   margin-top: -172px;
 }
 
-/* line 158, ../scss/_upgr_main.scss */
+/* line 148, ../scss/_upgr_main.scss */
 .popup_review-went4 {
   width: 380px;
   height: auto;
   margin-top: -172px;
 }
 
-/* line 163, ../scss/_upgr_main.scss */
+/* line 153, ../scss/_upgr_main.scss */
 .popup_review-went5 {
   width: 440px;
   height: auto;
   margin-top: -172px;
 }
-/* line 167, ../scss/_upgr_main.scss */
+/* line 157, ../scss/_upgr_main.scss */
 .popup_review-went5 .h2_med {
   font-family: 'helveticaneuecyrroman';
   margin-bottom: 20px;
 }
-/* line 171, ../scss/_upgr_main.scss */
+/* line 161, ../scss/_upgr_main.scss */
 .popup_review-went5 .btn {
   margin-right: 10px;
 }
 
-/* line 175, ../scss/_upgr_main.scss */
+/* line 165, ../scss/_upgr_main.scss */
 .popup__note {
   margin: 25px 0 18px;
   font: 14px 'helveticaneuecyrroman';
@@ -5174,13 +5222,13 @@ input.popup__input:focus {
 }
 
 /* ----------------------------------------- PAGE favorite--------------------------------------- */
-/* line 184, ../scss/_upgr_main.scss */
+/* line 174, ../scss/_upgr_main.scss */
 .fav header i {
   background: url('../img/icons-sa2dc2ff3e7.png') 0 -3837px no-repeat;
   width: 41px;
   height: 41px;
 }
-/* line 190, ../scss/_upgr_main.scss */
+/* line 180, ../scss/_upgr_main.scss */
 .fav .fav__cont i {
   background: url('../img/icons-sa2dc2ff3e7.png') 0 -672px no-repeat;
   width: 49px;
@@ -5189,47 +5237,47 @@ input.popup__input:focus {
   margin-bottom: 50px;
   margin-right: 25px;
 }
-/* line 196, ../scss/_upgr_main.scss */
+/* line 186, ../scss/_upgr_main.scss */
 .fav .fav__cont p {
   margin-bottom: 30px;
   font-size: 18px;
   line-height: 1.2;
 }
-/* line 202, ../scss/_upgr_main.scss */
+/* line 192, ../scss/_upgr_main.scss */
 .fav .fav__search {
   font-size: 18px;
   color: #000;
   text-decoration: underline;
 }
-/* line 206, ../scss/_upgr_main.scss */
+/* line 196, ../scss/_upgr_main.scss */
 .fav .fav__search:hover {
   text-decoration: none;
 }
 
-/* line 211, ../scss/_upgr_main.scss */
+/* line 201, ../scss/_upgr_main.scss */
 .fav-places_mod {
   padding: 0 10px;
   border-top: none;
 }
-/* line 214, ../scss/_upgr_main.scss */
+/* line 204, ../scss/_upgr_main.scss */
 .fav-places_mod ul.bar {
   width: 870px;
   padding: 5px;
 }
-/* line 217, ../scss/_upgr_main.scss */
+/* line 207, ../scss/_upgr_main.scss */
 .fav-places_mod ul.bar li {
   margin: 0 40px 15px 0;
 }
-/* line 221, ../scss/_upgr_main.scss */
+/* line 211, ../scss/_upgr_main.scss */
 .fav-places_mod .h2 {
   margin-bottom: 0;
   line-height: 1.2;
 }
-/* line 225, ../scss/_upgr_main.scss */
+/* line 215, ../scss/_upgr_main.scss */
 .fav-places_mod .reserve-table {
   text-decoration: underline;
 }
-/* line 227, ../scss/_upgr_main.scss */
+/* line 217, ../scss/_upgr_main.scss */
 .fav-places_mod .reserve-table:hover {
   text-decoration: none;
 }

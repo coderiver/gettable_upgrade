@@ -170,5 +170,49 @@ input.popup__input{
 		}
 	}
 }
-
+// check2
+.check2{
+	margin: 25px 0 30px;
+	display: block;
+	font-family: 'HelveticaNeueMed', Arial, sans-serif;
+	input{
+		vertical-align: bottom;
+		margin-right: 10px;
+	}
+}
+// check3
+.wrap-check3{
+	margin-top: 30px;
+	margin-right: -35px;
+	.check3{
+		margin: 0px 35px 15px 0;
+		display: inline-block;
+		font-family: 'HelveticaNeueMed', Arial, sans-serif;
+		input{
+			vertical-align: bottom;
+			margin-right: 10px;
+		}
+	}
+}
+// btn_sucess
+.btn-send{
+	display: block;
+	height: 43px;
+	line-height: 43px;
+	@include box-shadow(rgba(0,0,0,0.15) 1px 1px 2px);
+	@include border-radius(4px);
+	@include sized-sprite($icons, 'btn2');
+	text-align: center;
+	text-shadow: rgba(0,0,0,0.3) 0 -2px 1px;
+	font-size: 18px;
+	font-family: 'Conv_HelveticaNeue-CondensedBold', Arial, sans-serif;
+	color: #fff;
+	width: 100%;
+	background-repeat: repeat-x;
+	&:hover {
+		display: block;
+		background-position: sprite-position($icons, btn2_hover);
+		background-repeat: repeat-x;
+	}
+}
 /* ---------------------------------- //END Independent blocks ----------------------------------- */
