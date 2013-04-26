@@ -4993,6 +4993,15 @@ input.popup__input:focus {
   background-repeat: repeat-x;
 }
 
+/* line 219, ../scss/_upgr_blocks.scss */
+.rate_mod {
+  position: static;
+}
+/* line 221, ../scss/_upgr_blocks.scss */
+.rate_mod span {
+  color: #000;
+}
+
 /* ---------------------------------- //END Independent blocks ----------------------------------- */
 /* ----------------------------------------- Main styles --------------------------------------- */
 /* ----------------------------------------- PAGE cabinet--------------------------------------- */
@@ -5280,6 +5289,23 @@ input.popup__input:focus {
 /* line 217, ../scss/_upgr_main.scss */
 .fav-places_mod .reserve-table:hover {
   text-decoration: none;
+}
+
+/* line 223, ../scss/_upgr_main.scss */
+.popup_review-went4 .rate_mod {
+  line-height: 20px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+/* line 227, ../scss/_upgr_main.scss */
+.popup_review-went4 .rate_mod span {
+  margin-right: 10px;
+  font-family: 'HelveticaNeue';
+}
+
+/* line 233, ../scss/_upgr_main.scss */
+.popup_review-went4_mod {
+  margin-top: -250px;
 }
 
 /* ------------------------------------ //END Main styles --------------------------------------- */
