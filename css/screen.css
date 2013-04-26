@@ -5410,4 +5410,12 @@ input.popup__input:focus {
   text-decoration: none;
 }
 
+/* ----------------------------------------- PAGE search_selected --------------------------------------- */
+/* line 226, ../scss/_upgr_main.scss */
+.search-results .bar li:hover {
+  margin: -1px 19px 19px -1px;
+  background: rgba(234, 229, 183, 0.45);
+  border: 1px solid #bd8b2a;
+}
+
 /* ------------------------------------ //END Main styles --------------------------------------- */

@@ -219,7 +219,18 @@
 		}
 	}
 }
-
+/* ----------------------------------------- PAGE search_selected --------------------------------------- */
+.search-results{
+	.bar{
+		li{
+			&:hover{
+				margin: -1px 19px 19px -1px;
+				background: rgba(234,229,183, 0.45);
+				border: 1px solid #bd8b2a;
+			}
+		}
+	}
+}
 
 
 
