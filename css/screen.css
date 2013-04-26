@@ -5002,6 +5002,27 @@ input.popup__input:focus {
   color: #000;
 }
 
+/* line 226, ../scss/_upgr_blocks.scss */
+.loader_mod {
+  text-align: center;
+  margin-top: 105px;
+  font: 16px 'HelveticaNeue', Arial, sans-serif;
+}
+/* line 230, ../scss/_upgr_blocks.scss */
+.loader_mod .loader_mod__krutilka {
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 10px;
+  background: url('../img/icons-sa2dc2ff3e7.png') 0 -1728px no-repeat;
+  width: 36px;
+  height: 36px;
+  -webkit-animation: rotate 6s linear infinite;
+  -moz-animation: rotate 6s linear infinite;
+  -ms-animation: rotate 6s linear infinite;
+  -o-animation: rotate 6s linear infinite;
+  animation: rotate 6s linear infinite;
+}
+
 /* ---------------------------------- //END Independent blocks ----------------------------------- */
 /* ----------------------------------------- Main styles --------------------------------------- */
 /* ----------------------------------------- PAGE cabinet--------------------------------------- */

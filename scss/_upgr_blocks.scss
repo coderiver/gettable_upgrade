@@ -222,4 +222,18 @@ input.popup__input{
 		color: #000;
 	}
 }
+// loader_mod
+.loader_mod{
+	text-align: center;
+	margin-top: 105px;
+	font: 16px 'HelveticaNeue', Arial, sans-serif;
+	.loader_mod__krutilka{
+		display: inline-block;
+		vertical-align: middle;
+		margin-bottom: 10px;
+		@include sized-sprite($icons, 'loader');
+		@include animation(rotate 6s linear infinite);
+	}
+}
+
 /* ---------------------------------- //END Independent blocks ----------------------------------- */

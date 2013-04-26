@@ -275,9 +275,9 @@
 				<div class="search-filter__wrap">
 					<h3>Средний чек:</h3>
 					<ul class="search-filter__type">
-						<li><input id="sf11" type="checkbox"><label for="sf11">Р (до 1500 руб.)</label></li>
-						<li><input id="sf21" type="checkbox"><label for="sf21">РР (1500 - 3000 руб.), </label></li>
-						<li><input id="sf31" type="checkbox"><label for="sf31">РРРР (свыше 3000 руб.)</label></li>
+						<li><input id="sf11" type="checkbox"><label for="sf11">до 1500 руб.</label></li>
+						<li><input id="sf21" type="checkbox"><label for="sf21">1500 - 3000 руб. </label></li>
+						<li><input id="sf31" type="checkbox"><label for="sf31">свыше 3000 руб.</label></li>
 					</ul>
 				</div>
 				<div class="search-filter__wrap">
@@ -316,6 +316,36 @@
 	</ul>
 </footer>
 <!-- END .footer -->
+
+<div class="popup-wrap" style="display:block;"></div>
+
+<!-- BEGIN  popup_confirm-->
+<div class="popup_confirm" style="display:block;">
+	<button class="popup__close"></button>
+	<h2 class="h2">Подтверждение номера</h2>
+	<p>Пожалуйста подтвердите достоверность номера.<br>
+		Если вы уже совершали брони с нашего сайта по определенному <br>
+		номеру, введите его и все сделанные брони автоматически загрузятся <br>
+		в ваш профайл.</p>
+	<div class="confirm-phone">
+		<div class="confirm-phone__field">
+			<label for="">+7</label>
+			<input type="text" value="(916) 555 73 22" class="input">
+			<a href="#" class="button-small">Получить код</a>
+			<div class="icon-ok"></div>
+		</div>
+		<div class="confirm-phone__secretmessage">
+			Секретный код прийдет на ваш телефон в течение пары минут.
+		</div>
+		<div class="confirm-phone__field">
+			<label for="">Код</label>
+			<input type="text" value="8712" class="input">
+			<a href="#" class="button-small button-small_inactive">Подтвердить</a>
+			<div class="loader"></div>
+		</div>
+	</div>
+</div>
+<!-- END popup_confirm-->
 
 </body>
 </html>
