@@ -176,6 +176,48 @@ input.popup__input{
 		}
 	}
 }
+// btn_sucess
+.btn-send{
+	display: block;
+	height: 43px;
+	line-height: 43px;
+	@include box-shadow(rgba(0,0,0,0.15) 1px 1px 2px);
+	@include border-radius(4px);
+	@include sized-sprite($icons, 'btn2');
+	text-align: center;
+	text-shadow: rgba(0,0,0,0.3) 0 -2px 1px;
+	font-size: 18px;
+	font-family: 'Conv_HelveticaNeue-CondensedBold', Arial, sans-serif;
+	color: #fff;
+	width: 100%;
+	background-repeat: repeat-x;
+	&:hover {
+		display: block;
+		background-position: sprite-position($icons, btn2_hover);
+		background-repeat: repeat-x;
+	}
+}
+// btn_loading
+.btn_loading{
+	width: 100%;
+	height: 40px;
+	background: #ededed;
+	font: 16px 'HelveticaNeue', Arial, sans-serif;
+	line-height: 30px;
+	color: #000;
+	@include box-shadow(rgba(0,0,0,1) 0px 0px 0px);
+	text-shadow: none;
+	&:hover{
+		@include background-image(linear-gradient(bottom, #ededed 0%, #ededed 100%));
+	}
+	i{
+		display: inline-block;
+		vertical-align: middle;
+		margin-bottom: 10px;
+		@include sized-sprite($icons, 'loader3');
+		@include animation(rotate 6s linear infinite);
+	}
+}
 // check2
 .check2{
 	margin: 25px 0 30px;
@@ -198,27 +240,6 @@ input.popup__input{
 			vertical-align: bottom;
 			margin-right: 10px;
 		}
-	}
-}
-// btn_sucess
-.btn-send{
-	display: block;
-	height: 43px;
-	line-height: 43px;
-	@include box-shadow(rgba(0,0,0,0.15) 1px 1px 2px);
-	@include border-radius(4px);
-	@include sized-sprite($icons, 'btn2');
-	text-align: center;
-	text-shadow: rgba(0,0,0,0.3) 0 -2px 1px;
-	font-size: 18px;
-	font-family: 'Conv_HelveticaNeue-CondensedBold', Arial, sans-serif;
-	color: #fff;
-	width: 100%;
-	background-repeat: repeat-x;
-	&:hover {
-		display: block;
-		background-position: sprite-position($icons, btn2_hover);
-		background-repeat: repeat-x;
 	}
 }
 // rate_mod
@@ -269,6 +290,7 @@ input.popup__input{
 			margin: 40px 0;
 			font: 18px 'HelveticaNeue',Arial, sans-serif;
 			color: #000;
+			vertical-align: bottom;
 		}
 		a{
 			font: 18px  'HelveticaNeue',Arial, sans-serif;
