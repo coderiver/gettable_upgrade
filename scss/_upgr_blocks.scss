@@ -16,6 +16,15 @@
 		text-decoration: none;
 	}
 }
+.link_blue{
+	font-family: 'HelveticaNeueMed', Arial, sans-serif;
+	font-size: 14px;
+	color: #2f6d91;
+	text-decoration: none;
+	&:hover{
+		text-decoration: underline;
+	}
+}
 // tags
 .tags{
 	background: #e7e6e6;
@@ -88,4 +97,78 @@ input.popup__input{
 	color: #353535;
 	line-height: 1.2;
 }
+// btn
+.btn{
+	height: 30px;
+	padding: 6px 15px;
+	vertical-align: top;
+	line-height: 30px;
+	display: inline-block;
+	@include border-radius(4px);
+	@include box-shadow(1px 0 1px rgba(0,0,0,.3), inset 0 1px 0 rgba(255,255,255,.26));
+	color: #FFF;
+	font: 18px  'Conv_HelveticaNeue-CondensedBold';
+	text-shadow: 0 -2px 0 rgba(0,0,0, 0.27);
+	&:hover{
+		@include background-image(linear-gradient(bottom, rgba(255,255,255,.16) 0%, rgba(0,0,0,.16) 100%));
+	}
+	i{
+		position: relative;
+		display: inline-block;
+		margin-right: 14px;
+		&:after{
+			content: "";
+			display: block;
+			position: absolute;
+			top: 0;
+			right: -14px;
+		}
+	}
+	span{
+		vertical-align: top;
+		line-height: 30px;
+	}
+	i + span {
+		padding-left: 15px;
+	}
+}
+// btn-danger
+.btn-danger{
+	background-color: #30a318;
+	@include background-image(linear-gradient(bottom, rgba(0,0,0,.16) 0%, rgba(255,255,255,.16) 100%));
+	i{
+		@include sized-sprite($icons, ico_yes);
+		&:after{
+
+			@include sized-sprite($icons, ico_border);
+		}
+	}
+}
+// btn-success
+.btn-success{
+	background-color: #e92500;
+	@include background-image(linear-gradient(bottom, rgba(0,0,0,.16) 0%, rgba(255,255,255,.16) 100%));
+	i{
+		margin-top: 3px;
+		@include sized-sprite($icons, ico_no);
+		&:after{
+
+			@include sized-sprite($icons, ico_border);
+		}
+	}
+}
+// btn-inverse
+.btn-inverse{
+	background-color: #434546;
+	@include background-image(linear-gradient(bottom, rgba(0,0,0,.16) 0%, rgba(255,255,255,.16) 100%));
+	i{
+		margin-top: 3px;
+		@include sized-sprite($icons, ico_cross);
+		&:after{
+
+			@include sized-sprite($icons, ico_border);
+		}
+	}
+}
+
 /* ---------------------------------- //END Independent blocks ----------------------------------- */

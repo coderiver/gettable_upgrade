@@ -1,4 +1,4 @@
-@import "compass/css3";
+﻿@import "compass/css3";
 @import "base";
 /*resets*/
 * { margin: 0; padding: 0;}
@@ -93,6 +93,10 @@ input, textarea, button {
 	font-size: 24px;
 	font-family: 'Conv_HelveticaNeue-CondensedBold', Arial, sans-serif;
 	font-weight: normal;
+}
+.h2_med{
+	font-family: 'HelveticaNeueMed';
+	font-size: 24px;
 }
 .clr {
 	clear: both;
