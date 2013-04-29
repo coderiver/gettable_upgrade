@@ -312,7 +312,6 @@ input.popup__input{
 .user-popup{
 	display: none;
 	width: 219px;
-	height: 293px;
 	@include border-radius(3px 0px 3px 3px);
 	background: #FFF;
 	position: absolute;
@@ -369,6 +368,7 @@ input.popup__input{
 	.user-popup__cnt{
 		font: 12px 'HelveticaNeue',Arial, sans-serif;
 		padding: 15px 15px 10px;
+		border-bottom: 1px solid #e0e0e0;
 		.user-popup__title{
 			margin-bottom: 25px;
 			font-size: 14px;
@@ -379,20 +379,56 @@ input.popup__input{
 		}
 		li{
 			margin-bottom: 5px;
-			&:hover{
-
+			position: relative;
+			i{
+				display: inline-block;
+				@include sized-sprite($icons, 'user-popup_table');
+				position: absolute;
+				top: 0;
+				right: 0;
+				&:hover{
+					display: inline-block;
+					cursor: pointer;
+					@include sized-sprite($icons, 'user-popup_table-hover');
+				}
 			}
 		}
 		a{
+			width: 130px;
 			padding: 5px 10px;
 			display: inline-block;
-			background: red;
+			text-overflow: ellipsis;
+			overflow: hidden;
+			white-space: nowrap;
 			@include border-radius(3px);
 			color: #383838;
 			&:hover{
 				background: #efefef;
 				color: #b90000;
 			}
+		}
+	}
+	.user-popup__footer{
+		height: 23px;
+		line-height: 26px;
+		padding: 0 7px;
+		margin: 10px 15px;
+		font: 14px 'HelveticaNeue',Arial, sans-serif;
+		color: #ce0000;
+		&:hover{
+			background: #eee;
+			@include border-radius(3px);
+			cursor: pointer;
+		}
+		i{
+			display: inline-block;
+			margin-right: 10px;
+			@include sized-sprite($icons, 'user-popup_exit');
+			vertical-align: middle;
+		}
+		em{
+			vertical-align: bottom;
+			font-style: normal;
 		}
 	}
 }
