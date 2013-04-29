@@ -357,13 +357,14 @@
 	}*/
 }
 .drop_alt{
-	background: #fafafa;
-	padding: 35px 20px 35px 20px;
 	border-radius: 3px;
 	overflow: visible;
-	left: 422px;
-	top: 412px;
-	@include box-shadow (rgba(0, 0, 0, 0.1) 0px 0px 11px, rgba(0, 0, 0, 0.1) 0px 0px 11px, rgba(0, 0, 0, 0.1) 0px 0px 11px, rgba(0, 0, 0, 0.1) 18px 0px 16px -16px inset);
+	position: absolute;
+	top: inherit;
+	left: 423px;
+	bottom: -20px;
+	z-index: 1;
+	@include box-shadow (rgba(0, 0, 0, 0.15) 0px 0px 25px, rgba(0, 0, 0, 0.1) 3px 0px 20px inset);
 	li{
 		margin-bottom: 5px;
 	}

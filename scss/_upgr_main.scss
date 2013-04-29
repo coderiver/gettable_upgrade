@@ -8,6 +8,7 @@
 	top: 47px;
 	right: 0;
 	color: #636363;
+	font-family: 'Conv_HelveticaNeue-CondensedBold';
 	strong{
 		width: 18px;
 		height: 38px;
@@ -27,6 +28,14 @@
 	}
 	b{
 		text-shadow:0 1px 0 #fff;
+	}
+	&.js-active{
+		border: none;
+		background: #FFF;
+		em{
+			border-width: 0px 5px 6px 5px;
+			border-color: transparent transparent #898989 transparent;
+		}
 	}
 }
 .select_cabinet-enter{
@@ -223,7 +232,7 @@
 .search-results{
 	.bar{
 		li{
-			&:hover{
+			&:first-child, .active{
 				margin: -1px 19px 19px -1px;
 				background: rgba(234,229,183, 0.45);
 				border: 1px solid #bd8b2a;
