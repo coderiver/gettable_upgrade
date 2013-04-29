@@ -319,6 +319,7 @@ input.popup__input{
 	right: 0;
 	&.js-active{
 		display: block;
+		@include box-shadow(rgba(0,0,0, 0.2) 0px 15px 25px);
 	}
 	ul.user-popup__kab{
 		height: 103px;

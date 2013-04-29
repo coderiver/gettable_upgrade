@@ -32,6 +32,7 @@
 	&.js-active{
 		border: none;
 		background: #FFF;
+		@include box-shadow(rgba(0,0,0, 0.2) 0px 2px 25px);
 		em{
 			border-width: 0px 5px 6px 5px;
 			border-color: transparent transparent #898989 transparent;

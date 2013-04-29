@@ -5141,13 +5141,16 @@ input.popup__input:focus {
 /* line 320, ../scss/_upgr_blocks.scss */
 .user-popup.js-active {
   display: block;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 15px 25px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.2) 0px 15px 25px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 15px 25px;
 }
-/* line 323, ../scss/_upgr_blocks.scss */
+/* line 324, ../scss/_upgr_blocks.scss */
 .user-popup ul.user-popup__kab {
   height: 103px;
   border-bottom: 1px solid #e8e8e8;
 }
-/* line 327, ../scss/_upgr_blocks.scss */
+/* line 328, ../scss/_upgr_blocks.scss */
 .user-popup ul.user-popup__kab li {
   width: 63px;
   padding: 5px;
@@ -5155,7 +5158,7 @@ input.popup__input:focus {
   float: left;
   text-align: center;
 }
-/* line 333, ../scss/_upgr_blocks.scss */
+/* line 334, ../scss/_upgr_blocks.scss */
 .user-popup ul.user-popup__kab li i {
   width: 1px;
   height: 103px;
@@ -5165,7 +5168,7 @@ input.popup__input:focus {
   top: 0;
   left: 0;
 }
-/* line 345, ../scss/_upgr_blocks.scss */
+/* line 346, ../scss/_upgr_blocks.scss */
 .user-popup .user-popup__ico {
   width: 41px;
   height: 42px;
@@ -5173,20 +5176,20 @@ input.popup__input:focus {
   overflow: hidden;
   margin: 0 auto 6px;
 }
-/* line 351, ../scss/_upgr_blocks.scss */
+/* line 352, ../scss/_upgr_blocks.scss */
 .user-popup .user-popup__ico img {
   max-width: 41px;
   max-height: 42px;
   vertical-align: middle;
 }
-/* line 357, ../scss/_upgr_blocks.scss */
+/* line 358, ../scss/_upgr_blocks.scss */
 .user-popup .user-popup__desc {
   width: 64px;
   padding: 9px 0;
   font: 11px 'helveticaneuecyrbold', Arial, sans-serif;
   color: #cf1c1c;
 }
-/* line 362, ../scss/_upgr_blocks.scss */
+/* line 363, ../scss/_upgr_blocks.scss */
 .user-popup .user-popup__desc:hover {
   background: #eee;
   -webkit-border-radius: 3px;
@@ -5196,24 +5199,24 @@ input.popup__input:focus {
   border-radius: 3px;
   cursor: pointer;
 }
-/* line 368, ../scss/_upgr_blocks.scss */
+/* line 369, ../scss/_upgr_blocks.scss */
 .user-popup .user-popup__cnt {
   font: 12px 'HelveticaNeue',Arial, sans-serif;
   padding: 15px 15px 10px;
   border-bottom: 1px solid #e0e0e0;
 }
-/* line 372, ../scss/_upgr_blocks.scss */
+/* line 373, ../scss/_upgr_blocks.scss */
 .user-popup .user-popup__cnt .user-popup__title {
   margin-bottom: 25px;
   font-size: 14px;
   color: #272626;
 }
-/* line 380, ../scss/_upgr_blocks.scss */
+/* line 381, ../scss/_upgr_blocks.scss */
 .user-popup .user-popup__cnt li {
   margin-bottom: 5px;
   position: relative;
 }
-/* line 383, ../scss/_upgr_blocks.scss */
+/* line 384, ../scss/_upgr_blocks.scss */
 .user-popup .user-popup__cnt li i {
   display: inline-block;
   background: url('../img/icons-sf800b0c65c.png') 0 -3427px no-repeat;
@@ -5223,7 +5226,7 @@ input.popup__input:focus {
   top: 0;
   right: 0;
 }
-/* line 389, ../scss/_upgr_blocks.scss */
+/* line 390, ../scss/_upgr_blocks.scss */
 .user-popup .user-popup__cnt li i:hover {
   display: inline-block;
   cursor: pointer;
@@ -5231,7 +5234,7 @@ input.popup__input:focus {
   width: 40px;
   height: 29px;
 }
-/* line 396, ../scss/_upgr_blocks.scss */
+/* line 397, ../scss/_upgr_blocks.scss */
 .user-popup .user-popup__cnt a {
   width: 130px;
   padding: 5px 10px;
@@ -5246,12 +5249,12 @@ input.popup__input:focus {
   border-radius: 3px;
   color: #383838;
 }
-/* line 405, ../scss/_upgr_blocks.scss */
+/* line 406, ../scss/_upgr_blocks.scss */
 .user-popup .user-popup__cnt a:hover {
   background: #efefef;
   color: #b90000;
 }
-/* line 411, ../scss/_upgr_blocks.scss */
+/* line 412, ../scss/_upgr_blocks.scss */
 .user-popup .user-popup__footer {
   height: 23px;
   line-height: 26px;
@@ -5260,7 +5263,7 @@ input.popup__input:focus {
   font: 14px 'HelveticaNeue',Arial, sans-serif;
   color: #ce0000;
 }
-/* line 418, ../scss/_upgr_blocks.scss */
+/* line 419, ../scss/_upgr_blocks.scss */
 .user-popup .user-popup__footer:hover {
   background: #eee;
   -webkit-border-radius: 3px;
@@ -5270,7 +5273,7 @@ input.popup__input:focus {
   border-radius: 3px;
   cursor: pointer;
 }
-/* line 423, ../scss/_upgr_blocks.scss */
+/* line 424, ../scss/_upgr_blocks.scss */
 .user-popup .user-popup__footer i {
   display: inline-block;
   margin-right: 10px;
@@ -5279,7 +5282,7 @@ input.popup__input:focus {
   height: 17px;
   vertical-align: middle;
 }
-/* line 429, ../scss/_upgr_blocks.scss */
+/* line 430, ../scss/_upgr_blocks.scss */
 .user-popup .user-popup__footer em {
   vertical-align: bottom;
   font-style: normal;
@@ -5324,24 +5327,27 @@ input.popup__input:focus {
 .select_cabinet.js-active {
   border: none;
   background: #FFF;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 25px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 25px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 25px;
 }
-/* line 35, ../scss/_upgr_main.scss */
+/* line 36, ../scss/_upgr_main.scss */
 .select_cabinet.js-active em {
   border-width: 0px 5px 6px 5px;
   border-color: transparent transparent #898989 transparent;
 }
 
-/* line 41, ../scss/_upgr_main.scss */
+/* line 42, ../scss/_upgr_main.scss */
 .select_cabinet-enter {
   padding: 4px 25px;
 }
-/* line 43, ../scss/_upgr_main.scss */
+/* line 44, ../scss/_upgr_main.scss */
 .select_cabinet-enter b {
   font-size: 14px;
   font-weight: bold;
 }
 
-/* line 50, ../scss/_upgr_main.scss */
+/* line 51, ../scss/_upgr_main.scss */
 .cab header, .fav header {
   width: 880px;
   padding-left: 40px;
@@ -5350,7 +5356,7 @@ input.popup__input:focus {
   margin-left: -30px;
   border-bottom: 1px dotted #636363;
 }
-/* line 58, ../scss/_upgr_main.scss */
+/* line 59, ../scss/_upgr_main.scss */
 .cab header i, .fav header i {
   margin-right: 20px;
   float: left;
@@ -5358,12 +5364,12 @@ input.popup__input:focus {
   width: 41px;
   height: 43px;
 }
-/* line 63, ../scss/_upgr_main.scss */
+/* line 64, ../scss/_upgr_main.scss */
 .cab header h1, .fav header h1 {
   font: 30px 'Conv_HelveticaNeue-CondensedBold', Arial, sans-serif;
 }
 
-/* line 71, ../scss/_upgr_main.scss */
+/* line 72, ../scss/_upgr_main.scss */
 .cab__cnt .cab__img {
   width: 66px;
   height: 64px;
@@ -5390,30 +5396,30 @@ input.popup__input:focus {
   background-image: -o-linear-gradient(bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 61.13%, rgba(255, 255, 255, 0.32) 100%);
   background-image: linear-gradient(bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 61.13%, rgba(255, 255, 255, 0.32) 100%);
 }
-/* line 82, ../scss/_upgr_main.scss */
+/* line 83, ../scss/_upgr_main.scss */
 .cab__cnt .cab__img img {
   max-width: 44px;
   height: 48px;
   vertical-align: middle;
   padding: 10px 11px 6px;
 }
-/* line 89, ../scss/_upgr_main.scss */
+/* line 90, ../scss/_upgr_main.scss */
 .cab__cnt .cab__user {
   margin-bottom: 30px;
   font: 20px 'Conv_HelveticaNeue-CondensedBold', Arial, sans-serif;
   font-weight: bold;
 }
-/* line 93, ../scss/_upgr_main.scss */
+/* line 94, ../scss/_upgr_main.scss */
 .cab__cnt .cab__user span {
   font-family: 'Conv_HelveticaNeue', Arial, sans-serif;
   font-weight: normal;
 }
-/* line 97, ../scss/_upgr_main.scss */
+/* line 98, ../scss/_upgr_main.scss */
 .cab__cnt .cab__user label {
   min-width: 60px;
   display: inline-block;
 }
-/* line 101, ../scss/_upgr_main.scss */
+/* line 102, ../scss/_upgr_main.scss */
 .cab__cnt .cab__user input {
   min-width: 105px;
   height: 17px;
@@ -5423,32 +5429,32 @@ input.popup__input:focus {
   border: 1px solid #cacaca;
   font: 20px 'Conv_HelveticaNeue', Arial, sans-serif;
 }
-/* line 109, ../scss/_upgr_main.scss */
+/* line 110, ../scss/_upgr_main.scss */
 .cab__cnt .cab__user input:focus {
   outline: 1px solid #666;
 }
-/* line 114, ../scss/_upgr_main.scss */
+/* line 115, ../scss/_upgr_main.scss */
 .cab__cnt .cab__edit {
   margin-top: 40px;
   font: 14px 'Conv_HelveticaNeue', Arial, sans-serif;
   color: #636363;
   text-decoration: underline;
 }
-/* line 119, ../scss/_upgr_main.scss */
+/* line 120, ../scss/_upgr_main.scss */
 .cab__cnt .cab__edit:hover {
   text-decoration: none;
 }
-/* line 123, ../scss/_upgr_main.scss */
+/* line 124, ../scss/_upgr_main.scss */
 .cab__cnt .cab__edit_changing {
   margin-left: 20px;
 }
-/* line 126, ../scss/_upgr_main.scss */
+/* line 127, ../scss/_upgr_main.scss */
 .cab__cnt .cab__edit_changing-img {
   margin-left: 20px;
   margin-top: 25px;
   display: inline-block;
 }
-/* line 131, ../scss/_upgr_main.scss */
+/* line 132, ../scss/_upgr_main.scss */
 .cab__cnt .cab__save {
   height: 22px;
   line-height: 38px;
@@ -5469,7 +5475,7 @@ input.popup__input:focus {
   color: #FFF;
   text-shadow: 0 -2px 0 rgba(0, 0, 0, 0.27);
 }
-/* line 142, ../scss/_upgr_main.scss */
+/* line 143, ../scss/_upgr_main.scss */
 .cab__cnt .cab__save:hover {
   background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzk3MzAyNSIvPjxzdG9wIG9mZnNldD0iNTAlIiBzdG9wLWNvbG9yPSIjYWQ0NjNiIi8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjYmY1OTRkIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIgLz48L3N2Zz4g');
   background-size: 100%;
@@ -5481,43 +5487,43 @@ input.popup__input:focus {
 }
 
 /* ----------------------------------------- PAGE cabinet--------------------------------------- */
-/* line 148, ../scss/_upgr_main.scss */
+/* line 149, ../scss/_upgr_main.scss */
 .popup_review-went2 {
   height: 295px;
   margin-top: -172px;
 }
 
-/* line 152, ../scss/_upgr_main.scss */
+/* line 153, ../scss/_upgr_main.scss */
 .popup_review-went3 {
   width: 380px;
   height: 370px;
   margin-top: -172px;
 }
 
-/* line 157, ../scss/_upgr_main.scss */
+/* line 158, ../scss/_upgr_main.scss */
 .popup_review-went4 {
   width: 380px;
   height: auto;
   margin-top: -172px;
 }
 
-/* line 162, ../scss/_upgr_main.scss */
+/* line 163, ../scss/_upgr_main.scss */
 .popup_review-went5 {
   width: 440px;
   height: auto;
   margin-top: -172px;
 }
-/* line 166, ../scss/_upgr_main.scss */
+/* line 167, ../scss/_upgr_main.scss */
 .popup_review-went5 .h2_med {
   font-family: 'helveticaneuecyrroman', Arial, sans-serif;
   margin-bottom: 20px;
 }
-/* line 170, ../scss/_upgr_main.scss */
+/* line 171, ../scss/_upgr_main.scss */
 .popup_review-went5 .btn {
   margin-right: 10px;
 }
 
-/* line 174, ../scss/_upgr_main.scss */
+/* line 175, ../scss/_upgr_main.scss */
 .popup__note {
   margin: 25px 0 18px;
   font: 14px 'helveticaneuecyrroman', Arial, sans-serif;
@@ -5525,13 +5531,13 @@ input.popup__input:focus {
 }
 
 /* ----------------------------------------- PAGE favorite--------------------------------------- */
-/* line 183, ../scss/_upgr_main.scss */
+/* line 184, ../scss/_upgr_main.scss */
 .fav header i {
   background: url('../img/icons-sf800b0c65c.png') 0 -4045px no-repeat;
   width: 41px;
   height: 41px;
 }
-/* line 189, ../scss/_upgr_main.scss */
+/* line 190, ../scss/_upgr_main.scss */
 .fav .fav__cont i {
   background: url('../img/icons-sf800b0c65c.png') 0 -672px no-repeat;
   width: 49px;
@@ -5540,53 +5546,53 @@ input.popup__input:focus {
   margin-bottom: 50px;
   margin-right: 25px;
 }
-/* line 195, ../scss/_upgr_main.scss */
+/* line 196, ../scss/_upgr_main.scss */
 .fav .fav__cont p {
   margin-bottom: 30px;
   font-size: 18px;
   line-height: 1.2;
 }
-/* line 201, ../scss/_upgr_main.scss */
+/* line 202, ../scss/_upgr_main.scss */
 .fav .fav__search {
   font-size: 18px;
   color: #000;
   text-decoration: underline;
 }
-/* line 205, ../scss/_upgr_main.scss */
+/* line 206, ../scss/_upgr_main.scss */
 .fav .fav__search:hover {
   text-decoration: none;
 }
 
-/* line 210, ../scss/_upgr_main.scss */
+/* line 211, ../scss/_upgr_main.scss */
 .fav-places_mod {
   padding: 0 10px;
   border-top: none;
 }
-/* line 213, ../scss/_upgr_main.scss */
+/* line 214, ../scss/_upgr_main.scss */
 .fav-places_mod ul.bar {
   width: 870px;
   padding: 5px;
 }
-/* line 216, ../scss/_upgr_main.scss */
+/* line 217, ../scss/_upgr_main.scss */
 .fav-places_mod ul.bar li {
   margin: 0 40px 15px 0;
 }
-/* line 220, ../scss/_upgr_main.scss */
+/* line 221, ../scss/_upgr_main.scss */
 .fav-places_mod .h2 {
   margin-bottom: 0;
   line-height: 1.2;
 }
-/* line 224, ../scss/_upgr_main.scss */
+/* line 225, ../scss/_upgr_main.scss */
 .fav-places_mod .reserve-table {
   text-decoration: underline;
 }
-/* line 226, ../scss/_upgr_main.scss */
+/* line 227, ../scss/_upgr_main.scss */
 .fav-places_mod .reserve-table:hover {
   text-decoration: none;
 }
 
 /* ----------------------------------------- PAGE search_selected --------------------------------------- */
-/* line 235, ../scss/_upgr_main.scss */
+/* line 236, ../scss/_upgr_main.scss */
 .search-results .bar li:first-child, .search-results .bar li .active {
   margin: -1px 19px 19px -1px;
   background: rgba(234, 229, 183, 0.45);
