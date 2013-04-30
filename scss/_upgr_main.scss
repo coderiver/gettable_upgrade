@@ -256,6 +256,15 @@
 			@include sized-sprite($icons, 'ico-list');
 		}
 	}
+	.personal__cnt{
+		padding: 40px 40px 50px;
+	}
+	.personal__reserv{
+		width: 560px;
+		li{
+			margin-bottom: 30px;
+		}
+	}
 }
 // bar_mod
 .bar_mod{

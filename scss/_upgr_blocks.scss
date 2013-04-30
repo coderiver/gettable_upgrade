@@ -22,6 +22,22 @@
 		text-decoration: none;
 	}
 }
+.link_black{
+	font: 18px 'HelveticaNeue', Arial, sans-serif;
+	text-decoration: underline;
+	color: #000;
+	&:hover{
+		text-decoration: none;
+	}
+}
+.link_green{
+	font: 16px 'helveticaneuecyrbold', Arial, sans-serif;
+	text-decoration: none;
+	color: #577221;
+	&:hover{
+		text-decoration: underline;
+	}
+}
 .link_blue{
 	font-family: 'HelveticaNeueMed', Arial, sans-serif;
 	font-size: 14px;
@@ -478,7 +494,7 @@ input.popup__input{
 	&:active{
 		@include sized-sprite($icons, btn4_focus);
 		width: 183px;
-		height: 43px;  
+		height: 43px;
 	}
 }
 
