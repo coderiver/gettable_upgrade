@@ -275,7 +275,7 @@ input.popup__input{
 	}
 }
 .popup_review-went4_mod{
-	margin-top: -250px;
+	margin-top: -250px !important;
 }
 // upd confirm-phone_mod
 .confirm-phone_mod{
@@ -432,5 +432,13 @@ input.popup__input{
 			font-style: normal;
 		}
 	}
+}
+.ico-ok{
+	display: inline-block;
+	@include sized-sprite($icons, 'ico-ok');
+}
+.ico-cancel{
+	display: inline-block;
+	@include sized-sprite($icons, 'ico-cancel');
 }
 /* ---------------------------------- //END Independent blocks ----------------------------------- */
