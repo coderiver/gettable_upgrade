@@ -441,4 +441,47 @@ input.popup__input{
 	display: inline-block;
 	@include sized-sprite($icons, 'ico-cancel');
 }
+.btn_width{
+	padding: 0 30px;
+	width: 183px;
+	&:hover{
+		width: 183px;
+	}
+	&:active{
+		width: 183px;
+	}
+}
+.mr_10{
+	margin-right: 10px;
+}
+
+
+.btn_gray{
+	position: relative;
+	@include sized-sprite($icons, btn4);
+	width: 183px;
+	height: 43px;
+	padding-left: 38px;
+	@include border-radius(3px);
+	background-repeat: repeat-x;
+	text-shadow: rgba(0, 0, 0, 0.3) 0 -2px 1px;
+	font-size: 18px;
+	font-family: 'Conv_HelveticaNeue-CondensedBold', 'Arial Narrow', sans-serif;
+	color: white;
+	text-align: left;
+	cursor: pointer;
+	&:hover{
+		@include sized-sprite($icons, btn4_hover);
+		width: 183px;
+		height: 43px;
+	}
+	&:active{
+		@include sized-sprite($icons, btn4_focus);
+		width: 183px;
+		height: 43px;  
+	}
+}
+
+
+
 /* ---------------------------------- //END Independent blocks ----------------------------------- */
