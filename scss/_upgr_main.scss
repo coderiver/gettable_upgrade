@@ -384,7 +384,58 @@
 		}
 	}
 }
-
+// BEGIN CSS FOR SCROLL
+.drop_scroll{
+	padding: 20px 20px 25px 20px;
+	.drop__col{
+		width: 185px;
+	}
+	.search-filter__type {
+		label{
+			white-space: nowrap;
+			overflow: hidden;
+			text-overflow: ellipsis;
+		}
+	}
+}
+.search-input_alt{
+	margin-bottom: 15px;
+	.search-input__key{
+		top: 6px;
+	}
+	input{
+		width: 345px;
+		height: 26px;
+	}
+}
+.scroller {
+    overflow-y: scroll;
+    height: 125px;
+    overflow-y: scroll;
+    /* -webkit-overflow-scrolling: touch; */
+    /* uncomment to accelerate scrolling on iOs */
+}
+.scroller::-webkit-scrollbar {
+    width: 0;
+}
+.scroller__track {
+    position: absolute;
+    right: 25px;
+    top: 70px;
+    bottom: 25px;
+    width: 8px;
+    background: rgba(0, 0, 0, .1);
+    border-radius: 5px;
+}
+.scroller__bar {
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    width: 8px;
+    background: #999;
+    border-radius: 5px;
+}
+// END CSS FOR SCROLL
 
 
 

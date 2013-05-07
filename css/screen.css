@@ -2816,6 +2816,21 @@ input, textarea, button {
   margin-bottom: 5px;
 }
 
+/* line 373, ../scss/_search.scss */
+.drop_scroll {
+  padding: 20px 20px 25px 20px;
+}
+/* line 375, ../scss/_search.scss */
+.drop_scroll .drop__col {
+  width: 185px;
+}
+/* line 379, ../scss/_search.scss */
+.drop_scroll .search-filter__type label {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 /* line 3, ../scss/_ie.scss */
 .ltie8 .select select {
   margin-top: 5px;
@@ -5877,6 +5892,70 @@ input.popup__input:focus {
   font-size: 14px;
   line-height: 1.2;
   vertical-align: top;
+}
+
+/* line 388, ../scss/_upgr_main.scss */
+.drop_scroll {
+  padding: 20px 20px 25px 20px;
+}
+/* line 390, ../scss/_upgr_main.scss */
+.drop_scroll .drop__col {
+  width: 185px;
+}
+/* line 394, ../scss/_upgr_main.scss */
+.drop_scroll .search-filter__type label {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* line 401, ../scss/_upgr_main.scss */
+.search-input_alt {
+  margin-bottom: 15px;
+}
+/* line 403, ../scss/_upgr_main.scss */
+.search-input_alt .search-input__key {
+  top: 6px;
+}
+/* line 406, ../scss/_upgr_main.scss */
+.search-input_alt input {
+  width: 345px;
+  height: 26px;
+}
+
+/* line 411, ../scss/_upgr_main.scss */
+.scroller {
+  overflow-y: scroll;
+  height: 125px;
+  overflow-y: scroll;
+  /* -webkit-overflow-scrolling: touch; */
+  /* uncomment to accelerate scrolling on iOs */
+}
+
+/* line 418, ../scss/_upgr_main.scss */
+.scroller::-webkit-scrollbar {
+  width: 0;
+}
+
+/* line 421, ../scss/_upgr_main.scss */
+.scroller__track {
+  position: absolute;
+  right: 25px;
+  top: 70px;
+  bottom: 25px;
+  width: 8px;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+/* line 430, ../scss/_upgr_main.scss */
+.scroller__bar {
+  position: absolute;
+  z-index: 1;
+  right: 0;
+  width: 8px;
+  background: #999;
+  border-radius: 5px;
 }
 
 /* ------------------------------------ //END Main styles --------------------------------------- */
