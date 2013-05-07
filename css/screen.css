@@ -4989,9 +4989,10 @@ input.popup__input:focus {
   display: block;
   background-position: 0 -354px;
   background-repeat: repeat-x;
+  cursor: pointer;
 }
 
-/* line 217, ../scss/_upgr_blocks.scss */
+/* line 218, ../scss/_upgr_blocks.scss */
 .btn_loading {
   width: 100%;
   height: 40px;
@@ -5004,7 +5005,7 @@ input.popup__input:focus {
   box-shadow: black 0px 0px 0px;
   text-shadow: none;
 }
-/* line 226, ../scss/_upgr_blocks.scss */
+/* line 227, ../scss/_upgr_blocks.scss */
 .btn_loading:hover {
   background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjEwMCUiIHgyPSI1MCUiIHkyPSIwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2VkZWRlZCIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2VkZWRlZCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
   background-size: 100%;
@@ -5014,7 +5015,7 @@ input.popup__input:focus {
   background-image: -o-linear-gradient(bottom, #ededed 0%, #ededed 100%);
   background-image: linear-gradient(bottom, #ededed 0%, #ededed 100%);
 }
-/* line 229, ../scss/_upgr_blocks.scss */
+/* line 230, ../scss/_upgr_blocks.scss */
 .btn_loading i {
   display: inline-block;
   vertical-align: middle;
@@ -5029,51 +5030,51 @@ input.popup__input:focus {
   animation: rotate 6s linear infinite;
 }
 
-/* line 238, ../scss/_upgr_blocks.scss */
+/* line 239, ../scss/_upgr_blocks.scss */
 .check2 {
   margin: 25px 0 30px;
   display: block;
   font-family: Helvetica, Arial, sans-serif;
 }
-/* line 242, ../scss/_upgr_blocks.scss */
+/* line 243, ../scss/_upgr_blocks.scss */
 .check2 input {
-  vertical-align: bottom;
+  vertical-align: top;
   margin-right: 10px;
 }
 
-/* line 248, ../scss/_upgr_blocks.scss */
+/* line 249, ../scss/_upgr_blocks.scss */
 .wrap-check3 {
   margin-top: 30px;
   margin-right: -35px;
 }
-/* line 251, ../scss/_upgr_blocks.scss */
+/* line 252, ../scss/_upgr_blocks.scss */
 .wrap-check3 .check3 {
   margin: 0px 35px 15px 0;
   display: inline-block;
   font-family: Helvetica, Arial, sans-serif;
 }
-/* line 255, ../scss/_upgr_blocks.scss */
+/* line 256, ../scss/_upgr_blocks.scss */
 .wrap-check3 .check3 input {
-  vertical-align: bottom;
+  vertical-align: top;
   margin-right: 10px;
 }
 
-/* line 262, ../scss/_upgr_blocks.scss */
+/* line 263, ../scss/_upgr_blocks.scss */
 .rate_mod {
   position: static;
 }
-/* line 264, ../scss/_upgr_blocks.scss */
+/* line 265, ../scss/_upgr_blocks.scss */
 .rate_mod span {
   color: #000;
 }
 
-/* line 269, ../scss/_upgr_blocks.scss */
+/* line 270, ../scss/_upgr_blocks.scss */
 .loader_mod {
   text-align: center;
   margin-top: 105px;
   font: 16px 'HelveticaNeue', Arial, sans-serif;
 }
-/* line 273, ../scss/_upgr_blocks.scss */
+/* line 274, ../scss/_upgr_blocks.scss */
 .loader_mod .loader_mod__krutilka {
   display: inline-block;
   vertical-align: middle;
@@ -5088,57 +5089,57 @@ input.popup__input:focus {
   animation: rotate 6s linear infinite;
 }
 
-/* line 283, ../scss/_upgr_blocks.scss */
+/* line 284, ../scss/_upgr_blocks.scss */
 .popup_review-went4 .rate_mod {
   line-height: 20px;
   margin-bottom: 20px;
   overflow: hidden;
 }
-/* line 287, ../scss/_upgr_blocks.scss */
+/* line 288, ../scss/_upgr_blocks.scss */
 .popup_review-went4 .rate_mod span {
   margin-right: 10px;
   font-family: 'HelveticaNeue', Arial, sans-serif;
 }
 
-/* line 293, ../scss/_upgr_blocks.scss */
+/* line 294, ../scss/_upgr_blocks.scss */
 .popup_review-went4_mod {
   margin-top: -250px !important;
 }
 
-/* line 297, ../scss/_upgr_blocks.scss */
+/* line 298, ../scss/_upgr_blocks.scss */
 .confirm-phone_mod {
   width: 380px;
   height: 160px;
   padding: 0 50px;
 }
-/* line 301, ../scss/_upgr_blocks.scss */
+/* line 302, ../scss/_upgr_blocks.scss */
 .confirm-phone_mod .icon-ok {
   margin-right: 10px;
 }
-/* line 305, ../scss/_upgr_blocks.scss */
+/* line 306, ../scss/_upgr_blocks.scss */
 .confirm-phone_mod .confirm-phone__secretmessage .confirm-phone__text {
   margin: 40px 0;
   font: 18px 'HelveticaNeue',Arial, sans-serif;
   color: #000;
   vertical-align: bottom;
 }
-/* line 311, ../scss/_upgr_blocks.scss */
+/* line 312, ../scss/_upgr_blocks.scss */
 .confirm-phone_mod .confirm-phone__secretmessage a {
   font: 18px 'HelveticaNeue',Arial, sans-serif;
   color: #000;
   text-decoration: underline;
 }
-/* line 315, ../scss/_upgr_blocks.scss */
+/* line 316, ../scss/_upgr_blocks.scss */
 .confirm-phone_mod .confirm-phone__secretmessage a:hover {
   text-decoration: none;
 }
 
-/* line 323, ../scss/_upgr_blocks.scss */
+/* line 324, ../scss/_upgr_blocks.scss */
 .drop .drop__col_alt {
   width: auto;
 }
 
-/* line 328, ../scss/_upgr_blocks.scss */
+/* line 329, ../scss/_upgr_blocks.scss */
 .user-popup {
   display: none;
   width: 219px;
@@ -5151,20 +5152,21 @@ input.popup__input:focus {
   position: absolute;
   top: 84px;
   right: 0;
+  z-index: 1000;
 }
-/* line 336, ../scss/_upgr_blocks.scss */
+/* line 338, ../scss/_upgr_blocks.scss */
 .user-popup.js-active {
   display: block;
   -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 15px 25px;
   -moz-box-shadow: rgba(0, 0, 0, 0.2) 0px 15px 25px;
   box-shadow: rgba(0, 0, 0, 0.2) 0px 15px 25px;
 }
-/* line 340, ../scss/_upgr_blocks.scss */
+/* line 342, ../scss/_upgr_blocks.scss */
 .user-popup ul.user-popup__kab {
   height: 103px;
   border-bottom: 1px solid #e8e8e8;
 }
-/* line 344, ../scss/_upgr_blocks.scss */
+/* line 346, ../scss/_upgr_blocks.scss */
 .user-popup ul.user-popup__kab li {
   width: 63px;
   padding: 5px;
@@ -5172,7 +5174,7 @@ input.popup__input:focus {
   float: left;
   text-align: center;
 }
-/* line 350, ../scss/_upgr_blocks.scss */
+/* line 352, ../scss/_upgr_blocks.scss */
 .user-popup ul.user-popup__kab li i {
   width: 1px;
   height: 103px;
@@ -5182,7 +5184,7 @@ input.popup__input:focus {
   top: 0;
   left: 0;
 }
-/* line 362, ../scss/_upgr_blocks.scss */
+/* line 364, ../scss/_upgr_blocks.scss */
 .user-popup .user-popup__ico {
   width: 41px;
   height: 42px;
@@ -5190,20 +5192,20 @@ input.popup__input:focus {
   overflow: hidden;
   margin: 0 auto 6px;
 }
-/* line 368, ../scss/_upgr_blocks.scss */
+/* line 370, ../scss/_upgr_blocks.scss */
 .user-popup .user-popup__ico img {
   max-width: 41px;
   max-height: 42px;
   vertical-align: middle;
 }
-/* line 374, ../scss/_upgr_blocks.scss */
+/* line 376, ../scss/_upgr_blocks.scss */
 .user-popup .user-popup__desc {
   width: 64px;
   padding: 9px 0;
   font: 11px 'helveticaneuecyrbold', Arial, sans-serif;
   color: #cf1c1c;
 }
-/* line 379, ../scss/_upgr_blocks.scss */
+/* line 381, ../scss/_upgr_blocks.scss */
 .user-popup .user-popup__desc:hover {
   background: #eee;
   -webkit-border-radius: 3px;
@@ -5213,24 +5215,24 @@ input.popup__input:focus {
   border-radius: 3px;
   cursor: pointer;
 }
-/* line 385, ../scss/_upgr_blocks.scss */
+/* line 387, ../scss/_upgr_blocks.scss */
 .user-popup .user-popup__cnt {
   font: 12px 'HelveticaNeue',Arial, sans-serif;
   padding: 15px 15px 10px;
   border-bottom: 1px solid #e0e0e0;
 }
-/* line 389, ../scss/_upgr_blocks.scss */
+/* line 391, ../scss/_upgr_blocks.scss */
 .user-popup .user-popup__cnt .user-popup__title {
   margin-bottom: 25px;
   font-size: 14px;
   color: #272626;
 }
-/* line 397, ../scss/_upgr_blocks.scss */
+/* line 399, ../scss/_upgr_blocks.scss */
 .user-popup .user-popup__cnt li {
   margin-bottom: 5px;
   position: relative;
 }
-/* line 400, ../scss/_upgr_blocks.scss */
+/* line 402, ../scss/_upgr_blocks.scss */
 .user-popup .user-popup__cnt li i {
   display: inline-block;
   background: url('../img/icons-s9dd697511c.png') 0 -3646px no-repeat;
@@ -5240,7 +5242,7 @@ input.popup__input:focus {
   top: 0;
   right: 0;
 }
-/* line 406, ../scss/_upgr_blocks.scss */
+/* line 408, ../scss/_upgr_blocks.scss */
 .user-popup .user-popup__cnt li i:hover {
   display: inline-block;
   cursor: pointer;
@@ -5248,7 +5250,7 @@ input.popup__input:focus {
   width: 40px;
   height: 29px;
 }
-/* line 413, ../scss/_upgr_blocks.scss */
+/* line 415, ../scss/_upgr_blocks.scss */
 .user-popup .user-popup__cnt a {
   width: 130px;
   padding: 5px 10px;
@@ -5263,12 +5265,12 @@ input.popup__input:focus {
   border-radius: 3px;
   color: #383838;
 }
-/* line 422, ../scss/_upgr_blocks.scss */
+/* line 424, ../scss/_upgr_blocks.scss */
 .user-popup .user-popup__cnt a:hover {
   background: #efefef;
   color: #b90000;
 }
-/* line 428, ../scss/_upgr_blocks.scss */
+/* line 430, ../scss/_upgr_blocks.scss */
 .user-popup .user-popup__footer {
   height: 23px;
   line-height: 26px;
@@ -5277,7 +5279,7 @@ input.popup__input:focus {
   font: 14px 'HelveticaNeue',Arial, sans-serif;
   color: #ce0000;
 }
-/* line 435, ../scss/_upgr_blocks.scss */
+/* line 437, ../scss/_upgr_blocks.scss */
 .user-popup .user-popup__footer:hover {
   background: #eee;
   -webkit-border-radius: 3px;
@@ -5287,7 +5289,7 @@ input.popup__input:focus {
   border-radius: 3px;
   cursor: pointer;
 }
-/* line 440, ../scss/_upgr_blocks.scss */
+/* line 442, ../scss/_upgr_blocks.scss */
 .user-popup .user-popup__footer i {
   display: inline-block;
   margin-right: 10px;
@@ -5296,13 +5298,13 @@ input.popup__input:focus {
   height: 17px;
   vertical-align: middle;
 }
-/* line 446, ../scss/_upgr_blocks.scss */
+/* line 448, ../scss/_upgr_blocks.scss */
 .user-popup .user-popup__footer em {
   vertical-align: bottom;
   font-style: normal;
 }
 
-/* line 452, ../scss/_upgr_blocks.scss */
+/* line 454, ../scss/_upgr_blocks.scss */
 .ico-ok {
   display: inline-block;
   background: url('../img/icons-s9dd697511c.png') 0 -5295px no-repeat;
@@ -5310,7 +5312,7 @@ input.popup__input:focus {
   height: 25px;
 }
 
-/* line 456, ../scss/_upgr_blocks.scss */
+/* line 458, ../scss/_upgr_blocks.scss */
 .ico-cancel {
   display: inline-block;
   background: url('../img/icons-s9dd697511c.png') 0 -5497px no-repeat;
@@ -5318,26 +5320,26 @@ input.popup__input:focus {
   height: 19px;
 }
 
-/* line 460, ../scss/_upgr_blocks.scss */
+/* line 462, ../scss/_upgr_blocks.scss */
 .btn_width {
   padding: 0 30px;
   width: 183px;
 }
-/* line 463, ../scss/_upgr_blocks.scss */
+/* line 465, ../scss/_upgr_blocks.scss */
 .btn_width:hover {
   width: 183px;
 }
-/* line 466, ../scss/_upgr_blocks.scss */
+/* line 468, ../scss/_upgr_blocks.scss */
 .btn_width:active {
   width: 183px;
 }
 
-/* line 470, ../scss/_upgr_blocks.scss */
+/* line 472, ../scss/_upgr_blocks.scss */
 .mr_10 {
   margin-right: 10px;
 }
 
-/* line 475, ../scss/_upgr_blocks.scss */
+/* line 477, ../scss/_upgr_blocks.scss */
 .btn_gray {
   position: relative;
   background: url('../img/icons-s9dd697511c.png') 0 -1812px no-repeat;
@@ -5359,19 +5361,15 @@ input.popup__input:focus {
   text-align: left;
   cursor: pointer;
 }
-/* line 489, ../scss/_upgr_blocks.scss */
+/* line 491, ../scss/_upgr_blocks.scss */
 .btn_gray:hover {
-  background: url('../img/icons-s9dd697511c.png') 0 -726px no-repeat;
-  width: 190px;
-  height: 44px;
+  background: url(../img/icons/btn4_hover.png) 1px 0 no-repeat;
   width: 183px;
   height: 43px;
 }
-/* line 494, ../scss/_upgr_blocks.scss */
+/* line 496, ../scss/_upgr_blocks.scss */
 .btn_gray:active {
-  background: url('../img/icons-s9dd697511c.png') 0 -672px no-repeat;
-  width: 190px;
-  height: 44px;
+  background: url(../img/icons/btn4_focus.png) 1px 0 no-repeat;
   width: 183px;
   height: 43px;
 }
@@ -5510,8 +5508,8 @@ input.popup__input:focus {
 /* line 102, ../scss/_upgr_main.scss */
 .cab__cnt .cab__user input {
   min-width: 105px;
-  height: 17px;
-  padding: 10px 15px;
+  height: 23px;
+  padding: 7px 15px;
   background: transparent;
   border-radius: 3px;
   border: 1px solid #cacaca;

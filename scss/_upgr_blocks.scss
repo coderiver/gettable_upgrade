@@ -211,6 +211,7 @@ input.popup__input{
 		display: block;
 		background-position: sprite-position($icons, btn2_hover);
 		background-repeat: repeat-x;
+		cursor: pointer;
 	}
 }
 // btn_loading
@@ -240,7 +241,7 @@ input.popup__input{
 	display: block;
 	font-family: Helvetica, Arial, sans-serif;
 	input{
-		vertical-align: bottom;
+		vertical-align: top;
 		margin-right: 10px;
 	}
 }
@@ -253,7 +254,7 @@ input.popup__input{
 		display: inline-block;
 		font-family: Helvetica, Arial, sans-serif;
 		input{
-			vertical-align: bottom;
+			vertical-align: top;
 			margin-right: 10px;
 		}
 	}
@@ -333,6 +334,7 @@ input.popup__input{
 	position: absolute;
 	top: 84px;
 	right: 0;
+	z-index: 1000;
 	&.js-active{
 		display: block;
 		@include box-shadow(rgba(0,0,0, 0.2) 0px 15px 25px);
@@ -487,12 +489,12 @@ input.popup__input{
 	text-align: left;
 	cursor: pointer;
 	&:hover{
-		@include sized-sprite($icons, btn4_hover);
+		background: url(../img/icons/btn4_hover.png) 1px 0 no-repeat;
 		width: 183px;
 		height: 43px;
 	}
 	&:active{
-		@include sized-sprite($icons, btn4_focus);
+		background: url(../img/icons/btn4_focus.png) 1px 0 no-repeat;
 		width: 183px;
 		height: 43px;
 	}
