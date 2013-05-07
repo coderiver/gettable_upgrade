@@ -67,7 +67,7 @@ $(document).ready(function () {
 		$('.user-popup').toggleClass('js-active');
 	});
 
-
 	$('.scroller').baron();
+
 
 });

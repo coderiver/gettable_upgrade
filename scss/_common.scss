@@ -27,16 +27,7 @@ html {
 	font-weight: normal;
 	font-style: normal;
 }
-@font-face {
-	font-family: 'HelveticaNeueMed';
-	src: url('../fonts/18926_HelveticaNeueMed.eot');
-	src:
-		url('../fonts/18926_HelveticaNeueMed.woff') format('woff'),
-		url('../fonts/18926_HelveticaNeueMed.ttf') format('truetype'),
-		url('../fonts/18926_HelveticaNeueMed.svg') format('svg');
-	font-weight: normal;
-	font-style: normal;
-}
+
 @font-face {
 	font-family: 'helveticaneuecyrbold';
 	src: url("../fonts/helveticaneuecyr-bold-webfont.eot");
@@ -95,7 +86,7 @@ input, textarea, button {
 	font-weight: normal;
 }
 .h2_med{
-	font-family: 'HelveticaNeueMed';
+	font-family: Helvetica, Arial, sans-serif;
 	font-size: 24px;
 }
 .clr {
@@ -160,7 +151,7 @@ input, textarea, button {
 	height: auto;
 	line-height: 16px;
 	border-left: none;
-	font-family: 'HelveticaNeueMed';
+	font-family: Helvetica, Arial, sans-serif;
 	div{
 		color: #636363;
 		font-size: 14px;
