@@ -4698,7 +4698,7 @@ input, textarea, button {
 
 /* line 16, ../scss/_upgr_blocks.scss */
 .link_red {
-  font-family: Helvetica, Arial, sans-serif, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 14px;
   text-decoration: underline;
   color: #c62101;
@@ -4732,7 +4732,7 @@ input, textarea, button {
 
 /* line 41, ../scss/_upgr_blocks.scss */
 .link_blue {
-  font-family: Helvetica, Arial, sans-serif, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 14px;
   color: #2f6d91;
   text-decoration: none;
@@ -5033,7 +5033,7 @@ input.popup__input:focus {
 .check2 {
   margin: 25px 0 30px;
   display: block;
-  font-family: Helvetica, Arial, sans-serif, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
 }
 /* line 242, ../scss/_upgr_blocks.scss */
 .check2 input {
@@ -5050,7 +5050,7 @@ input.popup__input:focus {
 .wrap-check3 .check3 {
   margin: 0px 35px 15px 0;
   display: inline-block;
-  font-family: Helvetica, Arial, sans-serif, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
 }
 /* line 255, ../scss/_upgr_blocks.scss */
 .wrap-check3 .check3 input {
@@ -5386,7 +5386,7 @@ input.popup__input:focus {
   top: 47px;
   right: 0;
   color: #636363;
-  font-family: 'Conv_HelveticaNeue-CondensedBold';
+  font-family: 'Conv_HelveticaNeue-CondensedBold',Arial,sans-serif;
 }
 /* line 12, ../scss/_upgr_main.scss */
 .select_cabinet strong {
