@@ -370,10 +370,10 @@
 	overflow: visible;
 	position: absolute;
 	top: inherit;
-	left: 192px;
+	left: 402px;
 	// bottom: 30px;
 	z-index: 1;
-	@include box-shadow (rgba(0, 0, 0, 0.15) 0px 0px 25px, rgba(0, 0, 0, 0.05) 3px 0px 3px inset);
+	@include box-shadow (rgba(0, 0, 0, 0.15) 8px 2px 25px -2px, rgba(0, 0, 0, 0.05) 3px 0px 3px inset);
 	li{
 		margin-bottom: 5px;
 	}
