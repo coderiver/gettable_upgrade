@@ -2805,13 +2805,14 @@ input, textarea, button {
   overflow: visible;
   position: absolute;
   top: inherit;
-  left: 402px;
+  left: 403px;
   z-index: 1;
+  background: #fafafa;
   -webkit-box-shadow: rgba(0, 0, 0, 0.15) 8px 2px 25px -2px, rgba(0, 0, 0, 0.05) 3px 0px 3px inset;
   -moz-box-shadow: rgba(0, 0, 0, 0.15) 8px 2px 25px -2px, rgba(0, 0, 0, 0.05) 3px 0px 3px inset;
   box-shadow: rgba(0, 0, 0, 0.15) 8px 2px 25px -2px, rgba(0, 0, 0, 0.05) 3px 0px 3px inset;
 }
-/* line 377, ../scss/_search.scss */
+/* line 378, ../scss/_search.scss */
 .drop_alt li {
   margin-bottom: 5px;
 }
