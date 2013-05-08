@@ -97,6 +97,9 @@
 		font-size: 14px;
 		color: #565656;
 		display: block;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
 	}
 }
 .search-filter__type_alt{
@@ -259,8 +262,8 @@
 			display: inline-block;
 		}
 		&:hover{
-			@include background-image(linear-gradient(rgba(white,.4), #d5d5d5));
-			box-shadow:inset 0 1px 0 #fff,0 2px 2px rgba(black,.1);
+			@include background-image(linear-gradient(rgba(white,.1), #d5d5d5));
+			// box-shadow:inset 0 1px 0 #fff,0 2px 2px rgba(black,.1);
 			i{
 				opacity:.77;
 			}
@@ -362,9 +365,9 @@
 	position: absolute;
 	top: inherit;
 	left: 423px;
-	bottom: -20px;
+	bottom: 30px;
 	z-index: 1;
-	@include box-shadow (rgba(0, 0, 0, 0.15) 0px 0px 25px, rgba(0, 0, 0, 0.1) 3px 0px 20px inset);
+	@include box-shadow (rgba(0, 0, 0, 0.15) 0px 0px 25px, rgba(0, 0, 0, 0.05) 3px 0px 3px inset);
 	li{
 		margin-bottom: 5px;
 	}

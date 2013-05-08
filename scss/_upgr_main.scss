@@ -90,7 +90,6 @@
 	.cab__user{
 		margin-bottom: 30px;
 		font: 20px 'Conv_HelveticaNeue-CondensedBold', Arial, sans-serif;
-		font-weight: bold;
 		span{
 			font-family: 'Conv_HelveticaNeue', Arial, sans-serif;
 			font-weight: normal;
@@ -103,7 +102,7 @@
 			min-width: 105px;
 			height: 23px;
 			padding: 7px 15px;
-			background: transparent;
+			background: rgba(255,255,255,0.35);
 			border-radius: 3px;
 			border: 1px solid #cacaca;
 			font: 20px 'Conv_HelveticaNeue', Arial, sans-serif;
