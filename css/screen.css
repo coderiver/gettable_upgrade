@@ -2403,30 +2403,33 @@ input, textarea, button {
   font-size: 18px;
   color: #5f5f5f;
   font-weight: normal;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
-/* line 59, ../scss/_search.scss */
+/* line 62, ../scss/_search.scss */
 .search-filter__wrap {
   margin-bottom: 12px;
   border-bottom: 1px dotted #c2c2c2;
   padding-bottom: 12px;
 }
-/* line 63, ../scss/_search.scss */
+/* line 66, ../scss/_search.scss */
 .search-filter__wrap:last-child {
   border: none;
   padding-bottom: 0;
   margin-bottom: 0;
 }
 
-/* line 69, ../scss/_search.scss */
+/* line 72, ../scss/_search.scss */
 .search-filter__type {
   list-style: none;
 }
-/* line 71, ../scss/_search.scss */
+/* line 74, ../scss/_search.scss */
 .search-filter__type ul {
   list-style: none;
 }
-/* line 74, ../scss/_search.scss */
+/* line 77, ../scss/_search.scss */
 .search-filter__type li {
   position: relative;
   height: 16px;
@@ -2434,23 +2437,23 @@ input, textarea, button {
   line-height: 16px;
   margin-bottom: 7px;
 }
-/* line 81, ../scss/_search.scss */
+/* line 84, ../scss/_search.scss */
 .search-filter__type li.active label {
   background: #fff323;
   overflow: hidden;
 }
-/* line 86, ../scss/_search.scss */
+/* line 89, ../scss/_search.scss */
 .search-filter__type li .search-filter__typeactive label {
   background: #fff323;
   overflow: hidden;
 }
-/* line 91, ../scss/_search.scss */
+/* line 94, ../scss/_search.scss */
 .search-filter__type input {
   position: absolute;
   top: 2px;
   left: 0;
 }
-/* line 96, ../scss/_search.scss */
+/* line 99, ../scss/_search.scss */
 .search-filter__type label {
   font-size: 14px;
   color: #565656;
@@ -2460,54 +2463,54 @@ input, textarea, button {
   text-overflow: ellipsis;
 }
 
-/* line 106, ../scss/_search.scss */
+/* line 109, ../scss/_search.scss */
 .search-filter__type_alt input {
   top: 7px;
   left: 7px;
 }
-/* line 110, ../scss/_search.scss */
+/* line 113, ../scss/_search.scss */
 .search-filter__type_alt li {
   height: 26px;
   line-height: 26px;
 }
-/* line 113, ../scss/_search.scss */
+/* line 116, ../scss/_search.scss */
 .search-filter__type_alt li:hover {
   background: #ebeaea;
   border-radius: 3px;
 }
-/* line 116, ../scss/_search.scss */
+/* line 119, ../scss/_search.scss */
 .search-filter__type_alt li:hover label {
   color: #c7342a;
   text-decoration: underline;
   text-shadow: 0 1px 0 #fff;
 }
-/* line 120, ../scss/_search.scss */
+/* line 123, ../scss/_search.scss */
 .search-filter__type_alt li:hover label strong {
   color: #c7342a;
 }
 
-/* line 127, ../scss/_search.scss */
+/* line 130, ../scss/_search.scss */
 .search-filter__more {
   color: #565656;
   margin-top: 10px;
   font-size: 14px;
 }
-/* line 131, ../scss/_search.scss */
+/* line 134, ../scss/_search.scss */
 .search-filter__more a {
   color: #565656;
   text-decoration: underline;
 }
 
-/* line 137, ../scss/_search.scss */
+/* line 140, ../scss/_search.scss */
 .search-filter__more_alt a {
   text-decoration: none;
 }
-/* line 139, ../scss/_search.scss */
+/* line 142, ../scss/_search.scss */
 .search-filter__more_alt a:hover {
   text-decoration: underline;
 }
 
-/* line 144, ../scss/_search.scss */
+/* line 147, ../scss/_search.scss */
 .search-filter__meta {
   font-size: 14px;
   color: #5f5f5f;
@@ -2515,7 +2518,7 @@ input, textarea, button {
 }
 
 /*check*/
-/* line 150, ../scss/_search.scss */
+/* line 153, ../scss/_search.scss */
 .check {
   border-radius: 3px;
   -webkit-box-shadow: 0 0 1px 1px #bebebe inset;
@@ -2523,7 +2526,7 @@ input, textarea, button {
   box-shadow: 0 0 1px 1px #bebebe inset;
   overflow: hidden;
 }
-/* line 154, ../scss/_search.scss */
+/* line 157, ../scss/_search.scss */
 .check li {
   float: left;
   height: 30px;
@@ -2538,14 +2541,14 @@ input, textarea, button {
   text-align: center;
   cursor: pointer;
 }
-/* line 162, ../scss/_search.scss */
+/* line 165, ../scss/_search.scss */
 .check span {
   position: relative;
   color: #525252;
   font-size: 20px;
   font-family: 'PT Sans', Arial, sans-serif;
 }
-/* line 168, ../scss/_search.scss */
+/* line 171, ../scss/_search.scss */
 .check i {
   position: absolute;
   top: 16px;
@@ -2554,19 +2557,19 @@ input, textarea, button {
   height: 1px;
   background: #525252;
 }
-/* line 176, ../scss/_search.scss */
+/* line 179, ../scss/_search.scss */
 .check .chech__p {
   width: 66px;
 }
-/* line 179, ../scss/_search.scss */
+/* line 182, ../scss/_search.scss */
 .check .chech__pp {
   width: 58px;
 }
-/* line 182, ../scss/_search.scss */
+/* line 185, ../scss/_search.scss */
 .check .chech__ppp {
   width: 66px;
 }
-/* line 185, ../scss/_search.scss */
+/* line 188, ../scss/_search.scss */
 .check .active {
   -webkit-box-shadow: 0 0 1px 1px #666666 inset;
   -moz-box-shadow: 0 0 1px 1px #666666 inset;
@@ -2580,20 +2583,20 @@ input, textarea, button {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6));
   text-shadow: 0 -1px 1px #4e4e4e;
 }
-/* line 189, ../scss/_search.scss */
+/* line 192, ../scss/_search.scss */
 .check .active span {
   color: #fff;
 }
-/* line 192, ../scss/_search.scss */
+/* line 195, ../scss/_search.scss */
 .check .active i {
   background: #fff;
 }
 
-/* line 197, ../scss/_search.scss */
+/* line 200, ../scss/_search.scss */
 .search-input {
   position: relative;
 }
-/* line 199, ../scss/_search.scss */
+/* line 202, ../scss/_search.scss */
 .search-input .search-input__key {
   position: absolute;
   display: block;
@@ -2603,7 +2606,7 @@ input, textarea, button {
   top: 11px;
   left: 7px;
 }
-/* line 206, ../scss/_search.scss */
+/* line 209, ../scss/_search.scss */
 .search-input input {
   font-size: 14px;
   color: #676767;
@@ -2616,7 +2619,7 @@ input, textarea, button {
   border-radius: 4px;
   background: rgba(255, 255, 255, 0.7);
 }
-/* line 218, ../scss/_search.scss */
+/* line 221, ../scss/_search.scss */
 .search-input .search-input__autocomplete {
   z-index: 10;
   display: none;
@@ -2631,7 +2634,7 @@ input, textarea, button {
   top: 39px;
   left: 0;
 }
-/* line 231, ../scss/_search.scss */
+/* line 234, ../scss/_search.scss */
 .search-input .search-input__autocomplete a {
   display: block;
   color: #000;
@@ -2640,12 +2643,12 @@ input, textarea, button {
   border-top: 1px solid #e5e5e5;
   text-decoration: none;
 }
-/* line 238, ../scss/_search.scss */
+/* line 241, ../scss/_search.scss */
 .search-input .search-input__autocomplete a:hover {
   background: #f5f5f5;
 }
 
-/* line 245, ../scss/_search.scss */
+/* line 248, ../scss/_search.scss */
 .search-filter__filters a {
   border-radius: 20px;
   display: inline-block;
@@ -2668,7 +2671,7 @@ input, textarea, button {
   background-image: linear-gradient(#eaeaea, #c5c5c5);
   border: 1px solid #a5a5a5;
 }
-/* line 260, ../scss/_search.scss */
+/* line 263, ../scss/_search.scss */
 .search-filter__filters a i {
   background: url('../img/icons-s9dd697511c.png') 0 -3899px no-repeat;
   width: 13px;
@@ -2678,7 +2681,7 @@ input, textarea, button {
   vertical-align: middle;
   display: inline-block;
 }
-/* line 267, ../scss/_search.scss */
+/* line 270, ../scss/_search.scss */
 .search-filter__filters a:hover {
   background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0icmdiYSgyNTUsIDI1NSwgMjU1LCAwLjEpIi8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjZDVkNWQ1Ii8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIgLz48L3N2Zz4g');
   background-size: 100%;
@@ -2688,12 +2691,12 @@ input, textarea, button {
   background-image: -o-linear-gradient(rgba(255, 255, 255, 0.1), #d5d5d5);
   background-image: linear-gradient(rgba(255, 255, 255, 0.1), #d5d5d5);
 }
-/* line 270, ../scss/_search.scss */
+/* line 273, ../scss/_search.scss */
 .search-filter__filters a:hover i {
   opacity: .77;
 }
 
-/* line 277, ../scss/_search.scss */
+/* line 280, ../scss/_search.scss */
 .search-filter__filters_alt a {
   background: #e7e6e6;
   border: none;
@@ -2701,12 +2704,12 @@ input, textarea, button {
   color: #000;
   box-shadow: none;
 }
-/* line 283, ../scss/_search.scss */
+/* line 286, ../scss/_search.scss */
 .search-filter__filters_alt a:hover {
   box-shadow: none;
 }
 
-/* line 288, ../scss/_search.scss */
+/* line 291, ../scss/_search.scss */
 .drop {
   width: 384px;
   padding: 20px 20px 5px 20px;
@@ -2730,28 +2733,28 @@ input, textarea, button {
   	 z-index: 2001;
   }*/
 }
-/* line 301, ../scss/_search.scss */
+/* line 304, ../scss/_search.scss */
 .drop .drop__col {
   float: left;
   width: 49%;
 }
-/* line 305, ../scss/_search.scss */
+/* line 308, ../scss/_search.scss */
 .drop h3 {
   font-family: 'Conv_HelveticaNeue-CondensedBold', Arial, sans-serif;
   font-size: 18px;
   color: #5f5f5f;
   margin-bottom: 12px;
 }
-/* line 311, ../scss/_search.scss */
+/* line 314, ../scss/_search.scss */
 .drop .inactive {
   opacity: .5;
 }
-/* line 314, ../scss/_search.scss */
+/* line 317, ../scss/_search.scss */
 .drop li {
   margin-right: 10px;
   margin-bottom: 12px;
 }
-/* line 317, ../scss/_search.scss */
+/* line 320, ../scss/_search.scss */
 .drop li span {
   font-weight: bold;
   position: absolute;
@@ -2767,14 +2770,14 @@ input, textarea, button {
   background: #eaeaea;
   box-shadow: inset 0 3px 3px -3px rgba(0, 0, 0, 0.4);
 }
-/* line 336, ../scss/_search.scss */
+/* line 339, ../scss/_search.scss */
 .drop .drop__more {
   clear: both;
   padding-top: 5px;
   text-align: center;
   padding-bottom: 10px;
 }
-/* line 341, ../scss/_search.scss */
+/* line 344, ../scss/_search.scss */
 .drop .drop__more a {
   border-radius: 4px;
   padding: 8px 33px;
@@ -2791,12 +2794,12 @@ input, textarea, button {
   background-image: -o-linear-gradient(#f3f3f3, #eaeaea);
   background-image: linear-gradient(#f3f3f3, #eaeaea);
 }
-/* line 351, ../scss/_search.scss */
+/* line 354, ../scss/_search.scss */
 .drop .drop__more:hover {
   color: #000;
 }
 
-/* line 365, ../scss/_search.scss */
+/* line 368, ../scss/_search.scss */
 .drop_alt {
   border-radius: 0 3px 3px 0;
   overflow: visible;
@@ -2808,7 +2811,7 @@ input, textarea, button {
   -moz-box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 25px, rgba(0, 0, 0, 0.05) 3px 0px 3px inset;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 25px, rgba(0, 0, 0, 0.05) 3px 0px 3px inset;
 }
-/* line 374, ../scss/_search.scss */
+/* line 377, ../scss/_search.scss */
 .drop_alt li {
   margin-bottom: 5px;
 }
