@@ -384,6 +384,19 @@
 	}
 }
 // BEGIN CSS FOR SCROLL
+.wrap-drop{
+	position: absolute;
+	top: inherit;
+	left: 210px;
+	z-index: 1;
+	width: 395px;
+	height: 217px;
+	overflow: hidden;
+	padding: 12px 20px 25px 20px;
+	.drop_scroll{
+		left: 192px;
+	}
+}
 .drop_scroll{
 	padding: 20px 20px 25px 20px;
 	.drop__col{
