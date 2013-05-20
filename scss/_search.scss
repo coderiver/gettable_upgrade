@@ -76,7 +76,8 @@
 	}
 	li {
 		position: relative;
-		height: 16px;
+		//height: 16px;
+		height: auto;
 		padding-left: 27px;
 		line-height: 16px;
 		margin-bottom: 7px;
@@ -88,7 +89,10 @@
 		}
 		.search-filter__typeactive label {
 			background: #fff323;
-			overflow: hidden;
+			//overflow: hidden;
+		}
+		label{
+			cursor: pointer;
 		}
 	}
 	input {
@@ -100,9 +104,9 @@
 		font-size: 14px;
 		color: #565656;
 		display: block;
-		white-space: nowrap;
-		overflow: hidden;
-		text-overflow: ellipsis;
+		//white-space: nowrap;
+		//overflow: hidden;
+		//text-overflow: ellipsis;
 	}
 }
 .search-filter__type_alt{
