@@ -745,3 +745,68 @@ a{
 		@include sized-sprite($icons, arrow);
 	}
 }
+.form__date_intext{
+	display: inline-block;
+	float: none;
+	margin:0 0  20px 0;
+}
+.wrapme{
+	border: 1px solid #D8D8D8;
+	border-radius: 8px;
+	padding: 20px;
+	min-height: 320px;
+	position: relative;
+	color: #333;
+	font-size: 14px;
+	h3{
+		font-size: 18px;
+		margin-bottom: 21px;
+	}
+	p{
+		margin-bottom:  20px;
+	}
+	.wrapme__close{
+		position: absolute;
+		right: 10px;
+		top: 10px;
+		@include sized-sprite($icons, wrapmeclose);
+		cursor: pointer;
+		opacity: .5;
+		&:hover{
+			opacity: 1;
+		}
+	}
+}
+.megabutt{
+	display: inline-block;
+	cursor: pointer;
+	text-decoration: none;
+	margin-right: 20px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #333;
+	padding: 11px 25px;
+	line-height: 1;
+	text-shadow: 0 1px 1px #fff;
+	margin-right: 10px;
+	border: 1px solid #a4a4a4;
+	@include border-radius(4px);
+	@include background-clip(padding-box);
+	@include box-shadow(-1px 0 1px rgba(0,0,0,.09), inset -1px 0 0 rgba(255,255,255,.65));
+	@include background-image(linear-gradient(bottom, #c5c5c5 0%, #e9e9e9 100%));
+	&:hover{
+		@include box-shadow(0 1px 1px rgba(0,0,0,.09), inset 0 1px 0 rgba(255,255,255,.65));
+		@include background-image(linear-gradient(bottom, #e1e1e1 0%, #f7f7f7 100%));
+	}
+	&:active{
+		color: #fff;
+		@include text-shadow(0 1px 1px rgba(0,0,0,.75));
+		border: 1px solid #363636;
+		@include border-radius(4px);
+		@include background-clip(padding-box);
+		background-color: rgba(0,0,0,.5);
+		@include box-shadow(1px 2px 0 rgba(255,255,255,.27), inset 0 2px 21px rgba(0,0,0,.15));
+		@include background-image(linear-gradient(top, rgba(0,0,0,.29) 0%, rgba(0,0,0,0) 100%));
+
+	}
+}
