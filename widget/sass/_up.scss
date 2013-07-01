@@ -35,3 +35,30 @@
 		margin-top: 40px;
 	}
 }
+.deposit{
+	text-align: center;
+	font-size: 14px;
+	color: #353434;
+	line-height: 1.4;
+	a{
+		color: #353434;
+	}
+	.deposit__full{
+		
+	}
+	.deposit__left{
+		margin-bottom: 60px;
+		font-size: 14px;
+		color: #353434;
+	}
+	.deposit__paynow{
+		font-size: 18px;
+		color: #272525;
+		margin-bottom: 24px;
+	}
+	.deposit__icon{
+		@include sized-sprite($icons, deposit);
+		display: inline-block;
+		margin: 10px 0 14px 0;
+	}
+}
