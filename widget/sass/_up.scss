@@ -12,6 +12,13 @@
 	p{
 		margin-bottom: 4px;
 	}
+	strong{
+		display: block;
+		font-size: 14px;
+		color: #000;
+		padding-top: 4px;
+		margin-bottom: 5px;
+	}
 }
 .loading_alt{
 	padding-top: 70px;
@@ -62,3 +69,169 @@
 		margin: 10px 0 14px 0;
 	}
 }
+.timeleft{
+	position: absolute;
+	top: 20px;
+	left: 260px;
+	width: 300px;
+	text-align: left;
+	.timeleft__label{
+		font-size: 14px;
+		color: #474747;
+		vertical-align: middle;
+		display: inline-block;
+		margin-left: 10px;
+	}
+	.timeleft__time{
+		border: 1px solid #B6B8BD;
+		border-radius: 4px;
+		box-shadow: -1px 1px 0 #E8E8E8, inset -1px 1px 0 #E8E8E8;
+		@include background-image(linear-gradient(#F2F2F2, #E0E0E0));
+		font-size: 24px;
+		color: #303030;
+		text-shadow:0 1px 0 #fff;
+		font-weight: bold;
+		display: inline-block;
+		height: 35px;
+		line-height: 35px;
+		width: 76px;
+		text-align: center;
+		vertical-align: middle;
+	}
+}
+.footer .footer__text{top: 22px;}
+
+
+
+.paycard{
+	.paycard__safe{
+		font-size: 11px;
+		color: #383838;
+		line-height: 1.4;
+		margin-right: 40px;
+		b{
+			display: block;
+		}
+		i{
+			display: inline-block;
+			float: left;
+			margin-right: 10px;
+			@include sized-sprite($icons, safe);
+		}
+	}
+	.paycard__form{
+		position: relative;
+		@include sized-sprite($icons, paycard);
+		margin-top: 14px;
+		left: -10px;
+		margin-bottom: 22px;
+		label{
+			font-size: 11px;
+			display: block;
+			color: #6a6a6a;
+			padding-bottom: 7px;
+		}
+	}
+	.paycard__eq{
+		font-size: 11px;
+		color: #6a6a6a;
+		position: absolute;
+		right: 118px;
+		top: 14px;
+		text-align: right;
+		img{
+			vertical-align: middle;
+			margin-left: 10px;
+		}
+	}
+	.paycard__cardnumber{
+		left: 34px;
+		top: 47px;
+		position: absolute;
+		text-align: left;
+		input{
+			text-align: center;
+			width: 73px;
+			padding: 0;
+			float: left;
+			margin-right: 15px;
+		}
+	}
+	.paycard__date{
+		position: absolute;
+		right: 252px;
+		top: 120px;
+		text-align: right;
+		label{
+			display: inline-block;
+			vertical-align: middle;
+			margin-right: 5px;
+			padding-top: 4px;
+		}
+		.cardselect{
+			width: 46px;
+			text-align: center;
+			vertical-align: middle;
+			position: relative;
+			display: inline-block;
+
+			select{
+				position: absolute;
+				opacity: 0;
+				left: 0;
+				top: 0;
+				width: 100%;
+				-webkit-appearance: none;
+				bottom: 0;
+				right: 0;
+				height: 33px;
+			}
+			i{
+				position: absolute;
+				display: inline-block;
+				@include sized-sprite($icons, select);
+				right: 7px;
+				top: 14px;
+			}
+			input{
+				padding: 0;
+				text-align: left;
+				padding-left: 5px;
+			}
+		}
+		.paycard__sep{
+			font-size: 11px;
+			margin: 0 4px;
+			vertical-align: middle;
+			color: #757575;
+			display: inline-block;
+		}
+	}
+	.paycard__cvv{
+		position: absolute;
+		top: 178px;
+		right: 24px;
+		input{
+			width: 58px;
+			text-align: center;
+		}
+	}
+	.paycard__name{
+		position: absolute;
+		left: 34px;
+		top: 178px;
+	}
+	input{
+		font-size: 18px;
+		height: 30px;
+		line-height: 30px;
+		font-weight: bold;
+	}
+}
+
+
+
+
+
+
+
