@@ -1,0 +1,37 @@
+@import "base";
+
+.deposits{
+	border: 1px solid #BEBEBE;
+	box-shadow: -1px 1px 0 #fff, inset -1px 1px 0 #fff;
+	border-radius: 4px;
+	padding: 8px 13px;
+	text-align: center;
+	font-size: 13px;
+	color: #565151;
+	margin-top: 10px;
+	p{
+		margin-bottom: 4px;
+	}
+}
+.loading_alt{
+	padding-top: 70px;
+	.loading__title{
+		font-size: 18px;
+		color: #272525;
+		margin-bottom: 100px;
+	}
+	.loading__note{
+		
+	}
+	.loading__nomaganer{
+		display: inline-block;
+		@include sized-sprite($icons, nomanager);
+		margin-bottom: 10px;
+	}
+	.loading__notables{
+		display: inline-block;
+		@include sized-sprite($icons, notables);
+		margin-bottom: 10px;
+		margin-top: 40px;
+	}
+}
