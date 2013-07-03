@@ -206,6 +206,7 @@ a:hover { text-decoration: none; }
 .deposit .deposit__left { margin-bottom: 60px; font-size: 14px; color: #353434; }
 .deposit .deposit__paynow { font-size: 18px; color: #272525; margin-bottom: 24px; }
 .deposit .deposit__icon { background: url('../img/icons-s6d48420693.png') 0 0 no-repeat; width: 97px; height: 102px; display: inline-block; margin: 10px 0 14px 0; }
+.deposit .deposit__oferta input { margin-right: 3px; position: relative; top: -1px; }
 
 .timeleft { position: absolute; top: 20px; left: 260px; width: 300px; text-align: left; }
 .timeleft .timeleft__label { font-size: 14px; color: #474747; vertical-align: middle; display: inline-block; margin-left: 10px; }
