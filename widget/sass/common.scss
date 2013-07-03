@@ -429,6 +429,11 @@ a{
 	color: #888;
 	font-size: 14px;
 	padding-top: 140px;
+	img{
+		display: inline-block;
+		margin-bottom: 10px;
+
+	}
 	.loading__icon{
 		margin-bottom: 10px;
 		@include sized-sprite($icons, loading);

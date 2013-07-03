@@ -101,6 +101,7 @@ a:hover { text-decoration: none; }
 .posadka .posadka__choice .posadka__active { color: #fff; text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5); background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #232323), color-stop(100%, #5c5c5c)); background-image: -webkit-linear-gradient(#232323, #5c5c5c); background-image: -moz-linear-gradient(#232323, #5c5c5c); background-image: -o-linear-gradient(#232323, #5c5c5c); background-image: -ms-linear-gradient(#232323, #5c5c5c); background-image: linear-gradient(#232323, #5c5c5c); border-color: #232323; box-shadow: none; }
 
 .loading { text-align: center; color: #888; font-size: 14px; padding-top: 140px; }
+.loading img { display: inline-block; margin-bottom: 10px; }
 .loading .loading__icon { margin-bottom: 10px; background: url('../img/icons-s6d48420693.png') 0 -462px no-repeat; width: 49px; height: 49px; display: inline-block; -webkit-animation: rotate 2s linear infinite; -moz-animation: rotate 2s linear infinite; -ms-animation: rotate 2s linear infinite; -o-animation: rotate 2s linear infinite; animation: rotate 2s linear infinite; }
 
 .loader { display: inline-block; vertical-align: middle; background: url('../img/icons-s6d48420693.png') 0 -703px no-repeat; width: 23px; height: 23px; -webkit-animation: rotate 6s linear infinite; -moz-animation: rotate 6s linear infinite; -ms-animation: rotate 6s linear infinite; -o-animation: rotate 6s linear infinite; animation: rotate 6s linear infinite; }
@@ -197,7 +198,7 @@ a:hover { text-decoration: none; }
 
 .loading_alt { padding-top: 70px; }
 .loading_alt .loading__title { font-size: 18px; color: #272525; margin-bottom: 100px; }
-.loading_alt .loading__nomaganer { display: inline-block; background: url('../img/icons-s6d48420693.png') 0 -611px no-repeat; width: 48px; height: 48px; margin-bottom: 10px; }
+.loading_alt .loading__nomaganer, .loading_alt .loading__nomanager { display: inline-block; background: url('../img/icons-s6d48420693.png') 0 -611px no-repeat; width: 48px; height: 48px; margin-bottom: 10px; }
 .loading_alt .loading__notables { display: inline-block; background: url('../img/icons-s6d48420693.png') 0 -521px no-repeat; width: 44px; height: 48px; margin-bottom: 10px; margin-top: 40px; }
 
 .deposit { text-align: center; font-size: 14px; color: #353434; line-height: 1.4; }

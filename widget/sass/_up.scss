@@ -39,14 +39,11 @@
 		color: #272525;
 		margin-bottom: 100px;
 	}
-	.loading__note{
-		
-	}
-	.loading__nomaganer{
+	.loading__nomaganer,.loading__nomanager{
 		display: inline-block;
 		@include sized-sprite($icons, nomanager);
 		margin-bottom: 10px;
-	}
+	} 
 	.loading__notables{
 		display: inline-block;
 		@include sized-sprite($icons, notables);
